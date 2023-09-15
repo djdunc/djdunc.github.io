@@ -59,7 +59,7 @@ minima:
    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/duncanwilson" }
    - { platform: mastodon,       user_url: "https://mastodon.me.uk/@dunc" }
    - { platform: flickr,         user_url: "https://www.flickr.com/photos/pseudonomad" }
-   - { platform: pinterest,      user_url: "http://pinboard.in/u:dunc" }
+   - { platform: pinboard,      user_url: "http://pinboard.in/u:dunc" }
    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=CKqcXwEAAAAJ&hl=en" }
    - { platform: twitter,        user_url: "https://twitter.com/djdunc" }
    - { platform: youtube,        user_url: "https://vimeo.com/djdunc" }
