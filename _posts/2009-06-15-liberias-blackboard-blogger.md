@@ -1,12 +1,12 @@
 ---
 id: 590
-title: 'Liberia&#8217;s Blackboard Blogger'
+title: 'Liberias Blackboard Blogger'
 date: '2009-06-15T12:14:04+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/06/15/liberias_blackboard_blogger/'
 permalink: /2009/06/15/liberias-blackboard-blogger/
-categories:
+tags:
     - 'drivers of change'
 ---
 

@@ -6,20 +6,19 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/01/06/ubiquitous_computing_at_a_cros/'
 permalink: /2009/01/06/ubiquitous-computing-at-a-cros/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:
     - bop
 ---
 
-[![](https://i0.wp.com/www.nottingham.ac.uk/bridging/ubicomp/small.jpg?w=1170)](http://www.nottingham.ac.uk/bridging/ubicomp/workshop.html)
 
 At Imperial College for a UK centric workshop on current state of the art in Ubiquitous Computing research in the UK. Most of the UK universities were represented with talks covering the Art and Design of Ubiquitous Computing, the Politics of Ubiquitous Computing (sustainability and environment issues) and the Science and Technology of Ubiquitous Computing.
 
 <span class="mt-enclosure mt-enclosure-image">![poster.png](https://i0.wp.com/www.driversofchange.com/wp-content/uploads/mt-old/emtech/images/poster.png?resize=469%2C335)</span>
 
-Gonzalo had a <span class="mt-enclosure mt-enclosure-file">[poster accepted](http://blogs.driversofchange.com/emtech/asset/Ubicomp_poster_final_outlined.pdf)</span> based on [some of our previous work](http://blogs.driversofchange.com/emtech/2008/09/bop_making_sense_of_space_summ.html). My notes from items of interest follow.
+Gonzalo had a <span class="mt-enclosure mt-enclosure-file">[poster accepted](/assets/docs/2009_01_Ubicomp_poster_final_outlined.pdf)</span> based on [some of our previous work](https://web.archive.org/web/20081203130519/http://blogs.driversofchange.com/emtech/2008/09/bop_making_sense_of_space_summ.html). My notes from items of interest follow.
 
   
 Frank Stajano – Cambridge Uni – smart civil engineering infrastructure.

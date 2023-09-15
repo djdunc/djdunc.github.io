@@ -1,12 +1,12 @@
 ---
 id: 600
-title: 'Jordan &#8211; National Campaign for Public Awareness on the Drivers of Change'
+title: 'Jordan - National Campaign for Public Awareness on the Drivers of Change'
 date: '2010-05-13T17:03:31+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/05/13/jordan_national_campaign_for/'
 permalink: /2010/05/13/jordan-national-campaign-for/
-categories:
+tags:
     - 'drivers of change'
 ---
 

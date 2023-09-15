@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/10/drivers_of_change_cards/'
 permalink: /2006/04/10/drivers-of-change-cards/
-categories:
+tags:
     - 'drivers of change'
 ---
 

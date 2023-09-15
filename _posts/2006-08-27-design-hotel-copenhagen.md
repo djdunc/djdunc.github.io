@@ -1,12 +1,12 @@
 ---
 id: 457
-title: 'Design Hotel &#8211; Copenhagen'
+title: 'Design Hotel - Copenhagen'
 date: '2006-08-27T01:21:59+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/27/design_hotel_copenhagen/'
 permalink: /2006/08/27/design-hotel-copenhagen/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/09/08/irc_wisdom_of_the_crowd/'
 permalink: /2007/09/08/irc-wisdom-of-the-crowd/
-categories:
+tags:
     - books
     - innovation
 ---

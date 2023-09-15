@@ -1,12 +1,12 @@
 ---
 id: 521
-title: 'Walking the digital dog &#8211; IET'
+title: 'Walking the digital dog - IET'
 date: '2007-11-09T10:57:45+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/11/09/walking_the_digital_dog_iet/'
 permalink: /2007/11/09/walking-the-digital-dog-iet/
-categories:
+tags:
     - convergence
 ---
 

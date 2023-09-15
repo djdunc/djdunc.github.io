@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/20/eco_chic_or_eco_geek_1/'
 permalink: /2007/02/20/eco-chic-or-eco-geek-1/
-categories:
+tags:
     - 'drivers of change'
 ---
 

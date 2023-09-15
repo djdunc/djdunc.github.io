@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/20/upcomingorg_london_events/'
 permalink: /2007/02/20/upcomingorg-london-events/
-categories:
+tags:
     - 'how to work'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/12/03/urban_internet_of_things_tokyo/'
 permalink: /2010/12/03/urban-internet-of-things-tokyo/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

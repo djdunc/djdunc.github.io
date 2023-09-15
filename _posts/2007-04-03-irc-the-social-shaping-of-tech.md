@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/04/03/irc_the_social_shaping_of_tech/'
 permalink: /2007/04/03/irc-the-social-shaping-of-tech/
-categories:
+tags:
     - books
     - innovation
 ---

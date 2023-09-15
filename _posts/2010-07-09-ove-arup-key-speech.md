@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/07/09/ove_arup_key_speech/'
 permalink: /2010/07/09/ove-arup-key-speech/
-categories:
+tags:
     - 'drivers of change'
 ---
 

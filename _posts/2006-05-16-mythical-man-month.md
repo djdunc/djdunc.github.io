@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/05/16/mythical_man_month/'
 permalink: /2006/05/16/mythical-man-month/
-categories:
+tags:
     - 'how to work'
 ---
 

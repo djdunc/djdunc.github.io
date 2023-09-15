@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/31/batteryless_wsn/'
 permalink: /2006/08/31/batteryless-wsn/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

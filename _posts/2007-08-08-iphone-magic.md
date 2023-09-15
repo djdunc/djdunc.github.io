@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/08/08/iphone_magic/'
 permalink: /2007/08/08/iphone-magic/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

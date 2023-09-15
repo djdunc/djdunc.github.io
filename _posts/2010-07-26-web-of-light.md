@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/07/26/web_of_light/'
 permalink: /2010/07/26/web-of-light/
-categories:
+tags:
     - IoT
     - 'making invisible visible'
     - 'ubiquitous computing'

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/03/26/user_centred_design_for_energy/'
 permalink: /2010/03/26/user-centred-design-for-energy/
-categories:
+tags:
     - 'research and funding'
 tags:
     - YCT

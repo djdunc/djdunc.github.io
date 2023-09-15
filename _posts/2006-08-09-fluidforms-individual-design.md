@@ -1,12 +1,12 @@
 ---
 id: 451
-title: 'Fluidforms &#8211; punch bag design'
+title: 'Fluidforms - punch bag design'
 date: '2006-08-09T12:12:25+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/09/fluidforms_individual_design/'
 permalink: /2006/08/09/fluidforms-individual-design/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

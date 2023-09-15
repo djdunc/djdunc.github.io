@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/07/25/anterior_insight/'
 permalink: /2006/07/25/anterior-insight/
-categories:
+tags:
     - 'drivers of change'
 ---
 

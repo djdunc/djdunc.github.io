@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/04/20/visualising_c02_from_cars/'
 permalink: /2007/04/20/visualising-c02-from-cars/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

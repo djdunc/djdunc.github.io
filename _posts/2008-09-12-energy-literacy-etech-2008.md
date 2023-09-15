@@ -1,12 +1,12 @@
 ---
 id: 574
-title: 'Energy Literacy &#8211; ETech 2008'
+title: 'Energy Literacy - ETech 2008'
 date: '2008-09-12T22:00:43+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/09/12/energy_literacy_etech_2008/'
 permalink: /2008/09/12/energy-literacy-etech-2008/
-categories:
+tags:
     - 'drivers of change'
 ---
 

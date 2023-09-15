@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/10/03/bop_presentation_to_john_presc/'
 permalink: /2006/10/03/bop-presentation-to-john-presc/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=620'
 permalink: /2011/06/30/3rd-iot-european-conference/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

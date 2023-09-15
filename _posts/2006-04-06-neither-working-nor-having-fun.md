@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/06/neither_working_nor_having_fun/'
 permalink: /2006/04/06/neither-working-nor-having-fun/
-categories:
+tags:
     - 'how to work'
 ---
 

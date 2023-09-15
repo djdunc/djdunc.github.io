@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/06/12/crossbow_microsoft_net_imote_p/'
 permalink: /2007/06/12/crossbow-microsoft-net-imote-p/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

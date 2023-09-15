@@ -6,10 +6,8 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/21/how_fast_did_i_really_go/'
 permalink: /2006/04/21/how-fast-did-i-really-go/
-categories:
+tags:
     - 'cool and stuff'
 ---
-
-![](https://i0.wp.com/users.info.unicaen.fr/~mathet/gpsar/tutorial/img/test2.gif?w=1170)
 
 [GpsActionReplay](http://users.info.unicaen.fr/~mathet/gpsar/ "GpsActionReplay (www.gpsactionreplay.com)") have been looking for this kind of GPS tool for a while – should have thought to look for an application made by / for [windsurf speed sailors](http://www.gps-speedsurfing.com/gps.asp)… Just need to download a .gpx xml file (i use [easygps](http://www.easygps.com/)) containing data for a route and then load it into the gps actionreply applet to analyse your speed over a journey (on the bike, motorbike, snowboard or windsurf session)

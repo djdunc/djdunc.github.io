@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/10/19/millennium_bridge_thermal_inte/'
 permalink: /2010/10/19/millennium-bridge-thermal-inte/
-categories:
+tags:
     - 'making invisible visible'
     - 'processing and arduino'
 tags:

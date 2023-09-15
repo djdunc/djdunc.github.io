@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/11/16/open_innovation_for_future_int/'
 permalink: /2009/11/16/open-innovation-for-future-int/
-categories:
+tags:
     - 'research and funding'
 tags:
     - SENSEI

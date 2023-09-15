@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/12/14/the_darfur_wall/'
 permalink: /2006/12/14/the-darfur-wall/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

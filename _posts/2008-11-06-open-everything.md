@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/11/06/open_everything/'
 permalink: /2008/11/06/open-everything/
-categories:
+tags:
     - Uncategorized
 ---
 

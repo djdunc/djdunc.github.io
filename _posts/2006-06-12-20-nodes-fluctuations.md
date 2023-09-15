@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/06/12/20_nodes_fluctuations/'
 permalink: /2006/06/12/20-nodes-fluctuations/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

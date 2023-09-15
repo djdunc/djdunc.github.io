@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/06/04/world_economic_forum_africa/'
 permalink: /2009/06/04/world-economic-forum-africa/
-categories:
+tags:
     - 'drivers of change'
 ---
 

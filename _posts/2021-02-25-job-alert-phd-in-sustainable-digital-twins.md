@@ -1,15 +1,16 @@
 ---
 id: 2368
-title: 'Job Alert &#8211; PhD in Sustainable Digital Twins'
+title: 'Job Alert - PhD in Sustainable Digital Twins'
 date: '2021-02-25T12:01:11+00:00'
 author: djdunc
 layout: post
 guid: 'https://www.iot.io/?p=2368'
 permalink: /2021/02/25/job-alert-phd-in-sustainable-digital-twins/
 image: /wp-content/uploads/2021/02/image-scaled.jpeg
-categories:
+tags:
     - blog
     - IoT
+category: CASA
 format: image
 ---
 

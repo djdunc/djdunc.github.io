@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/09/03/bop_making_sense_of_space_summ/'
 permalink: /2008/09/03/bop-making-sense-of-space-summ/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

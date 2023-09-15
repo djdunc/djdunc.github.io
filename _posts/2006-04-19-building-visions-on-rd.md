@@ -1,12 +1,12 @@
 ---
 id: 417
-title: 'Building visions on R&#038;D'
+title: 'Building visions on R&D'
 date: '2006-04-19T10:05:23+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/19/building_visions_on_rd/'
 permalink: /2006/04/19/building-visions-on-rd/
-categories:
+tags:
     - 'drivers of change'
 ---
 

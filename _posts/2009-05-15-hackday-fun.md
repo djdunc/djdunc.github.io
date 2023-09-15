@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/05/15/hackday_fun/'
 permalink: /2009/05/15/hackday-fun/
-categories:
+tags:
     - convergence
     - innovation
     - 'processing and arduino'

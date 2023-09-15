@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/27/please_stand_securely_for_talk/'
 permalink: /2006/04/27/please-stand-securely-for-talk/
-categories:
+tags:
     - 'drivers of change'
 ---
 

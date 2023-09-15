@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/11/12/thinking_like_a_futurist_at_am/'
 permalink: /2009/11/12/thinking-like-a-futurist-at-am/
-categories:
+tags:
     - 'drivers of change'
 ---
 

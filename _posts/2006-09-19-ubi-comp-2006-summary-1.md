@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/09/19/ubi_comp_2006_summary_1/'
 permalink: /2006/09/19/ubi-comp-2006-summary-1/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

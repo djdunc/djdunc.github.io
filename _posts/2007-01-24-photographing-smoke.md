@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/01/24/photographing_smoke/'
 permalink: /2007/01/24/photographing-smoke/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

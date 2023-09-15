@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/06/23/mts310_hardware_problem/'
 permalink: /2006/06/23/mts310-hardware-problem/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

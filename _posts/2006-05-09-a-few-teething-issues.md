@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/05/09/a_few_teething_issues/'
 permalink: /2006/05/09/a-few-teething-issues/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

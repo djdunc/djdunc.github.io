@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/11/23/european_construction_technolo/'
 permalink: /2006/11/23/european-construction-technolo/
-categories:
+tags:
     - 'research and funding'
 ---
 

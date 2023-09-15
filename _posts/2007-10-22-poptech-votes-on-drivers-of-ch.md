@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/10/22/poptech_votes_on_drivers_of_ch/'
 permalink: /2007/10/22/poptech-votes-on-drivers-of-ch/
-categories:
+tags:
     - 'drivers of change'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/26/programmers_notepad_2/'
 permalink: /2006/04/26/programmers-notepad-2/
-categories:
+tags:
     - 'how to work'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/07/31/processing_coursework/'
 permalink: /2006/07/31/processing-coursework/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/05/04/haringey_interactive_heat_loss/'
 permalink: /2007/05/04/haringey-interactive-heat-loss/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

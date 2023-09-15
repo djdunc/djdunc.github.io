@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/04/17/iet_talk_on_bop_and_cmips/'
 permalink: /2007/04/17/iet-talk-on-bop-and-cmips/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

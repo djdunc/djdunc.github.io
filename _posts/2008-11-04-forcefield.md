@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/11/04/forcefield/'
 permalink: /2008/11/04/forcefield/
-categories:
+tags:
     - Uncategorized
 tags:
     - bop

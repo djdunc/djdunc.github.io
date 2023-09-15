@@ -1,12 +1,12 @@
 ---
 id: 500
-title: 'Drivers of Change briefing &#8211; Arup Campus, Solihull, June 2007'
+title: 'Drivers of Change briefing - Arup Campus, Solihull, June 2007'
 date: '2007-06-11T09:13:54+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/06/11/drivers_of_change_briefing_aru/'
 permalink: /2007/06/11/drivers-of-change-briefing-aru/
-categories:
+tags:
     - 'drivers of change'
 ---
 

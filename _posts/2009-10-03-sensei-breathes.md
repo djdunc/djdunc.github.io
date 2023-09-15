@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/10/03/sensei_breathes/'
 permalink: /2009/10/03/sensei-breathes/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

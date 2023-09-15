@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/01/10/pervasive_computing_at_arup/'
 permalink: /2008/01/10/pervasive-computing-at-arup/
-categories:
+tags:
     - 'research and funding'
 tags:
     - bop

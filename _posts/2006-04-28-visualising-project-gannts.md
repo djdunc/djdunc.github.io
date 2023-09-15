@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/28/visualising_project_gannts/'
 permalink: /2006/04/28/visualising-project-gannts/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

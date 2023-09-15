@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/05/15/corporate_innovation_network/'
 permalink: /2009/05/15/corporate-innovation-network/
-categories:
+tags:
     - innovation
 ---
 

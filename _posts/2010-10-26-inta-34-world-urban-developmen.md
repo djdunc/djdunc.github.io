@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/10/26/inta_34_world_urban_developmen/'
 permalink: /2010/10/26/inta-34-world-urban-developmen/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/24/explain_it_to_your_mum/'
 permalink: /2006/04/24/explain-it-to-your-mum/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

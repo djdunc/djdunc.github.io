@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/08/13/links_for_20080813_deliciousco/'
 permalink: /2008/08/13/links-for-20080813-deliciousco/
-categories:
+tags:
     - 'delicious links'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/09/23/iot_expert_group/'
 permalink: /2010/09/23/iot-expert-group/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

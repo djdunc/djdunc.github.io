@@ -1,12 +1,12 @@
 ---
 id: 453
-title: 'traer.physics &#8211; processing'
+title: 'traer.physics - processing'
 date: '2006-08-09T23:07:55+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/09/traerphysics_processing/'
 permalink: /2006/08/09/traerphysics-processing/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

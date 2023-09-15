@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/11/17/city_centre_retail/'
 permalink: /2006/11/17/city-centre-retail/
-categories:
+tags:
     - 'drivers of change'
 ---
 

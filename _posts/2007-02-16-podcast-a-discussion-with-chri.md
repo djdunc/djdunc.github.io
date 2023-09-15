@@ -1,12 +1,12 @@
 ---
 id: 483
-title: 'Podcast: A discussion with Chris Luebkeman, Director for Global Foresight &#038; Innovation, Arup Group, London &#8211; McGraw-Hill Construction | ENR'
+title: 'Podcast: A discussion with Chris Luebkeman, Director for Global Foresight -Innovation, Arup Group, London - McGraw-Hill Construction | ENR'
 date: '2007-02-16T22:23:50+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/16/podcast_a_discussion_with_chri/'
 permalink: /2007/02/16/podcast-a-discussion-with-chri/
-categories:
+tags:
     - 'drivers of change'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/07/28/ted_global_the_substance_of_th/'
 permalink: /2009/07/28/ted-global-the-substance-of-th/
-categories:
+tags:
     - convergence
     - 'drivers of change'
     - innovation

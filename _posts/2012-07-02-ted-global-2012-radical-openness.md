@@ -1,6 +1,6 @@
 ---
 id: 637
-title: 'TED Global 2012 &#8211; Radical Openness'
+title: 'TED Global 2012 - Radical Openness'
 date: '2012-07-02T13:06:40+00:00'
 author: djdunc
 layout: post
@@ -9,7 +9,7 @@ permalink: /2012/07/02/ted-global-2012-radical-openness/
 video_url:
     - ''
 image: /wp-content/uploads/2019/11/ted2012.jpg
-categories:
+tags:
     - convergence
     - 'drivers of change'
 format: image

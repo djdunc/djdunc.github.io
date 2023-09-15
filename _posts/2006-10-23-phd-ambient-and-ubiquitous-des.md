@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/10/23/phd_ambient_and_ubiquitous_des/'
 permalink: /2006/10/23/phd-ambient-and-ubiquitous-des/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

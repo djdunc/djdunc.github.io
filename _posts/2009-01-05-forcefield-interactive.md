@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/01/05/forcefield_interactive/'
 permalink: /2009/01/05/forcefield-interactive/
-categories:
+tags:
     - 'processing and arduino'
 tags:
     - bop

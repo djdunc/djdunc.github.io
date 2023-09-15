@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/09/accelerometer_memsic_2125/'
 permalink: /2006/08/09/accelerometer-memsic-2125/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

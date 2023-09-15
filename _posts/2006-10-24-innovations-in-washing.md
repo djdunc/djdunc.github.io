@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/10/24/innovations_in_washing/'
 permalink: /2006/10/24/innovations-in-washing/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

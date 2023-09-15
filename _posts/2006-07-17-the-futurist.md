@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/07/17/the_futurist/'
 permalink: /2006/07/17/the-futurist/
-categories:
+tags:
     - 'drivers of change'
 ---
 

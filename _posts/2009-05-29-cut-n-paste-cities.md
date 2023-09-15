@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/05/29/cut_n_paste_cities/'
 permalink: /2009/05/29/cut-n-paste-cities/
-categories:
+tags:
     - 'drivers of change'
 ---
 

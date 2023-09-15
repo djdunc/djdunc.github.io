@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=617'
 permalink: /2011/04/19/iot-expert-group-governance-privacy-m2m/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

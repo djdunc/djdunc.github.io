@@ -6,11 +6,11 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/05/habitat_hotel_led_mesh/'
 permalink: /2006/04/05/habitat-hotel-led-mesh/
-categories:
+tags:
     - 'making invisible visible'
 ---
 
-![habitat1.jpg](https://i0.wp.com/www.driversofchange.com/wp-content/uploads/mt-old/emtech/images/habitat1.jpg?resize=320%2C209)
+![habitat1.jpg](https://img.ledsmagazine.com/files/base/ebm/leds/image/2015/12/energymesh.png?auto=format%2Ccompress&w=320)
 
 Working for experimental company [Cloud9](http://www.e-cloud9.com/), [James Clar](http://www.jamesclar.com/) is building a working prototype for a model of the Habitat Hotel, near Barcelona. He says:
 

@@ -6,11 +6,13 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/04/19/activity_space_research_the_ch/'
 permalink: /2007/04/19/activity-space-research-the-ch/
-categories:
+tags:
     - 'how to work'
 ---
 
-[![](https://i0.wp.com/farm1.static.flickr.com/202/465518976_e032fc66ce_m.jpg?w=200)](http://www.flickr.com/photos/pseudonomad/465518976/ "Flickr pseudonomad")Spent morning at Activity Space Research, The Chadwick Project workshop – Pembroke College, Cambridge – led by [William Fawcett](http://www.pem.cam.ac.uk/fellows/fawcett.html) (intro came via Jane Tateson at BT)
+[![](https://i0.wp.com/farm1.static.flickr.com/202/465518976_e032fc66ce_m.jpg?w=200)](http://www.flickr.com/photos/pseudonomad/465518976/ "Flickr pseudonomad")
+
+Spent morning at Activity Space Research, The Chadwick Project workshop – Pembroke College, Cambridge – led by [William Fawcett](http://www.pem.cam.ac.uk/fellows/fawcett.html) (intro came via Jane Tateson at BT)
 
 Taking a modelling approach (as apposed to case study approach) to investigating the relationship between activity and space. Base assumption is that an individual has an agenda regarding activities, places, times and preferences.
 

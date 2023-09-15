@@ -1,12 +1,12 @@
 ---
 id: 462
-title: 'we think &#8211; draft book for comment'
+title: 'we think - draft book for comment'
 date: '2006-10-10T10:02:53+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/10/10/we_think_draft_book_for_commen/'
 permalink: /2006/10/10/we-think-draft-book-for-commen/
-categories:
+tags:
     - books
 ---
 

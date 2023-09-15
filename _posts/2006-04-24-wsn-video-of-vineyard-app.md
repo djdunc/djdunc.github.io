@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/24/wsn_video_of_vineyard_app/'
 permalink: /2006/04/24/wsn-video-of-vineyard-app/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

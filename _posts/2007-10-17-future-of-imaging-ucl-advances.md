@@ -1,12 +1,12 @@
 ---
 id: 516
-title: 'Future of Imaging &#8211; UCL Advances with support from NESTA'
+title: 'Future of Imaging - UCL Advances with support from NESTA'
 date: '2007-10-17T09:57:19+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/10/17/future_of_imaging_ucl_advances/'
 permalink: /2007/10/17/future-of-imaging-ucl-advances/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/05/23/networked_embedded_and_control/'
 permalink: /2007/05/23/networked-embedded-and-control/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

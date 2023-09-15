@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/05/17/interaction_design_for_augment/'
 permalink: /2006/05/17/interaction-design-for-augment/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

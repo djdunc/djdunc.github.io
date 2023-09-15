@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/10/06/fp6_uk_supporting_uk_applicant/'
 permalink: /2006/10/06/fp6-uk-supporting-uk-applicant/
-categories:
+tags:
     - 'research and funding'
 tags:
     - SENSEI

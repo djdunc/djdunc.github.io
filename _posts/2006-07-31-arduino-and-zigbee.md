@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/07/31/arduino_and_zigbee/'
 permalink: /2006/07/31/arduino-and-zigbee/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

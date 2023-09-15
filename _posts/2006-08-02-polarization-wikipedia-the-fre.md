@@ -1,12 +1,12 @@
 ---
 id: 448
-title: 'Anisotropy &#8211; Polarization'
+title: 'Anisotropy - Polarization'
 date: '2006-08-02T23:57:19+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/02/polarization_wikipedia_the_fre/'
 permalink: /2006/08/02/polarization-wikipedia-the-fre/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

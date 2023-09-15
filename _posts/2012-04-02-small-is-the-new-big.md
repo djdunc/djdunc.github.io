@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=630'
 permalink: /2012/04/02/small-is-the-new-big/
-categories:
+tags:
     - 'drivers of change'
 tags:
     - autodesk

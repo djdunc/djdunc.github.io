@@ -1,12 +1,12 @@
 ---
 id: 443
-title: 'WSN xbow presentation &#8211; how to'
+title: 'WSN xbow presentation - how to'
 date: '2006-07-20T23:26:44+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/07/20/wsn_xbow_presentation_how_to/'
 permalink: /2006/07/20/wsn-xbow-presentation-how-to/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

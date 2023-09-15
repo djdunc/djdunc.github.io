@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=612'
 permalink: /2011/02/07/aedas-network-campus-berlin/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

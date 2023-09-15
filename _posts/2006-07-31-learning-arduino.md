@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/07/31/learning_arduino/'
 permalink: /2006/07/31/learning-arduino/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

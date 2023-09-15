@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/04/04/engineers_at_the_top/'
 permalink: /2007/04/04/engineers-at-the-top/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

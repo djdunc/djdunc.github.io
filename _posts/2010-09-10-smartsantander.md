@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/09/10/smartsantander/'
 permalink: /2010/09/10/smartsantander/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'
@@ -15,8 +15,6 @@ tags:
     - SENSEI
     - Spain
 ---
-
-<span class="mt-enclosure mt-enclosure-image">[![smartsantander.jpg](https://i0.wp.com/www.driversofchange.com/wp-content/uploads/mt-old/emtech/images/smartsantander.jpg?resize=500%2C145)](http://www.smartsantander.eu/)</span>
 
 Today i was at the kick off meeting for an interesting EU funded project called [SmartSantander](http://www.smartsantander.eu/). It builds on the work of a couple of previous European projects in the “future internet” domain including [Sensei](http://blogs.driversofchange.com/emtech/2009/10/sensei-breathes.html) which completes at the end of this year. The project overview is:
 

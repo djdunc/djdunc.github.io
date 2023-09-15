@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/09/04/dconstruct_2009_designing_for/'
 permalink: /2009/09/04/dconstruct-2009-designing-for/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/01/24/national_retail_federation_con/'
 permalink: /2007/01/24/national-retail-federation-con/
-categories:
+tags:
     - 'drivers of change'
 ---
 

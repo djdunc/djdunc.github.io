@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/04/04/arup_design_school/'
 permalink: /2009/04/04/arup-design-school/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

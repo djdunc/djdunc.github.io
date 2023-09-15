@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/13/wsn_application/'
 permalink: /2006/04/13/wsn-application/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

@@ -6,10 +6,12 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/06/the_meatrix_2_revolting_now_sh_1/'
 permalink: /2006/04/06/the-meatrix-2-revolting-now-sh-1/
-categories:
+tags:
     - 'cool and stuff'
 ---
 
-[![](https://i0.wp.com/images.cafepress.com/product/8828493_240x240_F.jpg?w=1170)](http://www.themeatrix2.com/ "The Meatrix 2: Revolting")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VAN6G8sBNIE?si=McPyf2sf-Pp3P2hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+"The Meatrix 2: Revolting"
 
 A nice way of getting the message across…

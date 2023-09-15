@@ -1,12 +1,12 @@
 ---
 id: 494
-title: 'RealCosts &#8211; visualising flight CO2 costs'
+title: 'RealCosts - visualising flight CO2 costs'
 date: '2007-05-03T14:36:14+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/05/03/realcosts_visualising_flight_c/'
 permalink: /2007/05/03/realcosts-visualising-flight-c/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

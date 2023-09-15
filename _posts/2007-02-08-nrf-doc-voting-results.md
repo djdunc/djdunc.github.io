@@ -1,12 +1,12 @@
 ---
 id: 482
-title: 'NRF &#8211; DOC voting results'
+title: 'NRF - DOC voting results'
 date: '2007-02-08T15:28:10+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/08/nrf_doc_voting_results/'
 permalink: /2007/02/08/nrf-doc-voting-results/
-categories:
+tags:
     - 'drivers of change'
 ---
 

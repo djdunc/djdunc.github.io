@@ -1,12 +1,12 @@
 ---
 id: 472
-title: 'LAb[au] &#8211; Dexia Tower &#8211; Brussels'
+title: 'LAb[au] - Dexia Tower - Brussels'
 date: '2007-01-04T08:16:45+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/01/04/labau_dexia_tower_brussels/'
 permalink: /2007/01/04/labau-dexia-tower-brussels/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

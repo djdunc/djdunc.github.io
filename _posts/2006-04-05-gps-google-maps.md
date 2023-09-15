@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/05/gps_google_maps/'
 permalink: /2006/04/05/gps-google-maps/
-categories:
+tags:
     - 'cool and stuff'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/05/innovation_reading_circle_user/'
 permalink: /2007/02/05/innovation-reading-circle-user/
-categories:
+tags:
     - books
     - innovation
 ---

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=614'
 permalink: /2011/03/22/smart-pop-up-retail/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

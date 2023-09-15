@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/06/20/ad_hoc_routing/'
 permalink: /2006/06/20/ad-hoc-routing/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

@@ -1,12 +1,12 @@
 ---
 id: 474
-title: 'Path Intelligence &#8211; tracking people in retail'
+title: 'Path Intelligence - tracking people in retail'
 date: '2007-01-10T13:12:44+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/01/10/path_intelligence_tracking_peo/'
 permalink: /2007/01/10/path-intelligence-tracking-peo/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

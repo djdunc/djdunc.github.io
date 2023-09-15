@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/03/23/arduino_bt_pir_sensor/'
 permalink: /2007/03/23/arduino-bt-pir-sensor/
-categories:
+tags:
     - 'processing and arduino'
 ---
 

@@ -1,12 +1,12 @@
 ---
 id: 496
-title: 'Wattson 105 &#8211; measuring electrical usage'
+title: 'Wattson 105 - measuring electrical usage'
 date: '2007-05-05T00:15:07+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/05/05/wattson_105_measuring_electric/'
 permalink: /2007/05/05/wattson-105-measuring-electric/
-categories:
+tags:
     - 'making invisible visible'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/24/flocks_of_motes/'
 permalink: /2006/04/24/flocks-of-motes/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

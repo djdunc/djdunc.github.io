@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/11/23/internet_of_things_police_rath/'
 permalink: /2010/11/23/internet-of-things-police-rath/
-categories:
+tags:
     - 'research and funding'
 tags:
     - EU

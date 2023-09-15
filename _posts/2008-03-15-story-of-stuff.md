@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/03/15/story_of_stuff/'
 permalink: /2008/03/15/story-of-stuff/
-categories:
+tags:
     - 'drivers of change'
 ---
 

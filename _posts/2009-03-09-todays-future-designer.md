@@ -1,12 +1,12 @@
 ---
 id: 581
-title: 'Today&#8217;s Future Designer'
+title: 'Todays Future Designer'
 date: '2009-03-09T20:49:42+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/03/09/todays_future_designer/'
 permalink: /2009/03/09/todays-future-designer/
-categories:
+tags:
     - convergence
     - 'drivers of change'
 ---

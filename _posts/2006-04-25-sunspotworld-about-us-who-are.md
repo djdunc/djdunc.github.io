@@ -1,12 +1,12 @@
 ---
 id: 423
-title: 'SunSPOTWorld &#8211; About Us, Who are we?'
+title: 'SunSPOTWorld - About Us, Who are we?'
 date: '2006-04-25T14:07:41+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/25/sunspotworld_about_us_who_are/'
 permalink: /2006/04/25/sunspotworld-about-us-who-are/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

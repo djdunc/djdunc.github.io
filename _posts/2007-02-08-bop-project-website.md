@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/08/bop_project_website/'
 permalink: /2007/02/08/bop-project-website/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

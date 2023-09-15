@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/03/09/the_well_connected_city/'
 permalink: /2010/03/09/the-well-connected-city/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 tags:

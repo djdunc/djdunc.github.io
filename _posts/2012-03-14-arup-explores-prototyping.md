@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=626'
 permalink: /2012/03/14/arup-explores-prototyping/
-categories:
+tags:
     - innovation
 ---
 

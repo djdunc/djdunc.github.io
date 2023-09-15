@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/07/31/doc_convergence/'
 permalink: /2007/07/31/doc-convergence/
-categories:
+tags:
     - convergence
 ---
 

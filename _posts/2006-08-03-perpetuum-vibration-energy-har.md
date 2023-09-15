@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/03/perpetuum_vibration_energy_har/'
 permalink: /2006/08/03/perpetuum-vibration-energy-har/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

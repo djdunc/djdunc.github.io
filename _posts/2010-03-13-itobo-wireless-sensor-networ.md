@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/03/13/itobo_wireless_sensor_networ/'
 permalink: /2010/03/13/itobo-wireless-sensor-networ/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

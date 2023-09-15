@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/05/19/pervasive_2010_helsinki/'
 permalink: /2010/05/19/pervasive-2010-helsinki/
-categories:
+tags:
     - IoT
     - 'research and funding'
     - 'ubiquitous computing'

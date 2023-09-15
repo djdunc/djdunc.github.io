@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/26/intelligent_sensing_programme/'
 permalink: /2006/04/26/intelligent-sensing-programme/
-categories:
+tags:
     - IoT
     - 'ubiquitous computing'
 ---

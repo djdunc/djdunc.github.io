@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/06/13/mass_customisation_of_my_feet/'
 permalink: /2007/06/13/mass-customisation-of-my-feet/
-categories:
+tags:
     - 'drivers of change'
 ---
 

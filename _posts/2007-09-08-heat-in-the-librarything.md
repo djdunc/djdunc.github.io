@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/09/08/heat_in_the_librarything/'
 permalink: /2007/09/08/heat-in-the-librarything/
-categories:
+tags:
     - books
 ---
 

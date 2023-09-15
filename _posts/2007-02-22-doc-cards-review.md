@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/02/22/doc_cards_review/'
 permalink: /2007/02/22/doc-cards-review/
-categories:
+tags:
     - 'drivers of change'
 ---
 

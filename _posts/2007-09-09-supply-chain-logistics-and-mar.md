@@ -1,12 +1,12 @@
 ---
 id: 514
-title: 'Supply Chain, Logistics and Marketing forum &#8211; Aurora'
+title: 'Supply Chain, Logistics and Marketing forum - Aurora'
 date: '2007-09-09T00:51:02+00:00'
 author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/09/09/supply_chain_logistics_and_mar/'
 permalink: /2007/09/09/supply-chain-logistics-and-mar/
-categories:
+tags:
     - 'drivers of change'
 ---
 

@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/03/14/irc_the_myths_of_innovation_by/'
 permalink: /2008/03/14/irc-the-myths-of-innovation-by/
-categories:
+tags:
     - books
     - innovation
 ---

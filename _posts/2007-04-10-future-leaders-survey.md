@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/04/10/future_leaders_survey/'
 permalink: /2007/04/10/future-leaders-survey/
-categories:
+tags:
     - 'drivers of change'
 ---
 

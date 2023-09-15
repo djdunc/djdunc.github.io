@@ -6,7 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/06/23/nvidia_on_fire/'
 permalink: /2006/06/23/nvidia-on-fire/
-categories:
+tags:
     - 'cool and stuff'
 ---
 
