@@ -15,3 +15,16 @@ permalink: /projects/
 
 Gallery of projects.
 
+<hr>
+Categories
+
+{% for category in site.categories %}
+  {{ category[0] }}
+{% endfor %}
+
+<hr>
+Tags
+
+{% for tag in site.tags %}
+  {{ tag[0] }}
+{% endfor %}
