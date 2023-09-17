@@ -23,4 +23,4 @@ Extra curricula making activities are in the [projects](projects) section, video
 
 <hr>
 
-## Latest post on the blog
+## Blog - latest from weekly updates on things seen or heard
