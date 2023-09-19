@@ -6,9 +6,7 @@ tags: Timelapse Marshgate
 category: blog 
 ---
 
-<video width=100% preload="auto" muted loop>
-  <source src="https://live.staticflickr.com/video/53190187484/41f38c330a/1080p.mp4" type="video/mp4">
-</video>
+<a href="https://www.flickr.com/photos/pseudonomad/53190187484/in/datetaken-public/" title="Gaia inflates"><img src="/assets/img/gaia-small.gif" width="800" height="450" alt="Gaia inflates"/></a>
 
 A week before the opening of UCL East Marshgate I happened to be in building for a meeting - love seeing the behind the scenes of art installations. This one is [Gaia](https://www.flickr.com/photos/pseudonomad/53190187484/) (more in a few weeks), I do like a serendipitous Timelapse.
 
