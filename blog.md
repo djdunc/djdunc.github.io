@@ -35,7 +35,7 @@ permalink: /blog/
           {{ post.excerpt }}
         {%- endif -%}
       </li>
-      --------
+
       {%- endfor -%}
     </ul>
 
