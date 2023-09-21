@@ -9,9 +9,9 @@ tags:
     - Arduino
 ---
 
-![Delta Robot](/assets/img/projects/delta.jpg)
-
 Arduino based Delta Robot made as an experiment for drawing faces.
+
+![Delta Robot](/assets/img/projects/delta.jpg)
 
 <!--more-->
 
