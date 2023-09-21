@@ -1,5 +1,4 @@
 ---
-id: 403
 title: 'Plywood Shelving'
 date: '2018-03-01T10:51:08+00:00'
 author: djdunc
