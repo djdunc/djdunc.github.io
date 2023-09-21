@@ -12,8 +12,6 @@ tags:
     - 'processing and arduino'
 ---
 
-<span class="mt-enclosure mt-enclosure-image">[![crave.cnet](https://i0.wp.com/crave.cnet.co.uk/i/c/pg/39042448/1-a.jpg?w=1170)](http://crave.cnet.co.uk/software/0,39029471,49302231,00.htm)</span>
-
 I spent the weekend at the [Yahoo Hackday](http://openhacklondon.pbworks.com/) last week. As [Crave](http://crave.cnet.co.uk/software/0,39029471,49302231,00.htm) puts it
 
 > “The idea behind it was simple: you’ve got exactly 24 hours to hack together the most interesting, innovative, useful or fun piece of software or hardware, using developer tools from Yahoo, or anyone else for that matter. ”

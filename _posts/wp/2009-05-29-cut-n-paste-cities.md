@@ -10,8 +10,6 @@ tags:
     - 'drivers of change'
 ---
 
-<span class="mt-enclosure mt-enclosure-image">[![cutnpaste_banner_560_grey.gif](https://i0.wp.com/www.driversofchange.com/wp-content/uploads/mt-old/emtech/images/cutnpaste_banner_560_grey.gif?resize=560%2C230)](http://www.cutnpastecities.com/)</span>
-
 ***A global call to action and an invitation to urban dwellers to describe through photography the places and things they love about their cities, and those that they could do without.***
 
 Cutnpastecities launched this week out of the foresight team at Arup. The brief is to capture through photography what you really like in a city, what makes it tick, and what you would like to see more of in the future. They can be spaces or services, aspects of everyday life or temporary events. Alternatively, describe something that should be removed from the city, a building you could do without, a service that just doesn’t work. These are a CUT. Things you like are a PASTE.

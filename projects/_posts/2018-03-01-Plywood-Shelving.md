@@ -4,6 +4,7 @@ title: 'Plywood Shelving'
 date: '2018-03-01T10:51:08+00:00'
 author: djdunc
 layout: post
+image: /assets/img/projects/20180301-plywood-shelving.webp
 tags:
     - Woodwork
 ---
