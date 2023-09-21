@@ -16,7 +16,7 @@ permalink: /projects/
 </header>
 
 {%- for post in site.categories[page.category] -%}
-  <a href="{{ post.url }}"><img src="{{ post.image}}" height="150" style="padding: 2px" title="{{ post.title }}"> </a> 
+  <a href="{{ post.url }}"><img src="{{ post.image}}" height="200" style="padding: 2px" title="{{ post.title }}"> </a> 
 {% endfor %}
 
 <!---- 
