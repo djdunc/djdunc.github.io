@@ -4,13 +4,16 @@ date: '2014-03-01T10:51:08+00:00'
 author: djdunc
 layout: post
 image: /assets/img/projects/delta2.jpg.webp
+excerpt_separator: <!--more-->
 tags:
     - Arduino
 ---
 
+![Delta Robot](/assets/img/projects/delta.jpg)
+
 Arduino based Delta Robot made as an experiment for drawing faces.
 
-![Delta Robot](/assets/img/projects/delta.jpg)
+<!--more-->
 
 ![Delta Robot](/assets/img/projects/delta2.jpg.webp)
 
