@@ -3,7 +3,7 @@ title: 'Workbench'
 date: '2015-12-30T10:51:08+00:00'
 author: djdunc
 layout: post
-image: /assets/img/projects/workshop.jpg
+image: /assets/img/projects/thumb/240-workshop.jpg
 excerpt_separator: <!--more-->
 tags:
     - Woodwork

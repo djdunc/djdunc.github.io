@@ -3,7 +3,7 @@ title: 'Delta Robot'
 date: '2014-03-01T10:51:08+00:00'
 author: djdunc
 layout: post
-image: /assets/img/projects/delta2.jpg.webp
+image: /assets/img/projects/thumb/240-delta2.jpg
 excerpt_separator: <!--more-->
 tags:
     - Arduino

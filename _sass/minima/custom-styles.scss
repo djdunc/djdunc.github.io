@@ -1,2 +1,51 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+// added in for rollover effect on project images
+
+/*! div style */
+.image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+    justify-content: center;
+    padding: 1px;
+}
+
+.box {
+    flex-basis: 25%;
+    width: 100%;
+    padding: 8x;
+    margin: 2px;
+}
+
+.box p {
+    position: relative;
+    bottom: 10%;
+    left: 10px;
+    padding: 0px;
+    color: white;
+    margin: 0;
+    opacity: 0.5; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Add a smooth transition */    
+}
+
+.box:hover p {
+    color: black;
+    opacity: 1; /* Show on hover */   
+}
+
+.img-in-gallery {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    opacity: 1; 
+}
+
+.img-in-gallery:hover {
+    opacity: 0.3;
+    }
+    

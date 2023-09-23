@@ -3,7 +3,7 @@ title: 'Reaction Wall'
 date: '2015-06-01T10:51:08+00:00'
 author: djdunc
 layout: post
-image: /assets/img/projects/reaction-wall-buttons.jpg
+image: /assets/img/projects/thumb/240-reaction-wall-buttons.jpg
 excerpt_separator: <!--more-->
 tags:
     - Light

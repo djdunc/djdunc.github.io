@@ -4,22 +4,23 @@ title: Projects
 category: projects
 permalink: /projects/
 ---
-<!-- 
-<figure>
-  <img src="{{site.url}}/assets/img/chamonix2019.webp" alt="Chamonix 2019"/>
-  <figcaption>Chamonix 2019</figcaption>
-</figure>
--->
 
 <header class="post-header">
     <h1 class="post-title">Things made</h1>
 </header>
 
+<div class="image-gallery">
 {%- for post in site.categories[page.category] -%}
-  <a href="{{ post.url }}"><img src="{{ post.image}}" height="200" style="padding: 2px" title="{{ post.title }}"> </a> 
-{% endfor %}
 
-<!---- 
+  <div class="box">
+    <a href="{{ post.url }}"><img src="{{ post.image}}" class="img-in-gallery" alt="{{ post.title }}"  title="{{ post.title }}" > </a> 
+    <p class="box">{{ post.title }}</p>
+  </div>
+
+{%- endfor -%}
+</div>
+
+<!--
 Categories
 
 {% for category in site.categories %}
@@ -32,4 +33,6 @@ Tags
   {{ tag[0] }}
 {% endfor %}
 
----->
+
+
+-->

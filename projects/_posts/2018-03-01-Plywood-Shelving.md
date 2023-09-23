@@ -3,7 +3,7 @@ title: 'Plywood Shelving'
 date: '2018-03-01T10:51:08+00:00'
 author: djdunc
 layout: post
-image: /assets/img/projects/20180301-plywood-shelving.webp
+image: /assets/img/projects/thumb/240-plywood-shelving.jpg
 excerpt_separator: <!--more-->
 tags:
     - Woodwork
@@ -11,6 +11,6 @@ tags:
 
 Shelving made to fit stairwell. Friction joints. Made with table saw.
 
-![Plywood Shelf](/assets/img/projects/20180301-plywood-shelving.webp)
+![Plywood Shelf](/assets/img/projects/plywood-shelving.jpg)
 
 <!--more-->

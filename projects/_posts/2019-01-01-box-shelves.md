@@ -3,7 +3,7 @@ title: 'Plywood Box Shelving'
 date: '2019-01-01T10:51:08+00:00'
 author: djdunc
 layout: post
-image: /assets/img/projects/box-shelves-detail.jpg
+image: /assets/img/projects/thumb/240-box-shelves-detail.jpg
 excerpt_separator: <!--more-->
 tags:
     - Woodwork

@@ -3,7 +3,7 @@ title: 'Greenhouse table'
 date: '2018-07-01T10:51:08+00:00'
 author: djdunc
 layout: post
-image: /assets/img/projects/greenhouse-table.jpg
+image: /assets/img/projects/thumb/240-greenhouse-table3.jpg
 excerpt_separator: <!--more-->
 tags:
     - Woodwork
