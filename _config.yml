@@ -78,6 +78,7 @@ header_pages:
   - hello.md
   - blog.md
   - projects.md
+  - archive.md
 
 # Set to `true` to show excerpts on the homepage.
 #

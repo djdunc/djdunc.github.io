@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+<div class="home">
+
+  {{ content }}
+
+  {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+  {% for year in postsByYear %}
+      <h3>{{ year.name }}</h3>
+      <ul>
+      {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
+      {% assign postsByMonthSorted = postsByMonth | sort: 'name' | reverse %}
+
+      {% for month in postsByMonthSorted %}
+      <li>
+          <ul>
+          {% for post in month.items %}
+          <li>    
+            {{ post.date | date: "%m-%d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+          </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+
+
+</div>
