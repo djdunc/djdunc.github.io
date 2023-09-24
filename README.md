@@ -7,4 +7,4 @@ To think about:
 - adding in weather station info
 - format of projects page
 - cycling banner image on home
-- social icons at bottom of page
+- dark theme?

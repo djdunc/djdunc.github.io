@@ -32,7 +32,8 @@ description: >
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.iot.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.iot.io # the base hostname & protocol for your site, e.g. http://example.com
+weburl: https://www.iot.io
 
 twitter_username: djdunc
 github_username:  djdunc
@@ -59,14 +60,14 @@ minima:
    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/duncanwilson" }
    - { platform: mastodon,       user_url: "https://mastodon.me.uk/@dunc" }
    - { platform: flickr,         user_url: "https://www.flickr.com/photos/pseudonomad" }
-   - { platform: pinboard,      user_url: "http://pinboard.in/u:dunc" }
+   - { platform: pinboard,       user_url: "http://pinboard.in/u:dunc" }
    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=CKqcXwEAAAAJ&hl=en" }
    - { platform: twitter,        user_url: "https://twitter.com/djdunc" }
-   - { platform: youtube,        user_url: "https://vimeo.com/djdunc" }
+   - { platform: instagram,      user_url: "https://www.instagram.com/djdunc" }
+   - { platform: threads,        user_url: "https://www.threads.net/@djdunc" }
+   - { platform: vimeo,          user_url: "https://vimeo.com/djdunc" }
    - { platform: lastfm,         user_url: "http://www.last.fm/user/djdunc" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
   #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
   #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
