@@ -34,6 +34,9 @@ permalink: /blog/
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+        <a href="{{ post.url | relative_url }}">
+          <i>(link to more...)</i>
+        </a>        
       </li>
 
       {%- endfor -%}
