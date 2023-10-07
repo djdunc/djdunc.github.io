@@ -8,3 +8,4 @@ To think about:
 - format of projects page
 - cycling banner image on home
 - dark theme?
+- streak number
