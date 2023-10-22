@@ -8,24 +8,3 @@ Feels like that would be a good metric to be calculating in the future. It is ha
 
 
 
-House Mill flood monitoring
-
-About six months ago I received an email from a colleague at the Institute of Archeology who has been volunteering at House Mill. He was keen to explore how technology might help them monitor flood events to build an evidence base to support future flood mitigation activity. 
-
-https://housemill.org.uk
-
-https://housemill.org.uk/about-us/
-
-Built in 1776, the House Mill is the world’s largest surviving tidal mill and is on a site that has a fantastic history of milling including making gunpowder for the Spanish Armada to jumping on the Gin Craze in the 18th century. 
-
- https://en.m.wikipedia.org/wiki/Gin_Craze
-
-https://en.m.wikipedia.org/wiki/Spanish_Armada
-
-The Grade 1 listed building ceased milling in 1941 and was saved from demolition (and site being turned into a car park) in the 70’s. The House Mill trust has received generous support from several organisations, including English Heritage, for the partial restoration of the House Mill. This work continues with a small team of volunteers. 
-
-Since June we have been monitoring water height under the mill to build up a picture of how often the combination of water flowing down the River Lea plus the incoming spring tides from the River Thames cause the wooden beams and floorboards to become submerged in water. Whilst anecdotal evidence of these events had been captured they were mostly based on observations of the aftermath since the floods can happen at any time of day or night and the site is not occupied 24/7. Our goal was to use Internet of Things technology to explore how a continuous monitoring strategy could help inform flood observations. 
-
-Footage of flooding at House Mill on 3rd August 2023. Had seen notifications from the flood sensor the previous night showing the Mill had flooded so called back during the day at the next high tide - amazing how quickly the water comes up through the floor boards.
-
-https://vimeo.com/857559917
