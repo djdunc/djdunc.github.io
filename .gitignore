@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+Gemfile.lock
+assets/img/.DS_Store
+assets/img/projects/.DS_Store
+.gitignore
