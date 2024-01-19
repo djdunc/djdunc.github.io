@@ -6,22 +6,22 @@ permalink: /ideas/
 
 # Connected Environments Dissertation Project Ideas
 
-Contact Duncan Wilson if you are interested in these projects.
+Contact Duncan Wilson if you have ideas on how you could develop these projects.
 
 ## Ambient portals [2024]
 CASA have two locations at UCL East and Bloomsbury. The objective of this project would be to test an interactive installation to ask the research question: do staff engage with ambient devices that communicate activity across dislocated offices? "a nabztag for offices rather than divorcees"
 
 ## Building dashboard [2024]
-Is it possible to visualise the health of a building? Thois project will utilise live data from the building to communicate a narrative for the performance of the systems that control our built environment.
+Is it possible to visualise the health of a building? This project will utilise live data from the building (energy usage, environment data, occupancy) to communicate a narrative for the performance of the systems that control our built environment. We are particularly interested in ways of communicating this information to a general audience.
 
 ## Small acts of kindness [2024]
-A cycle helmet / bib / bike lights that communicate messages of thanks to those who share the roadspace with cyclists. Control would be based on gestures / physical inputs.
+A cycle helmet / bib / bike lights that communicate messages of thanks to those who share the roadspace with cyclists. Control could be based on gestures / physical inputs that explore new forms of human computer interface.
 
 ## At one with the building [2024] 
-A suspended VR experience driven by realtime data from the building
+A suspended VR experience driven by realtime data from the building. We have millions of zeros and ones that flow through our building representing the state of the space. In this project we want to explore how sitting in a hammock, suspended in space, can support alternative ways of experiencing that data (e.g. flowing with the data, playing with the data, hearing the data...)
 
 ## Smart walls [2024]
-Build a reconfigurable work space - parametric by design, manufactured for flexibility, evaluation for adaption - Building on existing experimentation at Moorfields Eye Hospital (pop up eye clinics) this project would develop a reconfigurable and integrated space design system monitored using the COACH sensor platform.
+Build a reconfigurable work space that is parametric by design, can easily be manufactured in the LFW and supports sensing of space usage to allow for evaluation and adaption. Building on existing experimentation at Moorfields Eye Hospital (pop up eye clinics) this project would develop a reconfigurable and integrated space design system monitored using an iteration of the CE COACH sensor platform.
 
 ## Patient Journeys in a Pop Up eye clinic [2023]
 CASA have been working with Moorfields Eye Hospital to explore the potential for the use of pop-up eye clinics in retail outlets (Brent Cross) to catch up on COVID appointment backlog. Time motion data (x,y data ever 10 seconds) from approximately 4000 patient journies and 4 different activity layouts are available. This project would explore different ways of analysing trends in patient throughput over time and space. Requires data visualisation to inform communication of trends and or data analysis to extract meaning from the data.
