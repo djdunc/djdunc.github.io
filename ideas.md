@@ -14,6 +14,9 @@ CASA have two locations at UCL East and Bloomsbury. The objective of this projec
 ## Building dashboard [2024]
 Is it possible to visualise the health of a building? This project will utilise live data from the building (energy usage, environment data, occupancy) to communicate a narrative for the performance of the systems that control our built environment. We are particularly interested in ways of communicating this information to a general audience.
 
+## Jump Buddy [2024]
+A member of Pool Street staff is a potential future Olympic equestrian. We are keen to develop a device that can be worn by the rider to give either real-time performance information or post activity guidance to help improve performance. 
+
 ## Small acts of kindness [2024]
 A cycle helmet / bib / bike lights that communicate messages of thanks to those who share the roadspace with cyclists. Control could be based on gestures / physical inputs that explore new forms of human computer interface.
 
