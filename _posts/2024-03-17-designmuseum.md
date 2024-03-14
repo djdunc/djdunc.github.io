@@ -59,7 +59,7 @@ All in all and afternoon well spent. We hope the students walked away with some 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588455170/in/datetaken/" title="Skateboard"><img src="https://live.staticflickr.com/65535/53588455170_b41b5fa5ea_c.jpg" width="100%" alt="Skateboard"/></a>
 Skateboard
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588327464/in/datetaken/" title="Adverts as art"><img src="https://live.staticflickr.com/65535/53588327464_dbf32b413c_c.jpg" width="587" height="800" alt="Adverts as art"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588327464/in/datetaken/" title="Adverts as art"><img src="https://live.staticflickr.com/65535/53588327464_dbf32b413c_c.jpg" width="100%"alt="Adverts as art"/></a>
 Adverts as Art
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588451660/in/datetaken/" title="Adverts as art"><img src="https://live.staticflickr.com/65535/53588451660_e20f78ff6b_c.jpg" width="100%" alt="Adverts as art"/></a>
@@ -71,7 +71,7 @@ Quaint
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53587137477/in/datetaken/" title="Agents of change"><img src="https://live.staticflickr.com/65535/53587137477_3398aa1486_c.jpg" width="100%" alt="Agents of change"/></a>
 Agents of Change
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588007101/in/datetaken/" title="Makers bill of rights"><img src="https://live.staticflickr.com/65535/53588007101_7d0f67708a_c.jpg" width="583" height="800" alt="Makers bill of rights"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588007101/in/datetaken/" title="Makers bill of rights"><img src="https://live.staticflickr.com/65535/53588007101_7d0f67708a_c.jpg" width="100%" alt="Makers bill of rights"/></a>
 Makers bill of rights
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588327739/in/datetaken/" title="Roof Detail"><img src="https://live.staticflickr.com/65535/53588327739_36621a1928_c.jpg" width="100%" alt="Roof Detail"/></a>
