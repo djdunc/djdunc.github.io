@@ -15,7 +15,7 @@ It is always lovely to visit the [Design Museum](https://designmuseum.org) in Lo
 
 The Skateboard exhibit was ace charting development from the 1950’s to the modern day. The blurb on the website says: 
 
-    The exhibition showcases innovative skateboards and components and track how skateboarders have taken over sidewalks, swimming pools and skate parks designing new boards to suit their performance, style and surroundings.
+> The exhibition showcases innovative skateboards and components and track how skateboarders have taken over sidewalks, swimming pools and skate parks designing new boards to suit their performance, style and surroundings.
 
 I liked the use of the double yellow lines to lead the visitor around the exhibits - a nod to how skaters use double yellow lines for smooth skating.
 
