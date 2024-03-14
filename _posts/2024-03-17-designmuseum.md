@@ -9,11 +9,15 @@ category: blog
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588327884/in/datetaken/" title="Design Museum 2024"><img src="https://live.staticflickr.com/65535/53588327884_0b2ac81b8d_c.jpg" width="100%" alt="Design Museum 2024"/></a>
 
-It is always lovely to visit the Design Museum in London. Leah organised a class visit to help guide the students in prep for their exhibition designs this summer. Whilst the exhibits themselves were interesting the focus today was to think about how to exhibit work. (Although we did manage to also squeeze in a visit to the Skateboard exhibition)
+It is always lovely to visit the [Design Museum](https://designmuseum.org) in London. Leah organised a class visit to help guide the students in prep for their exhibition designs this summer. Whilst the exhibits themselves were interesting the focus today was to think about how to exhibit work. (Although we did manage to also squeeze in a visit to the [Skateboard exhibition](https://designmuseum.org/exhibitions/skateboard))
 
 <!--more-->
 
-The Skateboard exhibit was ace charting development from the 1950’s to the modern day.  The double yellow lines (for smooth skating) lead the visitor around the exhibits.
+The Skateboard exhibit was ace charting development from the 1950’s to the modern day. The blurb on the website says: 
+
+    The exhibition showcases innovative skateboards and components and track how skateboarders have taken over sidewalks, swimming pools and skate parks designing new boards to suit their performance, style and surroundings.
+
+I liked the use of the double yellow lines to lead the visitor around the exhibits - a nod to how skaters use double yellow lines for smooth skating.
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588233188/in/datetaken/" title="Ride the yellow lines"><img src="https://live.staticflickr.com/65535/53588233188_ed79a7cd57_c.jpg" width="100%" alt="Ride the yellow lines"/></a>
 Double yellow lines
