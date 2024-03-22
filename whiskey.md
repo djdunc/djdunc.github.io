@@ -13,6 +13,7 @@ always open to suggestions...
 
 - 4 [GLENGLASSAUGH PEATED PORT WOOD FINISH](https://www.amathusdrinks.com/b2c/glenglassaugh-peated-port-wood-finish) (2023 DW)
 - 4 [ARDBEG UIGEADAIL](https://www.amathusdrinks.com/b2c/ardbeg-uigeadail) (2022 Kids)
+- 4 [GLENTURREET](https://www.amathusdrinks.com/b2c/the-glenturret-7yr-peat-smoked-2023-release) (2024 IM)
 - 4 [ARDBEG WEE BEASTIE 5YR](https://www.amathusdrinks.com/b2c/ardbeg-wee-beastie-5yr) (2023 DW)
 
 - 3 [KILCHOMAN MACHIR BAY](https://www.amathusdrinks.com/b2c/kilchoman-machir-bay) (2022 DW)
