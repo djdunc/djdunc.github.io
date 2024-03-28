@@ -11,7 +11,34 @@
 
 <script>
 
-    client = new Paho.MQTT.Client("mqtt.cetools.org", Number(8080), "web-client-iotio");
+    //client = new Paho.MQTT.Client("mqtt.cetools.org", Number(8081), "web-client-iotio");
+
+    // Define MQTT broker host and port
+    var brokerHost = 'mqtt.cetools.org';
+    var brokerPort = 8081; // Assuming this is the WebSocket secure port
+
+    // Define MQTT client options
+    var clientId = 'web-client-iot-io';
+    var options = {
+        // Set MQTT broker URL with secure WebSocket protocol
+        // Format: "wss://<hostname>:<port>/mqtt"
+        mqttVersion: 4, // Specify MQTT version 4
+        // Other options like userName, password, etc., if needed
+    };
+
+    // Create an MQTT client instance
+    var client = new Paho.MQTT.Client('wss://' + brokerHost + ':' + brokerPort + '/mqtt', clientId);
+
+    // MQTT client event handlers
+    client.onConnected = function (reconnect, uri) {
+        console.log('Connected to MQTT broker.');
+        // Subscribe to topics, publish messages, etc., as needed
+        topic = 'UCL/#'; // Replace with your topic
+        client.subscribe(topic);
+    };
+
+    // Set MQTT client options
+    client.connect(options);
 
     // Array to store the last 30 messages
     const messageHistory = [];
@@ -21,17 +48,6 @@
     // Callback when connection is successful
     client.onConnectionLost = onConnectionLost;
     client.onMessageArrived = onMessageArrived;
-
-    client.connect({onSuccess:onConnect});
-
-    // called when the client connects
-    function onConnect() {
-        // Once a connection has been made, make a subscription and send a message.
-        console.log("onConnect");
-        // Subscribe to your desired topic
-        topic = 'UCL/#'; // Replace with your topic
-        client.subscribe(topic);
-    }
 
     function onConnectionLost(responseObject) {
         if (responseObject.errorCode !== 0) {
