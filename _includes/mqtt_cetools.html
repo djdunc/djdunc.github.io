@@ -1,0 +1,77 @@
+<script src="/assets/js/paho-mqtt-min.js"></script>
+
+
+
+<!-- Placeholder for displaying MQTT data-->
+<div>CETOOLS MQTT BROKER</div>
+<div id="mqtt-data-count">Hello</div>
+<div id="mqtt-data">Hello</div>
+
+
+
+<script>
+
+    client = new Paho.MQTT.Client("mqtt.cetools.org", Number(8080), "web-client-iotio");
+
+    // Array to store the last 30 messages
+    const messageHistory = [];
+
+    counter = 0;
+
+    // Callback when connection is successful
+    client.onConnectionLost = onConnectionLost;
+    client.onMessageArrived = onMessageArrived;
+
+    client.connect({onSuccess:onConnect});
+
+    // called when the client connects
+    function onConnect() {
+        // Once a connection has been made, make a subscription and send a message.
+        console.log("onConnect");
+        // Subscribe to your desired topic
+        topic = 'UCL/#'; // Replace with your topic
+        client.subscribe(topic);
+    }
+
+    function onConnectionLost(responseObject) {
+        if (responseObject.errorCode !== 0) {
+            console.log('Connection lost: ' + responseObject.errorMessage);
+        }
+    }
+
+    function onMessageArrived(message) {
+        // Add the received message to the history
+        messageHistory.unshift(message.topic); // Add to the beginning
+
+        // Keep only the last 30 messages
+        if (messageHistory.length > 24) {
+            messageHistory.pop(); // Remove the oldest
+        }
+
+        counter++;
+
+        // Display the updated history
+        displayMessageHistory();
+    }
+
+    function displayMessageHistory() {
+        mqttDataDiv = document.getElementById('mqtt-data');
+        mqttDataDiv.innerHTML = ''; // Clear existing content
+
+        // Display messages in reverse order (newest first)
+        for (const msg of messageHistory) {
+            msgElement = document.createElement('p');
+            msgElement.textContent = msg.slice(0, 72); // Limit to 80 characters;
+            msgElement.style.fontFamily = 'Courier New'; // Set font family
+            msgElement.style.color = 'green'; // Set text color
+            msgElement.style.marginBottom = '0.2em'; // Adjust spacing between rows
+            mqttDataDiv.appendChild(msgElement);
+        }
+        mqttDataCountDiv = document.getElementById('mqtt-data-count');
+        formattedCounter = counter.toLocaleString();
+        mqttDataCountDiv.innerHTML = 'Message received since page opened: ' + formattedCounter; // Clear existing content
+    }
+
+
+</script> 
+
