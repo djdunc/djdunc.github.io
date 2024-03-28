@@ -19,6 +19,7 @@
 
     // Define MQTT client options
     var clientId = 'web-client-iot-io';
+    var clientId = 'web-client-' + Math.random().toString(36).substr(2, 8); // Random alphanumeric string of length 8
     var options = {
         // Set MQTT broker URL with secure WebSocket protocol
         // Format: "wss://<hostname>:<port>/mqtt"
