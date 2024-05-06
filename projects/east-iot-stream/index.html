@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCL East IoT Datastream - MQTT Messages</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Set black background */
+            color: green; /* Set green text color */
+            font-family: 'Courier New', Courier, monospace; /* Set font family */
+            line-height: 1.5; /* Adjust line height for better readability */
+            overflow: hidden; /* Hide scrollbars for all elements */
+        }
+
+        #mqtt-data {
+            padding: 20px; /* Add padding to the messages container */
+        }
+
+        #mqtt-data p {
+            margin: 0; /* Remove default margin for <p> tags */
+        }
+        #mqtt-data-count {
+            padding: 20px; /* Add padding to the messages container */
+            line-height: 1.5; /* Adjust line height for better readability */
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div id="mqtt-data-count"></div> 
+    <div id="mqtt-data"></div>
+
+
+    <script src="/assets/js/paho-mqtt-min.js"></script>
+    <script>
+
+        // Record the time when the page was loaded
+        var startTime = Date.now();
+
+
+        // Define MQTT broker host and port
+        var brokerHost = 'mqtt.cetools.org';
+        var brokerPort = 8081; // Assuming this is the WebSocket secure port
+    
+        // Define MQTT client options
+        var clientId = 'web-client-iot-io';
+        var clientId = 'web-client-' + Math.random().toString(36).substr(2, 8); // Random alphanumeric string of length 8
+        var options = {
+            // Set MQTT broker URL with secure WebSocket protocol
+            // Format: "wss://<hostname>:<port>/mqtt"
+            mqttVersion: 4, // Specify MQTT version 4
+            // Other options like userName, password, etc., if needed
+        };
+    
+        // Create an MQTT client instance
+        var client = new Paho.MQTT.Client('wss://' + brokerHost + ':' + brokerPort + '/mqtt', clientId);
+    
+        // MQTT client event handlers
+        client.onConnected = function (reconnect, uri) {
+            console.log('Connected to MQTT broker.');
+            // Subscribe to topics, publish messages, etc., as needed
+            topic = 'UCL/#'; // Replace with your topic
+            client.subscribe(topic);
+        };
+    
+        // Set MQTT client options
+        client.connect(options);
+    
+        // Array to store the last 30 messages
+        const messageHistory = [];
+
+        // array containing a list of sensor topics
+        var uniqueTopics = [];
+        counter = 0;
+    
+        // Callback when connection is successful
+        client.onConnectionLost = onConnectionLost;
+        client.onMessageArrived = onMessageArrived;
+    
+        function onConnectionLost(responseObject) {
+            if (responseObject.errorCode !== 0) {
+                console.log('Connection lost: ' + responseObject.errorMessage);
+            }
+        }
+    
+        function onMessageArrived(message) {
+            // Add the received message to the history if spacebar is not pressed
+            if (!spacebarPressed) {
+                messageHistory.unshift(message.topic); // Add to the beginning
+    
+                // Keep only the last 30 messages
+                if (messageHistory.length > 64) {
+                    messageHistory.pop(); // Remove the oldest
+                }
+
+                // Check if the topic is already in the list
+                if (!uniqueTopics.includes(message.topic)) {
+                    // If not, add it to the list
+                    uniqueTopics.push(message.topic);
+                }
+                
+                counter++;
+    
+                // Display the updated history
+                displayMessageHistory();
+            }
+        }
+    
+        function displayMessageHistory() {
+            mqttDataDiv = document.getElementById('mqtt-data');
+            mqttDataDiv.innerHTML = ''; // Clear existing content
+    
+            // Display messages in reverse order (newest first)
+            for (const msg of messageHistory) {
+                msgElement = document.createElement('p');
+                msgElement.textContent = msg;//.slice(0, 92); // Limit to 80 characters;
+                msgElement.style.marginBottom = '0.2em'; // Adjust spacing between rows
+                mqttDataDiv.appendChild(msgElement);
+            }
+
+            // Calculate the elapsed time since the page was loaded
+            var elapsedTime = Math.floor((Date.now() - startTime) / 1000); // in seconds
+
+            mqttDataCountDiv = document.getElementById('mqtt-data-count');
+            formattedCounter = counter.toLocaleString();
+            mqttDataCountDiv.innerHTML = '<b>UCL East Live IoT Datastream</b>';
+            mqttDataCountDiv.innerHTML += '<br>Messages received in the last ' + elapsedTime + ' seconds: ' + formattedCounter;
+            mqttDataCountDiv.innerHTML += '<br>Unique sensors monitored: ' + uniqueTopics.length;
+            
+
+        }
+    
+        // Variable to track if the spacebar is currently being pressed
+        let spacebarPressed = false;
+    
+        // Add event listeners for keydown and keyup events
+        document.addEventListener('keydown', function(event) {
+            // Check if the pressed key is the spacebar (key code 32)
+            if (event.keyCode === 32) {
+                // Set spacebarPressed to true
+                spacebarPressed = true;
+                // Prevent default action (scrolling)
+                event.preventDefault();
+            }
+        });
+    
+        document.addEventListener('keyup', function(event) {
+            // Check if the released key is the spacebar (key code 32)
+            if (event.keyCode === 32) {
+                // Set spacebarPressed to false
+                spacebarPressed = false;
+            }
+        });
+    
+    </script>
+    
+
+
+    </script> 
+    </body>
+    </html>
+    
