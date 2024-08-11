@@ -19,7 +19,7 @@ _SHIFT is working with innovators on everything from building materials made fro
 
 Lots of photos of the exhibits are on Flickr:
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/albums/72177720319461922" title="Urban Frontiers"><img src="https://live.staticflickr.com/65535/53893021861_83a6a3b11e_c.jpg" width="800" height="600" alt="Urban Frontiers"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/albums/72177720319461922" title="Urban Frontiers"><img src="https://live.staticflickr.com/65535/53893021861_83a6a3b11e_c.jpg" width="100%" alt="Urban Frontiers"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Note: pictures taken with Alice Camera mentioned in [last weeks post](https://www.iot.io/blog/2024/07/25/alice-camera.html)
 
