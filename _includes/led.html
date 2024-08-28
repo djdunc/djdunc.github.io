@@ -171,6 +171,9 @@
 
     // Function to send color to MQTT broker
     function breathe(neoring) {
+        
+        var neoring = document.getElementById("neopixelid").value;
+
         var message = {
         "method": "pulsewhite"
         };
