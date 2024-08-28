@@ -33,6 +33,7 @@
 <button onclick="setGradient()">Gradient (Red to Green)</button>
 <button onclick="clearColors()">Clear Colors</button>
 <button onclick="sendAllColors()">Send All Colors</button> 
+<button onclick="breathe()">Breathe</button> 
 
 <!-- this div is used to show the message being sent to MQTT -->
 <div ID="mqtt_message"></div>
@@ -167,6 +168,22 @@
         sendAllColorsToBroker();
         }
     }
+
+    // Function to send color to MQTT broker
+    function breathe(neoring) {
+        var message = {
+        "method": "pulsewhite"
+        };
+        
+        var topic = "student/CASA0014/light/" + neoring + "/all/";
+
+        var messageProperties = {
+            retain: true // Set retain flag to true so if arduino resets it will pick up last value
+        };
+
+        mqttSend(topic, JSON.stringify(message));
+    }
+
 
     // Function to send all colors to MQTT broker after connecting
     function mqttConnectAndSendAllColors() {
