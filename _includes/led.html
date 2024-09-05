@@ -33,7 +33,10 @@
 <button onclick="setGradient()">Gradient (Red to Green)</button>
 <button onclick="clearColors()">Clear Colors</button>
 <button onclick="sendAllColors()">Send All Colors</button> 
-<button onclick="breathe()">Breathe</button> 
+<button onclick="breathe()">PulseWhite</button> 
+<button onclick="demo()">Demo</button> 
+<button onclick="allRand()">All Random</button> 
+
 
 <!-- this div is used to show the message being sent to MQTT -->
 <div ID="mqtt_message"></div>
@@ -169,7 +172,26 @@
         }
     }
 
-    // Function to send color to MQTT broker
+    // Function to send breathe  to MQTT broker
+    function allRand(neoring) {
+        
+        var neoring = document.getElementById("neopixelid").value;
+
+        var message = {
+        "method": "allrandom"
+        };
+        
+        var topic = "student/CASA0014/light/" + neoring + "/all/";
+
+        var messageProperties = {
+            retain: true // Set retain flag to true so if arduino resets it will pick up last value
+        };
+
+        mqttSend(topic, JSON.stringify(message));
+    }
+
+
+    // Function to send breathe  to MQTT broker
     function breathe(neoring) {
         
         var neoring = document.getElementById("neopixelid").value;
@@ -187,7 +209,26 @@
         mqttSend(topic, JSON.stringify(message));
     }
 
+    // Function to send color to MQTT broker
+    function demo(neoring) {
+        
+        var neoring = document.getElementById("neopixelid").value;
 
+        var message = {
+        "spin": 12
+        };
+        
+        var topic = "student/CASA0014/light/" + neoring + "/demo/";
+
+        var messageProperties = {
+            retain: true // Set retain flag to true so if arduino resets it will pick up last value
+        };
+
+        mqttSend(topic, JSON.stringify(message));
+    }
+
+
+    
     // Function to send all colors to MQTT broker after connecting
     function mqttConnectAndSendAllColors() {
         var password = localStorage.getItem('mqttPassword') || ""; // Get password from localStorage
