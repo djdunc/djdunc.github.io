@@ -10,6 +10,7 @@ always open to suggestions...
 
 - 5 [PORT CHARLOTTE ISLAY BARLEY](https://www.amathusdrinks.com/b2c/port-charlotte-islay-barley) (2023 DW)
 - 5 [TALISKER PORT RUIGHE](https://www.amathusdrinks.com/b2c/talisker-port-ruighe) (2022 IM)
+- 5 [ISLE OF RAASAY](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt) (2024 DW)
 
 - 4 [GLENGLASSAUGH PEATED PORT WOOD FINISH](https://www.amathusdrinks.com/b2c/glenglassaugh-peated-port-wood-finish) (2023 DW)
 - 4 [ARDBEG UIGEADAIL](https://www.amathusdrinks.com/b2c/ardbeg-uigeadail) (2022 Kids)
