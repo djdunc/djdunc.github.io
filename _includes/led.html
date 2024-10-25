@@ -370,7 +370,7 @@
             //mqttClient.send(topic, message, true);
             var mqttMessage = new Paho.MQTT.Message(message);
             mqttMessage.destinationName = topic;
-            message.retained = true;
+            //message.retained = true;
             mqttClient.send(mqttMessage);
         }
     }
