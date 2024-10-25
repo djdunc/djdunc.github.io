@@ -204,7 +204,7 @@
         var topic = "student/CASA0014/light/" + neoring + "/all/";
 
         var messageProperties = {
-            retain: true // Set retain flag to true so if arduino resets it will pick up last value
+            retain: false // Set retain flag to false since this is a temporary value
         };
 
         mqttSend(topic, JSON.stringify(message));
@@ -222,7 +222,7 @@
         var topic = "student/CASA0014/light/" + neoring + "/demo/";
 
         var messageProperties = {
-            retain: true // Set retain flag to true so if arduino resets it will pick up last value
+            retain: false // Set retain flag to false since this is a temporary value
         };
 
         mqttSend(topic, JSON.stringify(message));
@@ -238,7 +238,7 @@
             var topic = "student/CASA0014/light/" + i + "/demo/";
 
             var messageProperties = {
-                retain: true // Set retain flag to true so if arduino resets it will pick up last value
+                retain: false // Set retain flag to false since this is a temporary value
             };
 
             mqttSend(topic, JSON.stringify(message));
