@@ -8,6 +8,28 @@ permalink: /ideas/
 
 Contact Duncan Wilson if you have ideas on how you could develop these projects.
 
+## When walls can talk [2025]
+CASA have two locations at UCL East and Bloomsbury. The objective of this project would be to test an interactive installation to ask the research question: do staff engage with ambient devices that communicate activity across dislocated offices? "a nabztag for offices rather than divorcees"
+
+## Building dashboard [2025]
+Is it possible to visualise the health of a building? This project will utilise live data from the building (energy usage, environment data, occupancy) to communicate a narrative for the performance of the systems that control our built environment. We are particularly interested in ways of communicating this information to a general audience.
+
+## At one with the building [2025] 
+A suspended VR experience driven by realtime data from the building. We have millions of zeros and ones that flow through our building representing the state of the space. In this project we want to explore how sitting in a hammock, suspended in space, can support alternative ways of experiencing that data (e.g. flowing with the data, playing with the data, hearing the data...)
+
+## Smart walls [2025]
+Build a reconfigurable work space that is parametric by design, can easily be manufactured in the LFW and supports sensing of space usage to allow for evaluation and adaption. Building on existing experimentation at Moorfields Eye Hospital (pop up eye clinics) this project would develop a reconfigurable and integrated space design system monitored using an iteration of the CE COACH sensor platform.
+
+
+## Algal blooms [2025] (a collaboration with Izzy Bishop in CBER)
+Pollution in rivers from sewage and agriculture can lead to a buildup of algae that coats rocks and plants and can be harmful to wildlife. These algal blooms can be short-lived or persistent but are difficult to detect and predict. What types of sensors/systems could be used to detect and quantify algal blooms in real time?
+ 
+## Aquatic plants [2025] (a collaboration with Izzy Bishop in CBER)
+Submerged aquatic plants provide important food and habitat in freshwater systems but they are notoriously challenging to survey. Recent advances in bioacoustics suggest that submerged plants make detectable noises as they photosynthesise. Is it possible to use these noises to identify different species? Can they help to quantify plant biomass? What types of data could be collected using bioacoustics, and how could acoustic sensors be practically deployed to collect meaningful data?
+
+<hr>
+<hr>
+
 ## Ambient portals [2024]
 CASA have two locations at UCL East and Bloomsbury. The objective of this project would be to test an interactive installation to ask the research question: do staff engage with ambient devices that communicate activity across dislocated offices? "a nabztag for offices rather than divorcees"
 
@@ -25,6 +47,9 @@ A suspended VR experience driven by realtime data from the building. We have mil
 
 ## Smart walls [2024]
 Build a reconfigurable work space that is parametric by design, can easily be manufactured in the LFW and supports sensing of space usage to allow for evaluation and adaption. Building on existing experimentation at Moorfields Eye Hospital (pop up eye clinics) this project would develop a reconfigurable and integrated space design system monitored using an iteration of the CE COACH sensor platform.
+
+<hr>
+<hr>
 
 ## Patient Journeys in a Pop Up eye clinic [2023]
 CASA have been working with Moorfields Eye Hospital to explore the potential for the use of pop-up eye clinics in retail outlets (Brent Cross) to catch up on COVID appointment backlog. Time motion data (x,y data ever 10 seconds) from approximately 4000 patient journies and 4 different activity layouts are available. This project would explore different ways of analysing trends in patient throughput over time and space. Requires data visualisation to inform communication of trends and or data analysis to extract meaning from the data.
@@ -48,6 +73,12 @@ Water height in the waterways around the Queen Elizabeth Olympic Park provide ri
 
 ## Internet of Things Dashboard [2023]
 In Connected Environments we have a large number of IoT sensors and gateways deployed in the building, around the park and across London. This project will create a visual representation that is part art work / part digital dashboard to help staff and students understand the current status of devices. A secondary aim of the project is to create a reporting tool to allow for the better management of those services. 
+
+## Counting People with mmWave sensors [2023]
+Accurately detecting the presence of people while maintaining privacy of identity are the potential benefits of using mmWave sensor technology. This project will explore the development of a novel modular sensor unit that can be implemented to support understanding of space usage.
+
+<hr>
+<hr>
 
 ## EchoPiBox Passive Acoustic Monitor v2 [2022]
 CASA have a number of bat monitors in the Queen Elizabeth Olympic Park that have been counting bat calls since 2017. In this research project we are interested in developing a v2 of the Bat Monitor. The project would focus on implementing a new device using AudioMoth as a sensor plus Raspberry Pi as host for deep learning models to classify bat calls. Knowledge of Edge Impulse and or TensorFlow Lite required. Whilst initial focus is on bats the device could also be used to detect bird calls (using Birdnet model).
@@ -85,31 +116,25 @@ Project Brief: We are using Google's edge TPU in our camera so edge computing pr
 To estimate how much photovoltaic energy will be produced, we first need to know where the solar PV systems are. At the moment this is not well known in the UK for all but the largest solar PV systems - particularly domestic systems are poorly documented. This project would develop a methods for citizen scientists to monitor solar potential in their locale.
 
 
-## ~~Did the bats Lockdown? [2022]~~
-~~CASA have a number of bat monitors in the Queen Elizabeth Olympic Park that have been counting bat calls since 2017. In this research project we are interested in exploring how to visualise changing calls volumes given environmental conditions (climate, events, seasons).~~
+## Did the bats Lockdown? [2022]
+CASA have a number of bat monitors in the Queen Elizabeth Olympic Park that have been counting bat calls since 2017. In this research project we are interested in exploring how to visualise changing calls volumes given environmental conditions (climate, events, seasons).
 
-~~Dataset: available - approx 8 bat monitors (bat counts and probability of bat type), 1 weather station (usual weather parameters), event information (concerts, events etc)~~
+Dataset: available - approx 8 bat monitors (bat counts and probability of bat type), 1 weather station (usual weather parameters), event information (concerts, events etc)
 
-~~www.naturesmartcities.com~~
+www.naturesmartcities.com
 
+## IoT Bike Lockers - Active Things [2022]
 
-## ~~Counting People with mmWave sensors [2023]~~
-~~Accurately detecting the presence of people while maintaining privacy of identity are the potential benefits of using mmWave sensor technology. This project will explore the development of a novel modular sensor unit that can be implemented to support understanding of space usage.~~
+https://activethings.app
 
+https://twitter.com/doactivethings/
 
+We are working with Scott Cain (Honorary Senior Research Fellow) Founder and CEO of Active Things.  “Active Things is your Active Travel Assistant, helping you find and access (secure) bike parking, routes and more.”
 
-## ~~IoT Bike Lockers - Active Things [2022]~~
+The goal of this project is to identify and map the potential locations in London where cyclists may want to stop and secure their bike for 30 mins to 2 hours. With cycle theft on a continued upwards spiral there is a need for more secure urban parking for bikes. Active Things provide remotely accessible secure bike storage which you pay for by the minute. This is not aimed at storage at home or in the office (which are increasingly well catered for) but the intermediate journeys cyclists would like to make on their bikes – e.g. stopping at the pub for an hour on the way home, calling in at the gym, stopping to pick up some shopping etc. Research by Active Things indicates that risk of theft puts off many cyclists making these intermediate journeys and has a negative impact on cycle use (ie they don’t use the bike if they plan to go to the pub.
 
-~~https://activethings.app~~
+Research question: where should the first 1000 lockers be installed to best cater to these intermediate journeys? What kind of profile of use could be imagined in terms of daily usage patterns? Do the current deployments of bike racks match the need for secure parking?
 
-~~https://twitter.com/doactivethings/~~
+Active Things are also interested in prototype smart lock systems that could be used with their existing cycle storage systems.
 
-~~We are working with Scott Cain (Honorary Senior Research Fellow) Founder and CEO of Active Things.  “Active Things is your Active Travel Assistant, helping you find and access (secure) bike parking, routes and more.”~~
-
-~~The goal of this project is to identify and map the potential locations in London where cyclists may want to stop and secure their bike for 30 mins to 2 hours. With cycle theft on a continued upwards spiral there is a need for more secure urban parking for bikes. Active Things provide remotely accessible secure bike storage which you pay for by the minute. This is not aimed at storage at home or in the office (which are increasingly well catered for) but the intermediate journeys cyclists would like to make on their bikes – e.g. stopping at the pub for an hour on the way home, calling in at the gym, stopping to pick up some shopping etc. Research by Active Things indicates that risk of theft puts off many cyclists making these intermediate journeys and has a negative impact on cycle use (ie they don’t use the bike if they plan to go to the pub.~~
-
-~~Research question: where should the first 1000 lockers be installed to best cater to these intermediate journeys? What kind of profile of use could be imagined in terms of daily usage patterns? Do the current deployments of bike racks match the need for secure parking?~~
-
-~~Active Things are also interested in prototype smart lock systems that could be used with their existing cycle storage systems.~~
-
-~~Data: Active Things are currently the provider of the TfL bike mapping service. They have expressed intent to share research findings from surveys interviews and feedback from users over the past year.~~
+Data: Active Things are currently the provider of the TfL bike mapping service. They have expressed intent to share research findings from surveys interviews and feedback from users over the past year.
