@@ -20,7 +20,6 @@ A suspended VR experience driven by realtime data from the building. We have mil
 ## Smart walls [2025]
 Build a reconfigurable work space that is parametric by design, can easily be manufactured in the LFW and supports sensing of space usage to allow for evaluation and adaption. Building on existing experimentation at Moorfields Eye Hospital (pop up eye clinics) this project would develop a reconfigurable and integrated space design system monitored using an iteration of the CE COACH sensor platform.
 
-
 ## Algal blooms [2025] (a collaboration with Izzy Bishop in CBER)
 Pollution in rivers from sewage and agriculture can lead to a buildup of algae that coats rocks and plants and can be harmful to wildlife. These algal blooms can be short-lived or persistent but are difficult to detect and predict. What types of sensors/systems could be used to detect and quantify algal blooms in real time?
  
