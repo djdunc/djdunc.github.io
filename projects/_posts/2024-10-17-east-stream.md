@@ -18,3 +18,5 @@ A quick project from a few months back that never quite made it to the blog. We 
 This quick javascript page displays a live feed with running totals of sensors seen since the page opened. Press the space bar to pause the stream.
 
 [https://www.iot.io/projects/east-iot-stream/](https://www.iot.io/projects/east-iot-stream/)
+
+Update (20th Nov 24): Steve also created this one [https://mqtt-live.cetools.org](https://mqtt-live.cetools.org)
