@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <p>{{ page.title }} - weekly updates on things seen or heard</p>
   {%- endif -%}
 
   {% if site.paginate %}
@@ -25,7 +25,7 @@ permalink: /blog/
       {%- for post in posts -%}
       <li>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link-big" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
           <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -35,7 +35,7 @@ permalink: /blog/
           {{ post.excerpt }}
         {%- endif -%}
         <a href="{{ post.url | relative_url }}">
-          <i>(link to more...)</i>
+          <i>(click to see more...)</i>
         </a>        
       </li>
 

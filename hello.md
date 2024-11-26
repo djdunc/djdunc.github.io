@@ -4,6 +4,14 @@ title: Hello
 permalink: /hello/
 ---
 
+ <figure>
+  <img src="/assets/img/chamonix2019.webp" alt="Chamonix 2019"/>
+  <figcaption>Chamonix 2019</figcaption>
+ </figure>
+
+<hr>
+
+
 <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
 </header>

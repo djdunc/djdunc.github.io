@@ -3,19 +3,13 @@ layout: base
 ---
 
 <div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
 
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {% for post in site.posts limit:1 %}
     <li>
       <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link-big" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -30,6 +24,7 @@ layout: base
     {%- endfor -%}
   </ul>
 
+  {{ content }}
 
 
 </div>

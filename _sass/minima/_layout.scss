@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  border-top: 5px solid $border-color-01;
+  border-bottom: 1px solid $border-color-03;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -122,8 +122,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $border-color-01;
+  border-top: 1px solid $border-color-03;
   padding: $spacing-unit 0;
+  background-color: rgb(0, 0, 0);
 }
 
 .footer-heading {
@@ -232,7 +233,14 @@
   @include relative-font-size(1.5);
 }
 
-
+.post-link-big {
+  display: block;
+  @include relative-font-size(3.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  line-height: 0.9;
+  
+}
 
 /**
  * Posts
@@ -296,7 +304,7 @@
     a {
       display: block;
       padding: 10px 12px;
-      border: 1px solid $border-color-01;
+      border: 1px solid $border-color-03;
       &:hover { border-color: $border-color-02 }
     }
   }
