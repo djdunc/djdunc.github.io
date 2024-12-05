@@ -19,7 +19,7 @@ The immersive environment at Frameless was a very different way to experience so
 
 What stood out to me most about the visit was how relaxing it felt. Moving through the space at a steady rate, dictated by the length of the animation loops, with the combination of visuals and sound, created a calming atmosphere. Unlike some traditional art experiences, there was no pressure to interpret or analyze—just an opportunity to take it in and enjoy. It felt like a great example of how thoughtful design can make culture more accessible and enjoyable. 
 
-I also came away with some ideas for ambient data projections in the lab... Well worth a visit if you get chance.
+I also came away with some ideas for ambient data projections in the lab... Well worth a visit if you get chance. 
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54182843988/in/datetaken/" title="Frameless"><img src="https://live.staticflickr.com/65535/54182843988_fbbc21c528_c.jpg" width="100%" alt="Frameless"/></a>
 
