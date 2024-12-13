@@ -42,5 +42,3 @@ Photos on Flickr from the ones I missed:
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54201957610/in/datetaken/" title="SDV module crits"><img src="https://live.staticflickr.com/65535/54201957610_ae07233850_c.jpg" width="100%" alt="SDV module crits"/></a>
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54201774233/in/datetaken/" title="SDV module crits"><img src="https://live.staticflickr.com/65535/54201774233_8321cb3e70_c.jpg" width="100%" alt="SDV module crits"/></a>
-
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54200628772/in/datetaken/" title="Stratford Radar Station"><img src="https://live.staticflickr.com/65535/54200628772_d940ce99ec_c.jpg" width="100%" alt="Stratford Radar Station"/></a>
