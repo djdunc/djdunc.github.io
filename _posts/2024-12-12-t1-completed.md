@@ -19,7 +19,7 @@ I am not sure if the smiles are relief that it is the end of the presentations o
 
 I only managed to catch half the presentations this year but the ones I saw were excellent - from Harry Potter inspired magic books telling stories about room usage in our buildings to Jonny Ive inspired radar stations showing information on train arrivals at Stratford station. Some really good examples of physical displays and augmented realities.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54201531666/in/datetaken/" title="BOOC booking occupancy"><img src="https://live.staticflickr.com/65535/54201531666_d7661dac03_c.jpg" width="100%" alt="BOOC booking occupancy"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54200628772/in/datetaken/" title="Stratford Radar Station"><img src="https://live.staticflickr.com/65535/54200628772_d940ce99ec_c.jpg" width="100%" alt="Stratford Radar Station"/></a>
 Stratford Radar Station
 
 
