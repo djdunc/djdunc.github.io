@@ -4,7 +4,7 @@ title: Whiskey
 permalink: /whiskey/
 ---
 
-## Whiskey, a place to start remembering what I drank, ordered by what liked.
+## Whiskey, a place to start remembering what I drank, ordered by what I liked.
 
 always open to suggestions...
 
