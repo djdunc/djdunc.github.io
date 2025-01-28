@@ -8,25 +8,43 @@ permalink: /ideas/
 
 Contact Duncan Wilson if you have ideas on how you could develop these projects.
 
-## When walls can talk [2025]
-CASA have two locations at UCL East and Bloomsbury. The objective of this project would be to test an interactive installation to ask the research question: do staff engage with ambient devices that communicate activity across dislocated offices? "a nabztag for offices rather than divorcees"
+## At one with the building [2025] 
+A suspended VR experience driven by realtime data from the building. We have millions of zeros and ones that flow through our building representing the state of the space. In this project we want to explore how sitting in a hammock, suspended in space, can support alternative ways of experiencing that data (e.g. flowing with the data, playing with the data, hearing the data...)
+
+## Sonic Flora Underwater [2025]
+This project focuses on decoding the sounds of aquatic plant growth. Submerged aquatic plants provide important food and habitat in freshwater systems but they are notoriously challenging to survey. Recent advances in bioacoustics suggest that submerged plants make detectable noises as they photosynthesise. Is it possible to use these noises to identify different species? Can they help to quantify plant biomass? What types of data could be collected using bioacoustics, and how could acoustic sensors be practically deployed to collect meaningful data? Initial experimentation in the pond in the Nature Smart Garden at OPS.
+(A collaboration with Izzy Bishop in CBER)
+
+## Geodesic LED Dome [2025]
+We like NeoPixels and Geodesic domes - we are interested in creative ways that light and shape can communicate and engage. We have a 4m diameter geodesic dome with 1500 LED’s – how could this be used to create an interactive installation that tells a story about what is happening on the 1PS roof garden or as a building interface on the 3rd floor terrace or reception of the building? 
+
+## Sun-Ray Seer [2025]
+This project explores using IoT, a camera, and Optical Character Recognition (OCR) on an Arduino platform to develop a novel system for monitoring the energy output of a solar PV array. By integrating a camera with OCR capabilities, the system will automatically capture and interpret the readings displayed on the energy meter. This real-time data acquisition will be transmitted wirelessly through an IoT network, enabling remote monitoring and analysis of energy generation patterns. 
+
+## Paddle, Probe, Protect [2025]
+This project combines the kayaking with environmental science to assess and protect river ecosystems. By equipping a kayak with geolocated sensors, this initiative enables monitoring of critical water quality indicators such as pH, turbidity, dissolved oxygen, and temperature. Paddling up the River Lea, it "probes" the water to detect pollution hotspots and maps river health, empowering communities and policymakers with actionable insights. The ultimate goal is to raise awareness, drive conservation efforts, and ensure that rivers remain vibrant ecosystems for future generations. Paddle, probe, protect: science in motion. 
+
+## Lido Thermal Pulse [2025]
+This project aims to develop and deploy an IoT device to monitor pool water temperature at a local lido. By integrating this device into an IoT system, we will investigate the potential for energy savings through optimized pool heating strategies. Working closely with the local council and user groups, we will explore effective methods for communicating vital data and identifying user needs to ensure the system's successful implementation and long-term sustainability. 
 
 ## Building dashboard [2025]
 Is it possible to visualise the health of a building? This project will utilise live data from the building (energy usage, environment data, occupancy) to communicate a narrative for the performance of the systems that control our built environment. We are particularly interested in ways of communicating this information to a general audience.
 
-## At one with the building [2025] 
-A suspended VR experience driven by realtime data from the building. We have millions of zeros and ones that flow through our building representing the state of the space. In this project we want to explore how sitting in a hammock, suspended in space, can support alternative ways of experiencing that data (e.g. flowing with the data, playing with the data, hearing the data...)
+## Algal blooms [2025] 
+Pollution in rivers from sewage and agriculture can lead to a buildup of algae that coats rocks and plants and can be harmful to wildlife. These algal blooms can be short-lived or persistent but are difficult to detect and predict. What types of sensors/systems could be used to detect and quantify algal blooms in real time?
+(A collaboration with Izzy Bishop in CBER)
+
+## When walls can talk [2025]
+CASA have two locations at UCL East and Bloomsbury. The objective of this project would be to test an interactive installation to ask the research question: do staff engage with ambient devices that communicate activity across dislocated offices? "a nabztag for offices rather than divorcees"
 
 ## Smart walls [2025]
 Build a reconfigurable work space that is parametric by design, can easily be manufactured in the LFW and supports sensing of space usage to allow for evaluation and adaption. Building on existing experimentation at Moorfields Eye Hospital (pop up eye clinics) this project would develop a reconfigurable and integrated space design system monitored using an iteration of the CE COACH sensor platform.
 
-## Algal blooms [2025] (a collaboration with Izzy Bishop in CBER)
-Pollution in rivers from sewage and agriculture can lead to a buildup of algae that coats rocks and plants and can be harmful to wildlife. These algal blooms can be short-lived or persistent but are difficult to detect and predict. What types of sensors/systems could be used to detect and quantify algal blooms in real time?
- 
-## Aquatic plants [2025] (a collaboration with Izzy Bishop in CBER)
-Submerged aquatic plants provide important food and habitat in freshwater systems but they are notoriously challenging to survey. Recent advances in bioacoustics suggest that submerged plants make detectable noises as they photosynthesise. Is it possible to use these noises to identify different species? Can they help to quantify plant biomass? What types of data could be collected using bioacoustics, and how could acoustic sensors be practically deployed to collect meaningful data?
 
 <hr>
+
+Past Project Ideas - kept for posterity
+
 <hr>
 
 ## Ambient portals [2024]
