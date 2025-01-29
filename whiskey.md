@@ -10,6 +10,7 @@ always open to suggestions...
 
 - 5 [PORT CHARLOTTE ISLAY BARLEY](https://www.amathusdrinks.com/b2c/port-charlotte-islay-barley) (2023 DW)
 - 5 [TALISKER PORT RUIGHE](https://www.amathusdrinks.com/b2c/talisker-port-ruighe) (2022 IM)
+- 5 [ISLE OF RAASAY CASK STRENGTH](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt-cask-strength-2024) (2025 DW)
 - 5 [THE HAKUSHU](https://www.amathusdrinks.com/b2c/suntory-hakushu-distiller-s-reserve) (2024 Pete)
 - 5 [ISLE OF RAASAY](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt) (2024 DW)
 
