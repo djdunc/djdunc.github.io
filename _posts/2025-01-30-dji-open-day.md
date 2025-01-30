@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DJI Matrice 4 - demo day"
-date:   2025-01-30 10:00:00 +0100
+date:   2025-01-30 09:00:00 +0100
 excerpt_separator: <!--more-->
 tags: teaching
 category: blog 
