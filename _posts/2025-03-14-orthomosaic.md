@@ -40,7 +40,7 @@ Orthomosaic 1
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54386835394/in/datetaken/" title="orthomosaic1"><img src="https://live.staticflickr.com/65535/54386835394_f40e42756a_c.jpg" width="100%" alt="orthomosaic1"/></a>
 
 Orthomosaic 2 - zooming in
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54386835394/in/datetaken/" title="orthomosaic1"><img src="https://live.staticflickr.com/65535/54386835394_f40e42756a_c.jpg" width="100%" alt="orthomosaic1"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54386647851/in/datetaken/" title="orthomosaic2"><img src="https://live.staticflickr.com/65535/54386647851_5426a87dda_c.jpg" width="100%"  alt="orthomosaic2"/></a>
 
 Orthomosaic 3 - zooming in futher
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54385764807/in/datetaken/" title="orthomosaic3"><img src="https://live.staticflickr.com/65535/54385764807_1aab1434e5_c.jpg" width="100%" alt="orthomosaic3"/></a>
