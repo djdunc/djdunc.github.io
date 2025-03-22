@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Transdisciplinary"
-date:   2025-03-14 09:00:00 +0100
+date:   2025-03-21 09:00:00 +0100
 excerpt_separator: <!--more-->
 tags: research
 category: blog 
