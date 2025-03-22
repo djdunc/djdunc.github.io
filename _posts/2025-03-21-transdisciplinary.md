@@ -17,7 +17,7 @@ One of those weeks where you don't think you have got much done, but in reality 
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54402240721/in/datetaken/" title="Matt Jones"><img src="https://live.staticflickr.com/65535/54402240721_efb178d97a_c.jpg" width="100%" alt="Matt Jones"/></a>
 
-I joined the first of four workshops with the [MOSAIC researchers](https://morethanhuman.net)  a "_four-year programme of collaborative, interdisciplinary, and cross-sectoral research and innovation that will deliver a step‑change in how we design, plan and build our cities for thriving multispecies cohabitation._" - out focus was Spitalfields City Farm which was lovely on a bizarelly warm March day in London. Was also great to hear about progress on the [East London Waterworks Park](https://www.elwp.org.uk/Home.htm).
+I joined the first of four workshops with the [MOSAIC researchers](https://morethanhuman.net)  a "_four-year programme of collaborative, interdisciplinary, and cross-sectoral research and innovation that will deliver a step‑change in how we design, plan and build our cities for thriving multispecies cohabitation._" - out focus was Spitalfields City Farm which was lovely on a bizarrely warm March day in London. Was also great to hear about progress on the [East London Waterworks Park](https://www.elwp.org.uk/Home.htm).
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54401353867/in/datetaken/" title="Spitalfields City Farm"><img src="https://live.staticflickr.com/65535/54401353867_62788f96d5_c.jpg" width="100%" alt="Spitalfields City Farm"/></a>
 
