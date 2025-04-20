@@ -13,7 +13,7 @@ Am always keen to understand how we can get the most out of the energy available
 
 <!--more-->
 
-First up the solar. This was installed in Dec 2018 and has probably been cleaned a couple of times. Am never sure what difference cleaning the panels make but since the windows and van were covered in [London Sharan Dust](https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/wind/saharan-dust) I thought I would do a little experimentation to look at the difference over 2 sunny days this week. Climbing out the velux window to climb on to the flat roof above always causes some worries in the household. I also need to work out a better way to get water onto the roof - a reminder to self to drop a hose pipe down from the roof next time.
+First up the solar. This was installed in Dec 2018 and has probably been cleaned a couple of times. Am never sure what difference cleaning the panels make but since the windows and van were covered in [London Saharan Dust](https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/wind/saharan-dust) I thought I would do a little experimentation to look at the difference over 2 sunny days this week. Climbing out the velux window to climb on to the flat roof above always causes some worries in the household. I also need to work out a better way to get water onto the roof - a reminder to self to drop a hose pipe down from the roof next time.
 
 Here are a couple of before and after photos:
 
