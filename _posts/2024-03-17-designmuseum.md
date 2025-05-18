@@ -59,7 +59,7 @@ All in all and afternoon well spent. We hope the students walked away with some 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588455170/in/datetaken/" title="Skateboard"><img src="https://live.staticflickr.com/65535/53588455170_b41b5fa5ea_c.jpg" width="100%" alt="Skateboard"/></a>
 Skateboard
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588327464/in/datetaken/" title="Adverts as art"><img src="https://live.staticflickr.com/65535/53588327464_dbf32b413c_c.jpg" width="100%"alt="Adverts as art"/></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588327464/in/datetaken/" title="Adverts as art"><img src="https://live.staticflickr.com/65535/53588327464_dbf32b413c_c.jpg" width="100%" alt="Adverts as art"/></a>
 Adverts as Art
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/53588451660/in/datetaken/" title="Adverts as art"><img src="https://live.staticflickr.com/65535/53588451660_e20f78ff6b_c.jpg" width="100%" alt="Adverts as art"/></a>
