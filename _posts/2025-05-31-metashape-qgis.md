@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Metashape, QGIS mapping orthos"
+title:  "Metashape, QGIS, Orthos"
 date:   2025-05-31 09:00:00 +0100
 excerpt_separator: <!--more-->
 tags: research
