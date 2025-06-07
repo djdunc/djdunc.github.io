@@ -9,9 +9,7 @@ permalink: /2010/03/09/the-well-connected-city/
 tags:
     - IoT
     - 'ubiquitous computing'
-tags:
-    - conference
-    - SENSEI
+
 ---
 
 I spent the day at Imperial College Business School as part of a [Design London](http://www.designlondon.net/) and [Living Labs Global](http://www.livinglabs-global.com/) event to bring together the tech and public sectors to talk about connected cities and to launch the Living Labs Global report Connected Cities Handbook – “a book about opportunity and frustration” (Sasha Haselmayer)

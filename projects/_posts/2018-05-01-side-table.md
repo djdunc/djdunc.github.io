@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-side-table-close.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Woodwork
+    - woodwork
 ---
 
 Side table made from a plank of walnut gifted from a neighbour.

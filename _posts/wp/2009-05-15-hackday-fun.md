@@ -8,8 +8,7 @@ guid: 'http://beta.driversofchange.com/emtech/2009/05/15/hackday_fun/'
 permalink: /2009/05/15/hackday-fun/
 tags:
     - convergence
-    - innovation
-    - 'processing and arduino'
+
 ---
 
 I spent the weekend at the [Yahoo Hackday](http://openhacklondon.pbworks.com/) last week. As [Crave](http://crave.cnet.co.uk/software/0,39029471,49302231,00.htm) puts it

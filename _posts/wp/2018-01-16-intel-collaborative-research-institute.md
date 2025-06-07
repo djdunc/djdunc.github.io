@@ -9,10 +9,9 @@ permalink: /2018/01/16/intel-collaborative-research-institute/
 video_url:
     - ''
 image: /wp-content/uploads/2019/11/IMG_1095-e1573347410306.jpg
-tags:
-    - IoT
-    - 'research and funding'
-    - Uncategorized
+tags: 
+    - research
+    - publication
 format: image
 ---
 

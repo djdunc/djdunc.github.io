@@ -3,7 +3,9 @@ layout: post
 title:  "Home Energy Grafana"
 date:   2024-02-24 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: energy solar grafana
+tags: 
+    - research
+    - making
 category: blog 
 ---
 

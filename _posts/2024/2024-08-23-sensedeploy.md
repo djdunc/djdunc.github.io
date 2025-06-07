@@ -3,7 +3,9 @@ layout: post
 title:  "Sense Deploy Communicate"
 date:   2024-08-23 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: MSc
+tags: 
+    - casa
+    - teaching
 category: blog 
 ---
 

@@ -6,15 +6,8 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/10/26/inta_34_world_urban_developmen/'
 permalink: /2010/10/26/inta-34-world-urban-developmen/
-tags:
-    - IoT
-    - 'research and funding'
-    - 'ubiquitous computing'
-tags:
-    - conference
-    - 'internet of things'
-    - SENSEI
-    - Spain
+tags: events
+
 ---
 
 I presented our work on the [Internet of Things](http://blogs.driversofchange.com/emtech/2010/09/iot-expert-group.html) at [INTA34](http://www.inta34.org/) yesterday. The theme was “Reinventing the Urban Environment” and discussion ranged from the philosophical to the practical and was interspersed with examples of work in progress (e.g. the nearby Port of Pasaia).

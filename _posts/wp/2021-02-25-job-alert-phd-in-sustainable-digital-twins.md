@@ -7,10 +7,8 @@ layout: post
 guid: 'https://www.iot.io/?p=2368'
 permalink: /2021/02/25/job-alert-phd-in-sustainable-digital-twins/
 image: /wp-content/uploads/2021/02/image-scaled.jpeg
-tags:
-    - blog
-    - IoT
-category: CASA
+tags: job
+category: blog
 format: image
 ---
 

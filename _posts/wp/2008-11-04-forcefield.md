@@ -7,9 +7,8 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/11/04/forcefield/'
 permalink: /2008/11/04/forcefield/
 tags:
-    - Uncategorized
-tags:
-    - bop
+    - photos
+
 ---
 
 A new [lighting installation](http://www.flickr.com/photos/pseudonomad/3000250089/) is up and running in Phase 2 at 8 Fitzroy Street. Worth taking a look if you get the chance.

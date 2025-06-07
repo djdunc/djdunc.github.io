@@ -8,6 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2010/07/09/ove_arup_key_speech/'
 permalink: /2010/07/09/ove-arup-key-speech/
 tags:
     - 'drivers of change'
+    - how to work
+    - publication
 ---
 
 ![](http://arup.com/~/media/Images/Publications/Corporate/The_Key_Speech_170x170.ashx)It is 40 years today since Ove Arup presented the “[Key Speech](http://arup.com/Publications/The_Key_Speech.aspx)” in Winchester. I can remember reading it in late 1999 before I joined the firm and cynically thinking what a great leaders pitch. But within a year, and maybe through working on projects like the [wobbly](http://vimeo.com/6804670) [bridge](http://www.arup.com/millenniumBridge/), I observed that most of what he wrote is actually embedded in the culture of Arup.

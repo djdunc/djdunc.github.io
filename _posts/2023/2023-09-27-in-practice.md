@@ -3,7 +3,9 @@ layout: post
 title:  "In Practice One"
 date:   2023-09-27 16:41:12 +0100
 excerpt_separator: <!--more-->
-tags: CE
+tags: 
+    - teaching
+    - casa
 category: blog 
 ---
 

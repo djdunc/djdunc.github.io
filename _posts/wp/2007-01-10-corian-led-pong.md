@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/01/10/corian_led_pong/'
 permalink: /2007/01/10/corian-led-pong/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 [![](https://i0.wp.com/www.waldemeyer.com/images/dupont/DSC_0041.jpg?w=400)](http://www.waldemeyer.com/dupont.htm "Corian")

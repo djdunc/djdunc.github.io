@@ -7,7 +7,7 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/09/parallax_ultrasounder_on_flick/'
 permalink: /2006/08/09/parallax-ultrasounder-on-flick/
 tags:
-    - 'processing and arduino'
+    - 'arduino'
 ---
 
 Just back from 2 days with [Artificialtourism](http://www.artificialtourism.com/) getting some hands on experience with Arduino. After a morning of intros to Arduino, basic does and don’ts and looking at sensors available we got onto building some prototypes. First up was using a tri colour LED ([see Farnell](http://uk.farnell.com/jsp/endecaSearch/partDetail.jsp?SKU=1168585&N=401)) with a simple cross fade app (from examples in Arduino).

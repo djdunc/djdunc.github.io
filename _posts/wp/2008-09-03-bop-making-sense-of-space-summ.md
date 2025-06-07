@@ -8,10 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2008/09/03/bop_making_sense_of_spa
 permalink: /2008/09/03/bop-making-sense-of-space-summ/
 tags:
     - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
-tags:
-    - bop
+
 ---
 
 BOP – Making Sense of Space was a £1 million, two-year, multidisciplinary project, funded by the UK government’s Technology Strategy Board. It investigated how ubiquitous computing, using wireless sensor networks (WSN), could be used to create a better understanding of the creative workplace. The project ended in December last year but I am still finalising the last few \*project management\* items.

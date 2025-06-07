@@ -9,7 +9,7 @@ permalink: /2009/07/28/ted-global-the-substance-of-th/
 tags:
     - convergence
     - 'drivers of change'
-    - innovation
+
 ---
 
 Just back from my first [TED](http://conferences.ted.com/TEDGlobal2009/). Have [watched the videos over the past couple of years](http://www.ted.com/) and have [heard first hand accounts from past participants](http://innovationforum.spy.co.uk/Conferences09Redux/), so was looking forward to living it in real time.

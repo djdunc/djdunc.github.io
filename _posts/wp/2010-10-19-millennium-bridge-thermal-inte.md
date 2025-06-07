@@ -8,11 +8,7 @@ guid: 'http://beta.driversofchange.com/emtech/2010/10/19/millennium_bridge_therm
 permalink: /2010/10/19/millennium-bridge-thermal-inte/
 tags:
     - 'making invisible visible'
-    - 'processing and arduino'
-tags:
-    - 'phase 2'
-    - processing
-    - 'thermal images'
+
 ---
 
 ‘A Day in the Life of the Millennium Bridge’ by [Joseph Giacomin](http://www.perceptionenhancement.com/) was a collaboration between myself, Joseph and [Kaveh Shirdel](http://www.kavehshirdel.com/) as part of the new exhibition in Arup Phase 2 called [Bridge Stories](http://www.arup.com/News/Events_and_exhibitions/Bridge_Stories.aspx#!).

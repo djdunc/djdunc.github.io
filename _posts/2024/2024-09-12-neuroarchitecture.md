@@ -3,7 +3,7 @@ layout: post
 title:  "NeuroArchitecture at UCL PEARL"
 date:   2024-09-12 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: livinglabs
+tags: events
 category: blog 
 ---
 

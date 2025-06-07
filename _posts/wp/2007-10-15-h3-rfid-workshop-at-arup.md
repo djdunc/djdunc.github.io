@@ -7,7 +7,7 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/10/15/h3_rfid_workshop_at_arup/'
 permalink: /2007/10/15/h3-rfid-workshop-at-arup/
 tags:
-    - 'processing and arduino'
+    - 'arduino'
 tags:
     - bop
 ---

@@ -3,7 +3,9 @@ layout: post
 title:  "Allotmenting"
 date:   2023-11-04 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: making
+tags: 
+    - home
+    - how to work
 category: blog 
 ---
 

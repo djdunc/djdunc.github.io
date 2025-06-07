@@ -3,7 +3,7 @@ layout: post
 title:  "Gaia inflates"
 date:   2023-09-17 16:41:12 +0100
 excerpt_separator: <!--more-->
-tags: Timelapse Marshgate
+tags: photos
 category: blog 
 ---
 

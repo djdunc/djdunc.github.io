@@ -3,8 +3,14 @@ layout: post
 title:  "Cities in the Metaverse"
 date:   2025-06-07 08:00:00 +0100
 excerpt_separator: <!--more-->
-tags: publication
-category: blog 
+
+# tags: try to choose one or two from these
+# events, research, teaching, publication, making, arduino, casa, 
+# hardware, job, book, convergence, stuff, how to work, photos, travel
+tags: publication  
+
+
+category: blog  
 ---
 
 ![Book cover by Andy](/assets/img/blog/metaverse.jpg)

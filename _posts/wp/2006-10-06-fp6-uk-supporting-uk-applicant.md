@@ -8,8 +8,6 @@ guid: 'http://beta.driversofchange.com/emtech/2006/10/06/fp6_uk_supporting_uk_ap
 permalink: /2006/10/06/fp6-uk-supporting-uk-applicant/
 tags:
     - 'research and funding'
-tags:
-    - SENSEI
 ---
 
 [![](https://i0.wp.com/fp6uk.ost.gov.uk/images/fp7/home_logo.gif?w=100)](http://fp6uk.ost.gov.uk/Default.aspx "FP6 UK - Supporting UK applicants to the EU's 6th Framework Programme") Notes from FP6 UK Information Society Technologies meeting at DTI conference centre 06.10.06 to launch the the ICT component of FP7 to UK audience.

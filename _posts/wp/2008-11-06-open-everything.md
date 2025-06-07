@@ -7,7 +7,7 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2008/11/06/open_everything/'
 permalink: /2008/11/06/open-everything/
 tags:
-    - Uncategorized
+    - events
 ---
 
 5th International Open Everything event, a global conversation about the art, science and spirit of ‘open’.

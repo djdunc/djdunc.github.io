@@ -9,9 +9,7 @@ permalink: /2010/09/23/iot-expert-group/
 tags:
     - IoT
     - 'ubiquitous computing'
-tags:
-    - EU
-    - 'internet of things'
+
 ---
 
 [![Internet of things expert group mtg](https://i0.wp.com/farm5.static.flickr.com/4089/5014357531_1da0577eca.jpg?resize=500%2C217)](http://www.flickr.com/photos/pseudonomad/5014357531/ "Internet of things expert group mtg by pseudonomad, on Flickr")

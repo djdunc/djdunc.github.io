@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/05/15/corporate_innovation_network/'
 permalink: /2009/05/15/corporate-innovation-network/
-tags:
-    - innovation
+tags: events
 ---
 
 Thanks to David at Oracle and Roland and David at [Nesta](http://blogs.nesta.org.uk/) for taking the time to get together a bunch of corporate bods who are tasked in some form with trying to nurture innovation in their respective organisations. The group is still reasonable embryonic with a few different agendas becoming clear. I am keen to catch up with others to discuss what Arup are doing and to learn about the approaches and lessons learnt in other corporate contexts. At the other end of the spectrum the group were also keen to pool resources on identifying SME’s start-ups who they should be investing in “it takes too long to use normal networking techniques to monitor and assess all the new start-up out there…” Not quite sure how the latter applies in my environment yet, but one to watch.

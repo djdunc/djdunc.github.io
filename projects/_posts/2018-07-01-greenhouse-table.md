@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-greenhouse-table3.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Woodwork
+    - woodwork
 ---
 
 A planting table with removable top so that planting trays / work surface can be swapped. Installed in allotment green house.

@@ -3,7 +3,7 @@ layout: post
 title:  "Chrono Lumina"
 date:   2024-11-08 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: events
+tags: teaching
 category: blog 
 ---
 

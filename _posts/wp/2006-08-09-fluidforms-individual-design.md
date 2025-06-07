@@ -7,7 +7,7 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/09/fluidforms_individual_design/'
 permalink: /2006/08/09/fluidforms-individual-design/
 tags:
-    - 'processing and arduino'
+    - 'arduino'
 ---
 
 [![](https://i0.wp.com/www.fluidforms.at/images/teasers/vase_drift_ceramic_wood.jpg?w=350)](http://www.fluidforms.at/de/CassiusVideo.php "FLUIDFORMS ~ INDIVIDUAL DESIGN")  

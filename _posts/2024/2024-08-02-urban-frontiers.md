@@ -3,7 +3,9 @@ layout: post
 title:  "Urban Frontiers"
 date:   2024-08-02 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: exhibition
+tags:
+    - events
+    - casa
 category: blog 
 ---
 

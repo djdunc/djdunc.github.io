@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/06/05/collaborleaders/'
 permalink: /2009/06/05/collaborleaders/
-tags:
-    - innovation
+tags: events
 ---
 
 Had a really interesting evening at the [at abrahams](http://www.atabrahams.com) event hosted by Arup on the theme of “collaborleaders”. at abrahams is curated by [abrahams](http://www.abrahams.uk.com/) and [Claire Curtice Publicists](http://www.clairecurtice.co.uk) with this event chaired by Sophie Howarth from [the School of Life](http://www.theschooloflife.com/). The evening highlights were Philip Sheppard playing an impromptu cello solo and then later joining Steve Lodder and John Etheridge to show how three musicians can come together and improvise a piece of music – collaboration at its best. The video below is a bit shakey – i had to improvise 😉 but watch how the three are continually watching each other – to quote one of the general observations from the evening “the non verbal communication amongst the collaborators was visible”.

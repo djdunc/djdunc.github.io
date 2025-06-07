@@ -8,12 +8,8 @@ guid: 'http://www.driversofchange.com/emtech/?p=630'
 permalink: /2012/04/02/small-is-the-new-big/
 tags:
     - 'drivers of change'
-tags:
-    - autodesk
     - convergence
-    - inspiration
-    - nanotech
-    - 'synthetic biology'
+
 ---
 
 [![Autodesk IDEAS - 04](https://i0.wp.com/farm8.staticflickr.com/7057/7038317955_1b70044748.jpg?resize=500%2C250)](http://www.flickr.com/photos/pseudonomad/7038317955/ "Autodesk IDEAS - 04 by pseudonomad, on Flickr")

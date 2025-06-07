@@ -7,7 +7,7 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/09/accelerometer_memsic_2125/'
 permalink: /2006/08/09/accelerometer-memsic-2125/
 tags:
-    - 'processing and arduino'
+    - 'arduino'
 ---
 
 [![](https://i0.wp.com/static.flickr.com/95/211029450_59a39ee87d.jpg?w=400)](http://www.flickr.com/photos/96635144@N00/211029450/ "accelerometer memsic 2125 on Flickr - Photo Sharing!")

@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/10/17/future_of_imaging_ucl_advances/'
 permalink: /2007/10/17/future-of-imaging-ucl-advances/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 Summary from afternoon event at UCL on the future of imaging. Organised by UCL Advances, left half way through afternoon, got a bit fed up with the hard sell on how well academia can solve all industries research needs. Had planned to listen to the Space Syntax talk but missed it. Notes below.

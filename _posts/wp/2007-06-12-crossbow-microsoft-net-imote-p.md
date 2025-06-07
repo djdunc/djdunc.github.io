@@ -9,8 +9,7 @@ permalink: /2007/06/12/crossbow-microsoft-net-imote-p/
 tags:
     - IoT
     - 'ubiquitous computing'
-tags:
-    - bop
+
 ---
 
 [![](https://i0.wp.com/www.xbow.com/Products/Product_images/Wireless_images/Imote2_Kit.jpg?w=253)](http://www.xbow.com/Products/wImote2_Builder.aspx "Crossbow Technology : Wireless Sensor Networks : Untitled Page")

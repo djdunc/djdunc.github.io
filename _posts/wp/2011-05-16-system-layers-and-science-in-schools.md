@@ -7,7 +7,6 @@ layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=619'
 permalink: /2011/05/16/system-layers-and-science-in-schools/
 tags:
-    - IoT
     - 'ubiquitous computing'
 ---
 

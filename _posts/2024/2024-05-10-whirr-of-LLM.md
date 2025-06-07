@@ -3,7 +3,9 @@ layout: post
 title:  "The LLM whirrs"
 date:   2024-05-10 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: home 
+tags: 
+    - resaerch
+    - how to work 
 category: blog 
 ---
 

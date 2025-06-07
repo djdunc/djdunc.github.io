@@ -10,4 +10,4 @@ permalink: /archive/
 
 [MQTT](/mqtt/) - [East Stream](/projects/east-iot-stream/) - [LED](/led/) - [Ideas](/ideas/) - [Whiskey](/whiskey/) - [Plots](/plots/) - [LSystems](https://github.com/djdunc/djdunc.github.io/blob/main/projects/Lsystems/L_systems.ipynb)
 
-An archive of posts since the start.
+An archive of posts since the start. You can also search by [tags](/tag/).

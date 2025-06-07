@@ -11,6 +11,7 @@ spay_email:
 image: /wp-content/uploads/2020/11/DoCConvergence-e1606256380951.png
 tags:
     - convergence
+    - publication
 format: image
 ---
 

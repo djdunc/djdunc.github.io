@@ -6,10 +6,8 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/03/26/user_centred_design_for_energy/'
 permalink: /2010/03/26/user-centred-design-for-energy/
-tags:
-    - 'research and funding'
-tags:
-    - YCT
+tags: events
+
 ---
 
 I spent last week at a [TSB Sandpit](http://www.epsrc.ac.uk/funding/grants/network/ideas/Pages/whatisasandpit.aspx "what is a sandpit") on [User Centred Design for Energy Efficiency in Buildings](http://peopleinbuildings.ning.com/profiles/blogs/new-competition-for-funding-in). 5 days with 30 people from academia and industry thinking about how UCD could be used to support energy efficiency in buildings.

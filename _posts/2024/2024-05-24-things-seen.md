@@ -3,7 +3,7 @@ layout: post
 title:  "Things seen"
 date:   2024-05-24 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: home 
+tags: photos 
 category: blog 
 ---
 

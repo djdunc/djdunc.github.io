@@ -9,11 +9,7 @@ permalink: /2019/08/23/calling-all-makers-hackers-and-tinkerers/
 video_url:
     - ''
 image: /wp-content/uploads/2019/08/45047862315_c6b3bc6c50_k.jpg
-tags:
-    - Uncategorized
-tags:
-    - 'CE CASA'
-    - Job
+tags: job
 format: image
 ---
 

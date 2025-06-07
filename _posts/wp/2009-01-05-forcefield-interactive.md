@@ -6,10 +6,9 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/01/05/forcefield_interactive/'
 permalink: /2009/01/05/forcefield-interactive/
-tags:
-    - 'processing and arduino'
-tags:
-    - bop
+tags: 
+    - making invisible visible
+    - arduino
 ---
 
 [![](https://i0.wp.com/farm4.static.flickr.com/3278/3116206651_a13ac25539.jpg?w=1170)](http://www.flickr.com/photos/pseudonomad/sets/72157611388973776/)

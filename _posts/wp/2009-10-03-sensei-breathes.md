@@ -8,10 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2009/10/03/sensei_breathes/'
 permalink: /2009/10/03/sensei-breathes/
 tags:
     - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
-tags:
-    - SENSEI
+
 ---
 
 [![](https://i0.wp.com/farm3.static.flickr.com/2475/3972187299_2366f3f1cf.jpg?w=1170)](http://www.flickr.com/photos/pseudonomad/3972187299/)

@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/06/05/blinkybugcom_gallery/'
 permalink: /2006/06/05/blinkybugcom-gallery/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 [![](https://i0.wp.com/www.blinkybug.com/images/IMG_2067.jpg?w=300)](http://www.blinkybug.com/gallery.html "blinkybug.com - gallery")

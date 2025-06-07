@@ -3,7 +3,7 @@ layout: post
 title:  "Crystal Waters"
 date:   2024-07-07 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: photo
+tags: photos
 category: blog 
 ---
 

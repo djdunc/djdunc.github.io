@@ -3,7 +3,9 @@ layout: post
 title:  "CASACE 2024 Science Museum visit"
 date:   2024-11-25 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: events
+tags: 
+    - events
+    - casa
 category: blog 
 ---
 

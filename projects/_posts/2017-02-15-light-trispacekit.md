@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-light-trispacekit3.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Light
+    - light
 ---
 
 Laser cut light workshop at Machine Rooms by @trispacekit.

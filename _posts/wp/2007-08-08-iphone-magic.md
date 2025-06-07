@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2007/08/08/iphone_magic/'
 permalink: /2007/08/08/iphone-magic/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 Couldn’t resist this. Played with the iPhone in Apple Store, SF. The touch interface including typing is pretty cool and the web page navigation was pretty useful – e.g. tap to resize to column width. You end up just trying gestures and they work. The resizing of images etc was very nice. So, when can we get one….

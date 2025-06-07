@@ -3,7 +3,9 @@ layout: post
 title:  "Counting Birds"
 date:   2024-01-28 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: birdnet
+tags: 
+    - research
+    - making
 category: blog 
 ---
 

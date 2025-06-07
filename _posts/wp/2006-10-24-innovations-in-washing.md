@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/10/24/innovations_in_washing/'
 permalink: /2006/10/24/innovations-in-washing/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 I thought this was urban myth [but maybe not](http://fusionbrand.blogs.com/fusionbrand/2004/02/emerging_brandi.html), anyway, good story from our current chairman…

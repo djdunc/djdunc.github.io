@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-box-shelves-detail.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Woodwork
+    - woodwork
 ---
 
 Plywood shelving for study area made from a set of 16 different sized boxes.

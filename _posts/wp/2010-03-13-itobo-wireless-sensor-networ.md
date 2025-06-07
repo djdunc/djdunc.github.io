@@ -8,10 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2010/03/13/itobo_wireless_sensor_n
 permalink: /2010/03/13/itobo-wireless-sensor-networ/
 tags:
     - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
-tags:
-    - ITOBO
+
 ---
 
 [Alan Gibney](http://www.aws.cit.ie/personnel/PersonalMain.php?User=amcgibney) was over at Arup a couple of weeks ago testing a Wireless Sensor Network design tool in number 8 Fitzroy Street that he developed during his PhD on a tool for wifi access point positioning.

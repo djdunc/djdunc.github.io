@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-ledselector.png
 excerpt_separator: <!--more-->
 tags:
-    - Arduino 
+    - arduino 
 ---
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54031574406/in/album-72177720321469614" title="Lumina Selector - Final Prototype"><img src="https://live.staticflickr.com/31337/54031574406_09f7017604_c.jpg" width="100%" alt="Lumina Selector - Final Prototype"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

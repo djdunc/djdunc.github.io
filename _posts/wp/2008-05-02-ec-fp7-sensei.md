@@ -8,10 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2008/05/02/ec_fp7_sensei/'
 permalink: /2008/05/02/ec-fp7-sensei/
 tags:
     - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
-tags:
-    - SENSEI
+
 ---
 
 [![](https://web.archive.org/web/20140722014553if_/http://www.ict-sensei.org/templates/content_portal/images/sensei_logo.png)](https://web.archive.org/web/20140702224601/www.ict-sensei.org/)

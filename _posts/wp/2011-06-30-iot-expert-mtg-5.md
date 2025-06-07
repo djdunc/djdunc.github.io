@@ -7,8 +7,6 @@ layout: post
 guid: 'http://www.driversofchange.com/emtech/?p=621'
 permalink: /2011/06/30/iot-expert-mtg-5/
 tags:
-    - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
 ---
 

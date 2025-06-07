@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/05/night_time_in_the_ne/'
 permalink: /2006/04/05/night-time-in-the-ne/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 ![110049031_2845df1767.jpg](https://i0.wp.com/www.driversofchange.com/wp-content/uploads/mt-old/emtech/images/110049031_2845df1767.jpg?resize=500%2C399)

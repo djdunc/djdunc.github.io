@@ -5,9 +5,8 @@ date: '2019-09-06T08:56:03+00:00'
 author: djdunc
 layout: post
 permalink: /2019/09/06/connected-environments-curriculum/
-tags:
-    - UCL
-category: CASA
+tags: casa
+category: blog
 ---
 
 A few people have been asking about the curriculum we plan to teach on the MSc in Connected Environments. The design went through a classic [double diamond](https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond) approach where the initial exploration expanded into something requiring a 3 or 4 year undergrad programme! The past six months have been spent narrowing this down into a [connected curricula](https://www.ucl.ac.uk/teaching-learning/connected-curriculum-framework-research-based-education) that could be approved by UCL. We are now in the second phase of the diamond as we actually start writing the course materials and again have to work out what we include and leave as additional resources.

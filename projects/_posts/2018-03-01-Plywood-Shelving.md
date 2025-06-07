@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-plywood-shelving.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Woodwork
+    - woodwork
 ---
 
 Shelving made to fit stairwell. Friction joints. Made with table saw.

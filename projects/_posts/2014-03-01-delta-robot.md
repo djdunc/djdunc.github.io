@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-delta2.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Arduino
+    - arduino
 ---
 
 Arduino based Delta Robot made as an experiment for drawing faces.

@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/08/27/design_hotel_copenhagen/'
 permalink: /2006/08/27/design-hotel-copenhagen/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 [![](https://i0.wp.com/www.hotelsktpetri.com/images/offers/design.jpg?w=300)](http://www.hotelsktpetri.com/offers/design.html "Enjoy Design")  

@@ -3,7 +3,9 @@ layout: post
 title:  "Factory Visit Portakabin"
 date:   2024-06-06 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: home 
+tags: 
+    - research
+    - travel 
 category: blog 
 ---
 

@@ -8,12 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2010/09/10/smartsantander/'
 permalink: /2010/09/10/smartsantander/
 tags:
     - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
-tags:
-    - 'internet of things'
-    - SENSEI
-    - Spain
+
 ---
 
 Today i was at the kick off meeting for an interesting EU funded project called [SmartSantander](http://www.smartsantander.eu/). It builds on the work of a couple of previous European projects in the “future internet” domain including [Sensei](http://blogs.driversofchange.com/emtech/2009/10/sensei-breathes.html) which completes at the end of this year. The project overview is:

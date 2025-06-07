@@ -3,7 +3,7 @@ layout: post
 title:  "Thames Barrier Site Visit"
 date:   2023-12-09 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: conference
+tags: events
 category: blog 
 ---
 

@@ -3,7 +3,10 @@ layout: post
 title:  "S4T1 Completed"
 date:   2024-12-12 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: events
+tags: 
+    - events
+    - casa
+    - teaching
 category: blog 
 ---
 

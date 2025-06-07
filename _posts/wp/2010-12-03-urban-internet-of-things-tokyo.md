@@ -8,13 +8,9 @@ guid: 'http://beta.driversofchange.com/emtech/2010/12/03/urban_internet_of_thing
 permalink: /2010/12/03/urban-internet-of-things-tokyo/
 tags:
     - IoT
+    - events
     - 'ubiquitous computing'
-tags:
-    - conference
-    - 'internet of things'
-    - SENSEI
-    - tokyo
-    - 'ubiquitous computing'
+
 ---
 
 The [Urban Internet of Things workshop](http://senseable.mit.edu/urban-iot/) kicked off in the IBM Japan Hakozaki Headquarters “[Solution Centre](http://www-01.ibm.com/software/solutions/sensors/centers/)” with several [presentations and demos](http://senseable.mit.edu/urban-iot/program.php) including Arup’s Engin and Shane and Mayra presenting a well received “[TenderVoice / TenderNoise: A two-faceted web-based community journalism and acoustic ecology project](http://webofthings.com/urban-iot/2010/pdfs/Ayaz.pdf)“.

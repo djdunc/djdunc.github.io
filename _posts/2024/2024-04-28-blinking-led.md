@@ -3,7 +3,9 @@ layout: post
 title:  "Blinking Neo Pixels and MQTT"
 date:   2024-04-28 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: home 
+tags: 
+    - home
+    - making 
 category: blog 
 ---
 

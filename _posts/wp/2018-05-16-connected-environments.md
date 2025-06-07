@@ -9,11 +9,8 @@ permalink: /2018/05/16/connected-environments/
 video_url:
     - ''
 image: /wp-content/uploads/2019/11/fcc.jpg
-tags:
-    - IoT
-    - 'research and funding'
-tags:
-    - CASA
+
+tags: casa
 format: image
 ---
 

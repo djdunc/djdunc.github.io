@@ -8,11 +8,8 @@ guid: 'http://beta.driversofchange.com/emtech/2010/05/19/pervasive_2010_helsinki
 permalink: /2010/05/19/pervasive-2010-helsinki/
 tags:
     - IoT
-    - 'research and funding'
     - 'ubiquitous computing'
-tags:
-    - conference
-    - SENSEI
+
 ---
 
 Gonzalo had a demo of his UCL / Arup CASE research at Pervasive this year and I was presenting at a workshop on “Energy Awareness and Conservation through Pervasive computing”. We had great feedback on the ambient displays with several requests for others to use the devices as communication media on their own projects. Next steps will be to make robust units with doorways into different datasets (e.g. resource use at Arup offices).

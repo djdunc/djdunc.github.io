@@ -6,10 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/01/11/interactive_lighting_workshop/'
 permalink: /2009/01/11/interactive-lighting-workshop/
-tags:
-    - 'processing and arduino'
-tags:
-    - bop
+tags: events
 ---
 
 A second interactive lighting workshop is being held at Arup, organised by Tinker with presentations from Arup, [UVA](http://www.uva.co.uk/) and [Philips Lighting](http://www.lighting.philips.com/in_en/global_sites/led_lighting/index.php?main=gb_en&parent=1&id=in_en_led_lighting&lang=en).

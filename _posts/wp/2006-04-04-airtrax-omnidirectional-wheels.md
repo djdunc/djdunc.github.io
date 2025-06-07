@@ -7,7 +7,7 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/04/04/airtrax_omnidirectional_wheels/'
 permalink: /2006/04/04/airtrax-omnidirectional-wheels/
 tags:
-    - 'cool and stuff'
+    - 'stuff'
 ---
 
 [![Airtrax](http://www.37signals.com/svn/images/airtrax.gif)](http://37signals.com/svn/archives2/airtrax_omnidirectional_wheels.php?14#comments)

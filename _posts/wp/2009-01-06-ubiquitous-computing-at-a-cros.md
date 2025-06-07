@@ -7,10 +7,8 @@ layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/01/06/ubiquitous_computing_at_a_cros/'
 permalink: /2009/01/06/ubiquitous-computing-at-a-cros/
 tags:
-    - IoT
     - 'ubiquitous computing'
-tags:
-    - bop
+
 ---
 
 

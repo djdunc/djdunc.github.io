@@ -3,7 +3,9 @@ layout: post
 title:  "Birdnet-Pi and Birdweather PUC"
 date:   2023-10-07 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: kickstarter birds
+tags: 
+    - hardware
+    - research
 category: blog 
 ---
 

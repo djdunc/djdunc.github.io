@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-walnutsidetable.png
 excerpt_separator: <!--more-->
 tags:
-    - Table 
+    - woodwork 
 ---
 
 

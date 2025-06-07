@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-workshop.jpg
 excerpt_separator: <!--more-->
 tags:
-    - Woodwork
+    - woodwork
 ---
 
 Workbench made from 2×4, 2×2 and 18mm plywood.

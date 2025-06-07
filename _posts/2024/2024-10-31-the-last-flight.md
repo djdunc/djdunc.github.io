@@ -3,7 +3,7 @@ layout: post
 title:  "The Last Flight"
 date:   2024-10-31 10:00:00 +0100
 excerpt_separator: <!--more-->
-tags: events
+tags: home
 category: blog 
 ---
 

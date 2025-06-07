@@ -6,10 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2009/11/16/open_innovation_for_future_int/'
 permalink: /2009/11/16/open-innovation-for-future-int/
-tags:
-    - 'research and funding'
-tags:
-    - SENSEI
+tags: events
 ---
 
 DG INFSO (Information Society and Media Directorate-General of the European Commission) is exploring the idea of pilot projects on “Open innovation for future Internet-enabled services in “smart cities”. Their recent communication “A Strategy for ICT R&amp;D and Innovation in Europe: Raising the Game” recommended that “the CIP will support SMEs piloting highly innovative technologies, and the development of open platforms for user-driven innovation”.

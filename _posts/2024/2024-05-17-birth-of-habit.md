@@ -3,7 +3,9 @@ layout: post
 title:  "The Birth of a Habit"
 date:   2024-05-17 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: home 
+tags: 
+    - how to work
+    - books
 category: blog 
 ---
 

@@ -3,7 +3,9 @@ layout: post
 title:  "GVC Drone Pilot Training"
 date:   2024-06-13 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: home 
+tags: 
+    - training
+    - travel 
 category: blog 
 ---
 

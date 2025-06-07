@@ -6,8 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2006/06/09/wind_at_southend/'
 permalink: /2006/06/09/wind-at-southend/
-tags:
-    - 'cool and stuff'
+tags: stuff
 ---
 
 [WindGURU at Southend](http://www.windguru.cz/int/index.php?sc=74 "WindGURU:")

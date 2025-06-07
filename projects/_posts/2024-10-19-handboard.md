@@ -6,7 +6,7 @@ layout: post
 image: /assets/img/projects/thumb/240-handboard.png
 excerpt_separator: <!--more-->
 tags:
-    - Woodwork 
+    - woodwork 
 ---
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54079864369/in/album-72177720321340441" title="Hand board in Walnut"><img src="https://live.staticflickr.com/65535/54079864369_5e8a5512d9_c.jpg" width="100%" alt="Hand board in Walnut"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

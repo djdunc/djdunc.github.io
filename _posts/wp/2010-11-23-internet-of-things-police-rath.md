@@ -6,11 +6,7 @@ author: djdunc
 layout: post
 guid: 'http://beta.driversofchange.com/emtech/2010/11/23/internet_of_things_police_rath/'
 permalink: /2010/11/23/internet-of-things-police-rath/
-tags:
-    - 'research and funding'
-tags:
-    - EU
-    - 'internet of things'
+tags: events
 ---
 
 An interesting “expert meeting” on the Internet of Things last week. We were joined by DG JUST who had prepared a draft paper for comment titled “A comprehensive approach on personal data protection in the European Union”. It is an update to the 1995 Data Protection Directive (Directive 95/46/EC of the European Parliament) and is reviewing data protection in general but is being influenced by the Internet of Things work in response to a changing world where “new ways of collecting personal data have become increasingly elaborated and less easily detectable”. The review is particularly looking at the following issues:

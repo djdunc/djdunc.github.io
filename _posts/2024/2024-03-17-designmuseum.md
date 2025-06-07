@@ -3,7 +3,9 @@ layout: post
 title:  "Design Museum 2024"
 date:   2024-03-14 09:00:00 +0100
 excerpt_separator: <!--more-->
-tags: CE 
+tags: 
+    - teaching
+    - casa 
 category: blog 
 ---
 
