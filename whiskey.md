@@ -8,6 +8,7 @@ permalink: /whiskey/
 
 always open to suggestions...
 
+- 5 [ISLE OF RAASAY DUN CANA](https://www.amathusdrinks.com/isle-of-raasay-dun-cana-sherry-quarter-cask-release) (2025 DW from Distillery)
 - 5 [PORT CHARLOTTE ISLAY BARLEY](https://www.amathusdrinks.com/b2c/port-charlotte-islay-barley) (2023 DW)
 - 5 [TALISKER PORT RUIGHE](https://www.amathusdrinks.com/b2c/talisker-port-ruighe) (2022 IM)
 - 5 [ISLE OF RAASAY CASK STRENGTH](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt-cask-strength-2024) (2025 DW)
@@ -19,6 +20,7 @@ always open to suggestions...
 - 4 [GLENTURREET](https://www.amathusdrinks.com/b2c/the-glenturret-7yr-peat-smoked-2023-release) (2024 IM)
 - 4 [ARDBEG WEE BEASTIE 5YR](https://www.amathusdrinks.com/b2c/ardbeg-wee-beastie-5yr) (2023 DW)
 - 4 [GLENMORANGIE 12YR THE LASANTA](https://www.amathusdrinks.com/b2c/glenmorangie-12yr-the-lasanta) (2025 DW)
+- 4 [Jura 10 year](https://www.amathusdrinks.com/jura-10yr) (2025 Neil)
 
 - 3 [KILCHOMAN MACHIR BAY](https://www.amathusdrinks.com/b2c/kilchoman-machir-bay) (2022 DW)
 - 3 [ABERLOUR 12YR](https://www.amathusdrinks.com/b2c/aberlour-12yr) (2022 DW)
