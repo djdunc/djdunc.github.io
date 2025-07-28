@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Grasslands and Graduation"
+title:  "Greenlands and Graduation"
 date:   2025-07-20 08:00:00 +0100
 excerpt_separator: <!--more-->
 
@@ -19,9 +19,9 @@ UCL Digital festival, exhibition launch (but more on that next week), graduation
 
 <!--more-->
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1102822533?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Grasslands eDNA Drone Sampler"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1105183685?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Greenlands eDNA Drone Sampler"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-Grasslands video on VIMEO
+Greenlands video on VIMEO
 
 The [#ucldigifest](https://bsky.app/hashtag/ucldigifest) event went really well, lots of great discussions around digital twins and community. The keynotes from industry were also appreciated- Elizabeth from AWS gave a really interesting overview of her journey and Niall from NVIDIA showed some really interesting tools such as [Omniverse](https://www.nvidia.com/en-gb/omniverse/) which reminded me I should go and take a look. 
 
