@@ -24,6 +24,7 @@ Was great to show some of our collaborators from other parts of UCL and industry
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54682241261/in/datetaken/" title="CE 2025"><img src="https://live.staticflickr.com/65535/54682241261_0385d9574a_c.jpg" width="100%" alt="CE 2025"/></a>
 
+[An overview of all the projects are in this deck](https://www.iot.io/projects/CE-exhibition-2025/)
 
 Photos of all the exhibits are on Flickr below:
 
