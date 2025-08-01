@@ -8,6 +8,6 @@ permalink: /archive/
     <h1 class="post-title">{{ page.title | escape }}</h1>
 </header>
 
-[MQTT](/mqtt/) - [East Stream](/projects/east-iot-stream/) - [LED](/led/) - [Ideas](/ideas/) - [Whiskey](/whiskey/) - [Plots](/plots/) - [LSystems](https://github.com/djdunc/djdunc.github.io/blob/main/projects/Lsystems/L_systems.ipynb)
+[MQTT](/mqtt/) - [East Stream](/projects/east-iot-stream/) - [LED](/led/) - [Ideas](/ideas/) - [Whiskey](/whiskey/) - [Plots](/plots/) - [LSystems](https://github.com/djdunc/djdunc.github.io/blob/main/projects/Lsystems/L_systems.ipynb) - [CE 2025](projects/CE-exhibition-2025/)
 
 An archive of posts since the start. You can also search by [tags](/tag/).
