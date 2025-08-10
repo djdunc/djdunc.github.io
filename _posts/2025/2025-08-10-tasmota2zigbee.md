@@ -14,7 +14,7 @@ category: blog
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54712630306/in/datetaken/" title="Sonoff ZB Bridge Pro"><img src="https://live.staticflickr.com/65535/54712630306_e4dcab4897_c.jpg" width="100%" alt="Sonoff ZB Bridge Pro"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-I spent way too long trying to get this simple Zigbee sensor working with Tasmota and MQTT. Initially got it all workign in about 10 minutes but then found that it wasn't quite configured in a way that would work for me (all readings are sent to a singel SENSOR topic). I thought it would be simple to configure it to send each sensor reading to its own topic but it took me a while to figure out how to do this. The notes below are for my future self and anyone else who might find them useful.
+I spent way too long trying to get a simple Zigbee sensor working with Tasmota and MQTT using a Sonoff Zigbee Bridge. Initially got it all working in about 10 minutes but then found that it wasn't quite configured in a way that would work for me (all readings are sent to a single SENSOR topic). I thought it would be simple to configure it to send each sensor reading to its own topic but it took me a while to figure out how to do this. The notes below are for my future self and anyone else who might find them useful.
 
 <!--more-->
 
