@@ -98,7 +98,7 @@
             var brokerHost = 'mqtt.cetools.org';
             var brokerPort = 8081; // Port for WebSocket connections
             var clientId = 'lumi-web-' + Math.random().toString(36).substr(2, 8); // Random alphanumeric string of length 8
-            //var options = {mqttVersion: 4};
+            var options = {mqttVersion: 4};
             var mqttClient;
             var topic = 'student/CASA0014/luminaire/';
             var currentTopic = 'student/CASA0014/luminaire/0';
@@ -172,8 +172,8 @@
             mqttClient.onMessageArrived = onMessageArrived;
 
             // Set MQTT client options
-//            mqttClient.connect(options);
-            mqttClient.connect();
+            mqttClient.connect(options);
+//            mqttClient.connect();
 
 
             function onConnectionLost(responseObject) {
