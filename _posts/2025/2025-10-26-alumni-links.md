@@ -29,7 +29,9 @@ Great [CASA](https://www.linkedin.com/company/centre-for-advanced-spatial-analys
 
 - Don’t stress, remember to enjoy it (especially the dissertation!) - hear, hear, we want this to be the best most enlightening experience of your career!
 
-In the spirit creating an online presence I spent several hours migrating away from some tradition web hosting (Dreamhost) since I was paying for services I no longer really needed to use. However this meant a few hours of migrating websites from old versions of Wordpress to static sites ([www.cities.io](www.cities.io)), moving email forwarding services and updating DNS records.
+In the spirit creating an online presence I spent several hours migrating away from some tradition web hosting (Dreamhost) since I was paying for services I no longer really needed to use. However this meant a few hours of migrating websites from old versions of Wordpress to static sites ([https://www.cities.io](www.cities.io)), moving email forwarding services and updating DNS records.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/54880362287/in/datetaken/" title="ICRI-cities-web"><img src="https://live.staticflickr.com/65535/54880362287_5018c7b92d_c.jpg" width="100%" alt="ICRI-cities-web"/></a>
 
 We had Toby from UCL ACC presenting to the students this week - I always enjoy his free writing session. Just write and don't stop for 10 minutes. It is amazing what you can come up with when you just let go and write without thinking. 
 
