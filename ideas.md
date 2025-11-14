@@ -8,6 +8,66 @@ permalink: /ideas/
 
 Contact Duncan Wilson if you have ideas on how you could develop these projects.
 
+## Park Life's a Pitch: [2026]
+_Using Bioacoustic Signal Processing and Edge AI to Count Calls in QEOP_
+
+We have been running 15 bat counters in the park since 2017. It is now time to replace the IoT devices. This project would be based on using the Acoupi framework on a RPi to enable the addition of monitoring bird activity through the day and continue counting bats through the night. Key components of the project will include: refining the RPi prototype ready for installation, installing the devices on lamp posts around the Olympic Park and creating a web site with new visualisations of the data for the community and visitors to the park. (A collaboration with Kate Jones at CBER)
+
+## A Statistical Surge: [2026]
+_Forecasting Flood Risk at House Mill on the Tidal Lea River_ 
+
+We have multi year data of flood events at House Mill, a wooden listed building close to UCL East. This project involves using our CASA water height data with data from tide heights, localised rainfall, Thames barrier operation, phases of the moon etc to build up a picture of what contributes to flood events with the goal of establishing a day in advance that a flood event is likely to happen. This project will involve working with existing data sets, installing additional flood height sensors on the river Lea, using machine learning to analyse trends in data, testing forecasting algorithms on live events and developing mechanisms to feedback to volunteers in the building that a flood event is anticipated. (A collaboration with the volunteers at House Mill)
+
+[Flood video](https://www.iot.io/blog/2024/06/21/housemill-video.html)
+
+## A Sense of Place: [2026]
+_Designing Interactive Data Experiences to Communicate Ecological Change by Green Infrastructure_
+
+We are working with the UCL200 estates team who are constructing a new green wall and canopy on the brutalist concrete Chemistry building on Gordon Street in Bloomsbury. We are installing a variety of smart sensors to monitor the impact of the infrastructure on biodiversity and the use of the space. Sensors include microphones for bird and bat activity, cameras to observe the green roof, soil moisture sensors, urban heat island sensors, a weather station and people counters under the canopy. Whilst you will support the installation of the sensors, the major component of the project will be working with the data to create web and in situ visualisations that communicates the narrative behind the intervention and its impact on biodiversity in the city.
+
+![Green Wall plans](./projects/UCL200/gordonstreetsensors.jpeg)
+
+## From Ticket to Texture: [2026]
+_Creating an Immersive and Intuitive Interface for Reporting Building Issues and Bridging Virtual Space with FM Workflows_
+
+The building maintenance to do list is never ending. The goal of this project is to create the FM Holodeck, a delightful, virtual, customer centric help desk that enables building occupants to report and communicate issues they encounter. Using Gaussian splats or models of individual spaces at One Pool Street this project will create an interactive visual method of logging and visualising  issues requiring fixing. Key components of the project will include world building to develop the foundation model, creating novel forms of interaction to allow comments to be left in a 3D world and integration with existing facilities management systems to support exchange of data. (Valerio and Andy are also potential supervisors for this project)
+
+## Room for Improvement: [2026]
+_A Data-Driven Exploration of Space Utilisation, System Cost, and the Return on Insight of a Pop-Up IoT Network_
+
+What can IoT data tell us about how a space is used. The goal of this project is to explore the value of IoT data through the analysis of data captured over a one year period in a pop up teaching space in Bloomsbury. Key components of the project could include a full life cycle cost analysis of the IoT system, case study analysis of the value of the data with facilities and space planning staff at UCL, validation of accuracy of the IoT data through in situ data sampling and exploring intangible value through feeding back to occupants information from the IoT system. 
+
+[Grafana dashboard of the data](https://grafana.cetools.org/d/f63fb65d-bd04-4ef7-b65a-337876b359ab/trust2-ucl-portakabin?orgId=2&from=2024-09-16T00:59:56.554Z&to=2024-09-17T05:12:53.932Z&timezone=browser)
+
+## The Bone-Shaker Index: [2026]
+_An IoT Approach to Mapping Road Surface Integrity and Visualising the Rider Experience in Urban Environments_
+
+Pot holes are often in the headlines for the damage they cause to road users. For cycle commuters they also present risk of accidents, loss of control and uncomfortable	 riding. This project aims to create a sensor unit that can be installed on a bike to map the quality of roads in London where “smoothness“ is an indicator of good. The project will involve building a geolocated IoT device, capturing data through volunteer riders and a website to visualise the data captured.  
+
+## The Giant Robot's Handbook: [2026]
+_Developing a Digital Twin and Real-Time Data Narrative to Reveal the Inner Workings of a UCL East Building_ 
+
+Sensors are all around us, in our buildings and in our streets. This project will focus on exploring how we can make the invisible visible. Using our UCL East buildings as a living lab, this project will develop a virtual guide that allows students to “see inside the wall” to understand how the building works. Using digital twin technologies, real time data will be used to show how the building works to reveal the complexity of living inside a giant robot. Key components of this project will be creating the 3D environment in which to tell the story, developing narratives around how the building works through conversations with facilities managers, making use of real time data from the building and focusing on how to communicate the information as a novel building guide.
+
+## Paddle, Probe, Protect [2026]
+This project combines kayaking with environmental science to assess and protect river ecosystems. The focus is developing a sensor unit that can be used by citizen scientists with a kayak to capture data. Using geolocated sensors, this initiative enables monitoring of critical water quality indicators such as pH, turbidity, dissolved oxygen, and temperature. Paddling up the River Lea, it “probes” the water to detect pollution hotspots and maps river health, empowering communities and policymakers with actionable insights. The ultimate goal is to raise awareness, drive conservation efforts, and ensure that rivers remain vibrant ecosystems for future generations.
+
+## Sonic Flora Underwater [2026]
+This project focuses on decoding the sounds of aquatic plant growth. Submerged aquatic plants provide important food and habitat in freshwater systems but they are notoriously challenging to survey. Recent advances in bioacoustics suggest that submerged plants make detectable noises as they photosynthesise. Is it possible to use these noises to identify different species? Can they help to quantify plant biomass? What types of data could be collected using bioacoustics, and how could acoustic sensors be practically deployed to collect meaningful data? Initial experimentation in the pond in the Nature Smart Garden at OPS. (A collaboration with Izzy Bishop in CBER)
+
+## At one with the building [2026]
+A suspended VR experience driven by realtime data from the building. We have millions of zeros and ones that flow through our building representing the state of the space. In this project we want to explore how an immersive data experience that suspends our perception of reality where we float in a sea of data, suspended in space, can support alternative ways of experiencing that data. 
+
+
+
+
+<hr>
+
+Past Project Ideas - kept for posterity
+
+<hr>
+
+
 ## At one with the building [2025] 
 A suspended VR experience driven by realtime data from the building. We have millions of zeros and ones that flow through our building representing the state of the space. In this project we want to explore how sitting in a hammock, suspended in space, can support alternative ways of experiencing that data (e.g. flowing with the data, playing with the data, hearing the data...)
 
@@ -42,8 +102,6 @@ Build a reconfigurable work space that is parametric by design, can easily be ma
 
 
 <hr>
-
-Past Project Ideas - kept for posterity
 
 <hr>
 
