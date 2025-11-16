@@ -1,0 +1,403 @@
+/*
+Card-based layout for Linkding
+Large images, fully clickable
+Entire card selectable in bulk edit mode
+Tags moved to expandable sidebar
+
+Author: Brett Terpstra (https://brettterpstra.com)
+GitHub: @ttscoff <https://github.com/ttscoff>
+License: MIT
+*/
+body {
+  --fbc-blue-60: #001219;
+  --fbc-blue-70: #001219;
+  background: #001219; }
+
+:root {
+  --primary-color: #94d2bd;
+  --primary-text-color: #fff;
+  --btn-primary-bg-color: #005f73;
+  --btn-primary-hover-bg-color: #0a9396;
+  --btn-primary-text-color: #fff;
+  --btn-link-text-color: #94d2bd;
+  --btn-link-hover-text-color: #0fd9de;
+  --checkbox-checked-bg-color: #005f73;
+  --checkbox-bg-color: rgba(0, 95, 115, 0.75);
+  --tab-active-color: #94d2bd;
+  --tab-highlight-color: #0a9396;
+  --tab-hover-color: #0a9396;
+  --focus-outline: #94d2bd;
+  --input-border-color: #1e493a;
+  --btn-border-color: #1e493a; }
+
+/* Logo */
+a {
+  color: #94d2bd; }
+
+.btn {
+  color: #94d2bd; }
+  .btn .btn-primary {
+    background: #005f73;
+    color: #94d2bd; }
+    .btn .btn-primary:hover {
+      color: #0a9396; }
+
+header h1 {
+  transform: rotate(-5deg) translate(-7px, -13px); }
+  header h1::after {
+    color: #ca6702;
+    content: " redux";
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 1em; }
+
+/* Tag cloud */
+.col-1 {
+  background: rgba(0, 18, 25, 0.95);
+  border-radius: 8px 0 0 8px;
+  border: solid 2px rgba(10, 147, 150, 0.85);
+  height: calc(100vh - 159px);
+  left: 100%;
+  opacity: 0.5;
+  overflow-y: auto;
+  padding: 30px;
+  position: fixed;
+  top: 149px;
+  transition: all 0.2s ease-in-out;
+  width: 60vw;
+  z-index: 20; }
+
+section.content-area.col-1 .content-area-header {
+  background: rgba(0, 18, 25, 0.95);
+  border-color: #0a9396;
+  border-color: rgba(10, 147, 150, 0.85);
+  border-radius: 8px 8px 0 0;
+  border-style: solid;
+  border-width: 2px 2px 0 2px;
+  border-bottom: 0;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 0;
+  padding: 0 20px;
+  position: fixed;
+  transform: rotate(-90deg) translate(-30px, -88px); }
+  section.content-area.col-1 .content-area-header:first-of-type {
+    margin-top: -12px; }
+
+.col-1 .content-area-header h2 {
+  color: #0a9396; }
+.col-1:hover, .col-1:focus {
+  margin-left: -57vw;
+  opacity: 1;
+  transition: all 0.2s ease-in-out; }
+
+.tag-cloud .unselected-tags a {
+  border-radius: 15px;
+  border: solid 1px rgba(0, 95, 115, 0.3);
+  color: #005f73;
+  display: inline-block;
+  font-weight: 200;
+  margin: 0 0 0.25em 0 !important;
+  padding: 0 6px; }
+.tag-cloud .highlight-char {
+  color: #0a9396; }
+.tag-cloud .unselected-tags a {
+  transition: all 0.3s ease-in-out; }
+  .tag-cloud .unselected-tags a:visited:hover, .tag-cloud .unselected-tags a:visited:focus {
+    background: rgba(148, 210, 189, 0.8);
+    box-shadow: 0 0 4px rgba(148, 210, 189, 0.35);
+    text-decoration: none;
+    transform: scale(0.7);
+    transition: all 0.15s ease-in-out; }
+  .tag-cloud .unselected-tags a:hover, .tag-cloud .unselected-tags a:focus {
+    background: rgba(148, 210, 189, 0.8);
+    box-shadow: 0 0 4px rgba(148, 210, 189, 0.35);
+    text-decoration: none;
+    transform: scale(0.7);
+    transition: all 0.15s ease-in-out; }
+.tag-cloud a {
+  font-weight: 200; }
+
+/* Bookmark cards */
+li[ld-bookmark-item] {
+  background-color: rgba(0, 95, 115, 0.09);
+  border-radius: 8px;
+  border: solid 1px #333;
+  display: block;
+  gap: 0px 0px;
+  margin: 0 10px 10px 0;
+  min-width: 250px;
+  overflow: hidden;
+  padding: 210px 10px 10px 10px;
+  position: relative;
+  width: 100%; }
+  li[ld-bookmark-item] .title img + a::before {
+    content: "";
+    display: block;
+    height: 250px;
+    left: -10px;
+    position: absolute;
+    top: -250px;
+    width: 110%;
+    z-index: 8; }
+  li[ld-bookmark-item] .preview-image {
+    height: 200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  li[ld-bookmark-item] .title img {
+    top: 10px;
+    transition: transform 0.2s ease-in-out; }
+  li[ld-bookmark-item] .title:hover img {
+    transform: translateY(-50%) scale(1.3);
+    transition: transform 0.2s ease-in-out; }
+  li[ld-bookmark-item] .title a[data-tooltip]:focus::after,
+  li[ld-bookmark-item] .title a[data-tooltip]:hover::after {
+    background: #005b7f;
+    border-color: #005f73; }
+
+@media screen and (min-width: 770px) {
+  li[ld-bookmark-item] {
+    width: 48%; } }
+@media screen and (min-width: 900px) {
+  li[ld-bookmark-item] {
+    width: 32%; } }
+@media screen and (min-width: 1300px) {
+  li[ld-bookmark-item] {
+    width: 24%; } }
+/* make image clickable */
+ul.bookmark-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+li[ld-bookmark-item] .title {
+  background: 0; }
+li[ld-bookmark-item] .content {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  padding-bottom: 70px;
+  position: relative;
+  width: 100%; }
+li[ld-bookmark-item] .title a {
+  width: 100%;
+  color: #fff; }
+li[ld-bookmark-item] .url-display,
+li[ld-bookmark-item] .url-path {
+  margin-bottom: 7.3em;
+  color: #94d2bd; }
+
+.grid {
+  display: block; }
+
+.container {
+  max-width: 100%; }
+
+/* Make entire card clickable in bulk edit mode */
+[ld-bulk-edit] li[ld-bookmark-item] .form-checkbox.bulk-edit-checkbox {
+  cursor: pointer;
+  height: 600px;
+  left: -11px;
+  top: -212px;
+  transform: none;
+  width: 109%;
+  z-index: 10; }
+
+li[ld-bookmark-item] .tags a:link, li[ld-bookmark-item] .tags a:visited, li[ld-bookmark-item] .tags a:hover, li[ld-bookmark-item] .tags a:focus {
+  background: rgba(148, 210, 189, 0.15);
+  border-radius: 15px;
+  color: #94d2bd;
+  font-size: 90%;
+  padding: 3px 6px;
+  text-decoration: none; }
+
+a[data-turbo-frame="details-modal"] {
+  clear: left; }
+
+li[ld-bookmark-item] .tags {
+  margin: 1em 0; }
+  li[ld-bookmark-item] .tags a:link, li[ld-bookmark-item] .tags a:visited, li[ld-bookmark-item] .tags a:hover, li[ld-bookmark-item] .tags a:focus {
+    background: #005f73;
+    color: #94d2bd;
+    transition: all 0.1s linear; }
+li[ld-bookmark-item] .preview-image {
+  border: 0;
+  border-radius: 0;
+  margin-top: 0;
+  background: linear-gradient(0deg, #93d2bd 0%, #006275 100%); }
+  li[ld-bookmark-item] .preview-image.placeholder {
+    background: linear-gradient(0deg, #93d2bd 0%, #006275 100%); }
+    li[ld-bookmark-item] .preview-image.placeholder .img {
+      mask: 0;
+      background-color: transparent; }
+li[ld-bookmark-item] .description {
+  color: #aaa;
+  margin: 1em 0; }
+  li[ld-bookmark-item] .description.separate {
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+    max-height: 4.3em;
+    position: absolute;
+    top: 3em;
+    background: rgba(0, 18, 25, 0.7);
+    padding: 5px;
+    transition: all 0.2s linear;
+    white-space: wrap; }
+    li[ld-bookmark-item] .description.separate:hover {
+      -webkit-mask-image: linear-gradient(180deg, #000 60%, #000);
+      max-height: 15em;
+      transition: all 0.3s ease-in-out;
+      z-index: 11; }
+li[ld-bookmark-item] .actions,
+li[ld-bookmark-item] .extra-actions {
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute; }
+li[ld-bookmark-item] .actions {
+  bottom: 0;
+  height: 70px;
+  margin-top: 10px;
+  padding-top: 10px;
+  position: absolute;
+  width: 100%; }
+  li[ld-bookmark-item] .actions a {
+    padding: 0 4px; }
+  li[ld-bookmark-item] .actions button.btn-link {
+    padding: 0 4px;
+    border: solid 1px rgba(153, 136, 87, 0.5); }
+
+/* Preview image */
+/* Description */
+/* Actions */
+.extra-actions {
+  clear: both;
+  display: block;
+  padding-top: 5px;
+  width: 100%; }
+
+.actions span {
+  display: none; }
+
+.extra-actions .btn {
+  background: rgba(10, 147, 150, 0.5); }
+
+li[ld-bookmark-item] .actions a {
+  background-color: #005f73;
+  border-radius: 4px;
+  color: #94d2bd;
+  float: left;
+  margin: 0 4px 4px 0;
+  padding: 0 4px;
+  text-align: center;
+  width: 50px; }
+  li[ld-bookmark-item] .actions a:first-of-type {
+    background: 0;
+    border: 0;
+    bottom: 0;
+    color: #005f73;
+    margin: 0;
+    padding: 0 4px 0 0;
+    position: absolute;
+    right: 0;
+    width: auto;
+    z-index: 10; }
+  li[ld-bookmark-item] .actions a:hover {
+    background: #94d2bd;
+    color: #005f73 !important;
+    transition: all 0.1s linear; }
+li[ld-bookmark-item] .actions button.btn-link {
+  background: rgba(220, 41, 23, 0.25);
+  border: solid 1px rgba(220, 41, 23, 0.5);
+  color: #dc2917;
+  opacity: 0.6; }
+  li[ld-bookmark-item] .actions button.btn-link:hover {
+    opacity: 1;
+    transition: all 0.1s linear; }
+li[ld-bookmark-item] .actions a:first-of-type:hover {
+  background-color: transparent;
+  color: #94d2bd !important;
+  transition: color 0.1s linear; }
+li[ld-bookmark-item] .actions .extra-actions button.btn-link {
+  background: 0;
+  border: 0;
+  color: #94d2bd;
+  opacity: 0.5;
+  padding: 0; }
+  li[ld-bookmark-item] .actions .extra-actions button.btn-link:hover, li[ld-bookmark-item] .actions .extra-actions button.btn-link:focus {
+    opacity: 1; }
+li[ld-bookmark-item] .actions a {
+  float: left; }
+
+.actions span.confirmation {
+  margin-right: 4px;
+  display: block;
+  float: left; }
+  .actions span.confirmation .btn {
+    margin: 0 4px;
+    margin: 0;
+    position: relative;
+    visibility: hidden;
+    width: 22px; }
+    .actions span.confirmation .btn::before {
+      border-radius: 4px;
+      border: solid 1px;
+      color: #94d2bd;
+      content: "\2713";
+      display: inline-block;
+      font-size: 150%;
+      font-weight: 600;
+      height: 20px;
+      left: 0;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      visibility: visible;
+      width: 20px;
+      z-index: 1; }
+    .actions span.confirmation .btn.mr-1::before {
+      color: #ff2a15;
+      content: "\00D7";
+      font-size: 180%;
+      line-height: 0.65; }
+
+li[ld-bookmark-item] .actions button.btn-link {
+  float: left;
+  margin-right: 4px; }
+
+/* pagination */
+.bookmark-pagination.sticky {
+  background: #001219; }
+  .bookmark-pagination.sticky::before {
+    background: #001219; }
+
+/* notes */
+ul.bookmark-list .notes {
+  background: #333;
+  bottom: 34px;
+  display: block;
+  height: 23px;
+  max-height: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  width: 44px;
+  z-index: 1000; }
+  ul.bookmark-list .notes::before {
+    background: #333;
+    border-radius: 4px;
+    color: #888;
+    content: "Note";
+    cursor: pointer;
+    display: block;
+    padding: 0 6px;
+    position: absolute;
+    right: 0;
+    top: 1px; }
+  ul.bookmark-list .notes:hover {
+    width: 100%;
+    height: auto; }
+    ul.bookmark-list .notes:hover::before {
+      display: none; }
