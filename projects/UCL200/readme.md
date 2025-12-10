@@ -11,22 +11,13 @@ The motivation is two-fold: ecologically, we aim to quantify the success of this
 The project extends beyond environmental metrics. We also monitor the social use of the pedestrianised space under the canopy, assessing the impact of the green intervention on building occupant health, well-being, and nature connectedness. By integrating these diverse data streams, from ecology to bioclimatic conditions to social use patterns, the Bio-Connected Canopy acts as a powerful teaching and research platform, embedding real-world project work across faculties. The combined data will quantify the overall success of the urban greening efforts, providing an evidence base for biodiversity net gain and future climate adaptation strategies.
 
 # Key Benefits
-### Environmental
-Urban Heat Island Mitigation: Provides quantifiable data on the cooling effects of the green wall and canopy structure on the adjacent building and immediate microclimate.
 
-### Ecological
-Biodiversity Net Gain: Enables robust, continuous monitoring of species (birds, bats) and habitat usage to measure the effectiveness of the Nature-Based Solution (NBS) design.
-
-### Research & Education
-Connected Curriculum: Generates real-world, live data streams for student and staff research projects across multiple UCL departments.
-
-### Well-being & Community
-Health Impact Assessment: Monitors the social use and engagement with the space, linking green infrastructure to improvements in staff / student well-being and nature connectedness.
-
-### Strategic
-Knowledge Exchange: Positions UCL as a demonstration centre for best-practice climate adaptation and Living Labs, supporting UCL's Nature-Positive and Sustainability strategies, and informing the wider University of London Estate.
-
-
+| --- | --- |
+| **Environmental** | Urban Heat Island Mitigation: Provides quantifiable data on the cooling effects of the green wall and canopy structure on the adjacent building and immediate microclimate. | 
+| **Ecological** | Biodiversity Net Gain: Enables robust, continuous monitoring of species (birds, bats) and habitat usage to measure the effectiveness of the Nature-Based Solution (NBS) design. |
+| **Research & Education** | Connected Curriculum: Generates real-world, live data streams for student and staff research projects across multiple UCL departments. |
+| **Well-being & Community** | Health Impact Assessment: Monitors the social use and engagement with the space, linking green infrastructure to improvements in staff / student well-being and nature connectedness. |
+| **Strategic** | Knowledge Exchange: demonstration of Living Labs, supporting UCL's Nature-Positive and Sustainability strategies, and informing the wider University of London Estate. |
 
 # Sensing Equipment
 
@@ -96,3 +87,6 @@ The Urban Heat Island Sensor will be mounted on the green wall, to record temper
 
 ### Pedestrianised Area (Under Canopy):
 The People Counter (VS121) will be centrally positioned under the canopy to accurately track usage and footfall in the covered space. An Urban Heat Island sensors will also be placed under the canopy to measure shading impact.
+
+![sketch](/gordonstreetsensors.jpeg)
+_Overview of sensor locations_
