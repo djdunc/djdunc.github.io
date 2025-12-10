@@ -1,5 +1,5 @@
 # Bio-Connected Canopy
-## Harnessing IoT to quantify the success of urban greening and habitat creation.
+Harnessing IoT to quantify the success of urban greening and habitat creation.
 
 ![sketch](/gordonstreetsensors.jpeg)
 Overview of sensor locations
