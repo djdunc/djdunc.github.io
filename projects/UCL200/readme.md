@@ -1,14 +1,14 @@
 # Bio-Connected Canopy
 _Harnessing IoT to quantify the success of urban greening and habitat creation._
 
-The Bio-Connected Canopy project at Gordon Street represents a critical, interdisciplinary component of UCL's 200th-anniversary commitment to sustainability and the Connected Curriculum. This initiative transforms the new green roof and wall installations into a high-technology Living Lab, using an array of integrated IoT sensors, including acoustic monitors, thermal sensors, and high-resolution cameras, to generate comprehensive, real-time environmental intelligence.
+The Bio-Connected Canopy project at Gordon Street represents a critical, interdisciplinary component of UCL's 200th-anniversary commitment to sustainability and the Connected Curriculum. This initiative transforms the new green roof and wall installations into a high-tech Living Lab, using an array of integrated IoT sensors, including acoustic monitors, thermal sensors, and high-resolution cameras, to generate real-time environmental intelligence.
 
 ![sketch](/gordonstreetsensors.jpeg)
 _Overview of sensor locations_
 
-The core motivation is two-fold: ecologically, we aim to quantify the success of this nature-based solution in enhancing urban biodiversity, specifically through continuous monitoring of bird and bat populations using acoustic sensors and video cameras. Environmentally, the sensor network provides a critical dataset for analysing bioclimatic conditions. This enables the precise quantification of the green wall and roof's contribution to mitigating the Urban Heat Island (UHI) effect on the adjacent Chemistry Building using thermal and humidity sensors.
+The motivation is two-fold: ecologically, we aim to quantify the success of this nature-based solution in enhancing urban biodiversity, specifically through continuous monitoring of bird and bat populations using acoustic sensors and video cameras. Environmentally, the sensor network provides a critical dataset for analysing bioclimatic conditions. This enables the quantification of the green wall and roof's contribution to mitigating the Urban Heat Island (UHI) effect on the adjacent Chemistry Building using thermal and humidity sensors.
 
-Crucially, the project extends beyond environmental metrics. We also monitor the social use of the pedestrianised space under the canopy, assessing the impact of the green intervention on building occupant health, well-being, and nature connectedness. By integrating these diverse data streams, from ecology to bioclimatic conditions to social use patterns, the Bio-Connected Canopy acts as a powerful teaching and research platform, embedding real-world project work across faculties. The combined data will quantify the overall success of the urban greening efforts, providing a crucial evidence base for biodiversity net gain and future climate adaptation strategies.
+The project extends beyond environmental metrics. We also monitor the social use of the pedestrianised space under the canopy, assessing the impact of the green intervention on building occupant health, well-being, and nature connectedness. By integrating these diverse data streams, from ecology to bioclimatic conditions to social use patterns, the Bio-Connected Canopy acts as a powerful teaching and research platform, embedding real-world project work across faculties. The combined data will quantify the overall success of the urban greening efforts, providing an evidence base for biodiversity net gain and future climate adaptation strategies.
 
 # Key Benefits
 ### Environmental
