@@ -32,7 +32,6 @@ _Notes: more or less ordered in preference - but finding that gets harder and ha
 
 Ones to try next:
 - HIGHLAND PARK 12 YEAR OLD
-- LAGG SINGLE MALT: CORRIECRAVIE EDITION - new indie, looks interesting
 - ARDNAMURCHAN AD SINGLE MALT HIGHLAND WHISKY
 - LAGAVULIN 16 YEAR OLD
 - LEDAIG TRIPLE WOOD
