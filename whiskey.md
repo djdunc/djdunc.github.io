@@ -18,8 +18,10 @@ always open to suggestions...
 - [ARDBEG CORRYVRECKAN](https://www.amathusdrinks.com/ardbeg-corryvreckan) (2025 DW)
 - [ISLE OF RAASAY CASK STRENGTH](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt-cask-strength-2024) (2025 DW)
 - [ARDBEG UIGEADAIL](https://www.amathusdrinks.com/b2c/ardbeg-uigeadail) (2022 Kids)
+- [KILCHOMAN SANAIG](https://www.amathusdrinks.com/kilchoman-sanaig) (2025 IM)
 - [GLENTURREET](https://www.amathusdrinks.com/b2c/the-glenturret-7yr-peat-smoked-2023-release) (2024 IM)
 - [ARDBEG WEE BEASTIE 5YR](https://www.amathusdrinks.com/b2c/ardbeg-wee-beastie-5yr) (2023 DW)
+- [Bushmills 12yr](https://shop.bushmills.com/products/12-year-old-distillery-reserve) (2025 LM)
 - [ISLE OF RAASAY](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt) (2024 IM)
 - [GLENMORANGIE 12YR THE LASANTA](https://www.amathusdrinks.com/b2c/glenmorangie-12yr-the-lasanta) (2025 DW)
 - [Jura 10 year](https://www.amathusdrinks.com/jura-10yr) (2025 Neil)
@@ -35,7 +37,6 @@ Ones to try next:
 - ARDNAMURCHAN AD SINGLE MALT HIGHLAND WHISKY
 - LAGAVULIN 16 YEAR OLD
 - LEDAIG TRIPLE WOOD
-- KILCHOMAN SANAIG
 - TORABHAIG
 - ARDNAHOE - https://ardnahoedistillery.com/pages/online-shop - new indie
 
