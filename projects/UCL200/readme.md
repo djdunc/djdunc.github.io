@@ -1,7 +1,9 @@
 # Bio-Connected Canopy
 _Harnessing IoT to quantify the success of urban greening and habitat creation._
 
-The Bio-Connected Canopy project at Gordon Street represents a critical, interdisciplinary component of UCL's 200th-anniversary commitment to sustainability and the Connected Curriculum. This initiative transforms the new green roof and wall installations into a high-tech Living Lab, using an array of integrated IoT sensors, including acoustic monitors, thermal sensors, and high-resolution cameras, to generate real-time environmental intelligence.
+[ See also [Project GitHub repo](https://github.com/djdunc/UCL200-Bio-Connected-Canopy)]
+
+The Bio-Connected Canopy project at Gordon Street is part of UCL's 200th-anniversary commitment to sustainability and the Connected Curriculum. This initiative transforms the new green roof and wall installations into a high-tech Living Lab, using an array of integrated IoT sensors, including acoustic monitors, thermal sensors, and high-resolution cameras, to generate real-time environmental intelligence.
 
 ![sketch](/gordonstreetsensors.jpeg)
 _Overview of sensor locations_
