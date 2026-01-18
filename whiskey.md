@@ -14,6 +14,7 @@ always open to suggestions...
 - [THE HAKUSHU](https://www.amathusdrinks.com/b2c/suntory-hakushu-distiller-s-reserve) (2024 Pete)
 - [ISLE OF RAASAY LASSIE](https://raasaydistillery.com/product/raasay-lassie-release-2025/) (2025 DW)
 - [GLENGLASSAUGH PEATED PORT WOOD FINISH](https://www.amathusdrinks.com/b2c/glenglassaugh-peated-port-wood-finish) (2023 DW)
+- [REDBREAST CUATRO BARRILES EDITION](https://www.redbreastwhiskey.com/en/whiskey-collections/redbreast-cuatro-barriles-edition/) (2026 Liam) 
 - [LAGG CORRIECRAVIE](https://www.arranwhisky.com/shop-whiskies/lagg-whisky/lagg-single-malts/136-lagg-single-malt-corriecravie-edition) (2025 DW)
 - [ARDBEG CORRYVRECKAN](https://www.amathusdrinks.com/ardbeg-corryvreckan) (2025 DW)
 - [ISLE OF RAASAY CASK STRENGTH](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt-cask-strength-2024) (2025 DW)
