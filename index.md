@@ -8,7 +8,7 @@ layout: home
 <hr>
 
 ## WORK
-My [blog](blog) has commentary on work activity with more official content over on the [Connected Environments](https://connected-environments.org) corner of the internet. My work social streams are at the footer of the page and for those who remember [del.icio.us](https://en.wikipedia.org/wiki/Delicious_(website)) I now have social bookmarks over on [Pinboard](https://pinboard.in/u:dunc/).
+My [blog](blog) has commentary on work activity with more official content over on the [Connected Environments](https://connected-environments.org) corner of the internet. My work social streams are at the footer of the page and for those who remember [del.icio.us](https://en.wikipedia.org/wiki/Delicious_(website)) I now self serve social bookmarks over on [a local install of LinkDing](https://links.duncanwilson.com/bookmarks).
 
 ## PROFILE
 For a quick overview of work information view the [hello](hello) section in the top navigation or jump over to [LinkedIn](https://www.linkedin.com/in/duncanwilson) for a longer form.
