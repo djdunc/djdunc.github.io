@@ -9,14 +9,18 @@ permalink: /projects/
     <h1 class="post-title">Things made</h1>
 </header>
 
-<div class="image-gallery">
+<div class="project-grid">
 {%- for post in site.categories[page.category] -%}
-
-  <div class="box">
-    <a href="{{ post.url }}"><img src="{{ post.image}}" class="img-in-gallery" alt="{{ post.title }}"  title="{{ post.title }}" > </a> 
-    <p class="box">{{ post.title }}</p>
-  </div>
-
+  <a href="{{ post.url }}" class="project-card-link" style="text-decoration: none; color: inherit;">
+    <div class="project-card">
+      <div class="project-card-img-container">
+        <img src="{{ post.image }}" class="project-card-img" alt="{{ post.title }}" title="{{ post.title }}">
+      </div>
+      <div class="project-card-content">
+        <h3 class="project-card-title">{{ post.title }}</h3>
+      </div>
+    </div>
+  </a>
 {%- endfor -%}
 </div>
 
