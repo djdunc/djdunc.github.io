@@ -48,6 +48,10 @@ google_analytics: "G-KNX7XG2DSJ"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 minima:
   # Minima date format.
@@ -79,7 +83,7 @@ minima:
 #
 header_pages:
   - hello.md
-  - blog.md
+  - blog/index.html
   - projects.md
   - archive.md
 
