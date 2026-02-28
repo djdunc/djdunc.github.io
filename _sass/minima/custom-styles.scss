@@ -101,10 +101,10 @@
     padding-bottom: 25px;
 }
 
-.project-card-title {
+h3.project-card-title {
     margin: 0;
-    font-size: 1rem;
-    /* 80% of 1.25rem */
+    font-size: 1.2rem !important;
+    /* Forces the size override against Minima themes */
     font-weight: 600;
     line-height: 1.3;
     text-align: center;
