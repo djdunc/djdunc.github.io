@@ -1,0 +1,37 @@
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // We'll define a wider hue range over which the background shifts.
+        // Hue 190 is a soft cyan/sky blue, 220 is a deeper azure/light blue. 
+        // he minHue and maxHue numbers correspond to the standard 360-degree color wheel. 
+        // Ocean / Aquamarine (Cool Greens & Blues): minHue = 160, maxHue = 190
+        // Purples & Pinks (Vaporwave aesthetic): minHue = 270, maxHue = 320
+        // Forest / Mint Greens (Earthy/Fresh): minHue = 100, maxHue = 150
+        // Warm Peaches / Sunsets: minHue = 15, maxHue = 45
+        const minHue = 20;
+        const maxHue = 190;
+
+        // Saturation and Lightness can be adjusted for intensity
+        // A high lightness keeps it pastel/background friendly
+        const saturation = 50;
+        const lightness = 93;
+
+        const cycleDuration = 180000; // 180 seconds for a full cycle back and forth
+        const startTime = Date.now();
+
+        function updateBackground() {
+            const elapsed = Date.now() - startTime;
+            // Use a sine wave for smooth back-and-forth transitions (value between 0 and 1)
+            const progress = (Math.sin(elapsed / cycleDuration * Math.PI * 2) + 1) / 2;
+
+            const currentHue = minHue + (maxHue - minHue) * progress;
+
+            // Update the CSS variable on the document root
+            document.body.style.setProperty('--dynamic-bg', `hsl(${currentHue}, ${saturation}%, ${lightness}%)`);
+
+            requestAnimationFrame(updateBackground);
+        }
+
+        // Start animation
+        requestAnimationFrame(updateBackground);
+    });
+</script>

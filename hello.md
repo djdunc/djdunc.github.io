@@ -17,7 +17,7 @@ This site is a collection of pointers to my work and projects I have worked on. 
 If you are looking for a bio the current version is below and headshots are here: [medium res](/assets/img/1_dw_med.jpg) / [high res](/assets/img/1.dw_reynolds.jpg).
 
 
-## BIOGRAPHY
+## Biography
 Duncan is Professor of Connected Environments in The Bartlett Centre for Advanced Spatial Analysis (CASA) at University College London. His research focuses on how emerging technologies such as connected sensors and cognitive computing can augment our understanding of the built and natural environment. He is a Chartered Engineer (IET) with a PhD from UCL in Artificial Intelligence and Machine Vision. He has over 25yrs of digital technology, R&D, innovation and strategy experience, primarily working at the interface between industry and academia.
 
 The Connected Environments research at CASA feeds into the Future Living Institute at UCL East (creation of a new Masters on Connected Environments and living labs in QEOP) and focuses on three core research vectors; cognitive computing – AI at the edge of the network on resource constrained devices; extra sensory computing – novel methods for capturing data and humans receiving it; and spatial reasoning systems – how we can augment / improve our world models with continuous post occupancy information. He is Director of Enterprise and Partnerships for CASA providing support for the department in developing industry collaborations.

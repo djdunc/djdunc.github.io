@@ -251,11 +251,24 @@ h3.blog-list-title {
 
 /* Darken the site header slightly from the main background */
 .site-header {
-    background-color: #f0efe9;
-    /* Very subtle step down from the default #e4e3dd light-mode background */
+    background-color: transparent;
+    /* Transparent so it adopts the dynamic body background color */
+    border-top: none;
     position: relative;
     z-index: 100;
     /* Ensure mobile hamburger dropdown menu covers full-width hero images */
+}
+
+/* Make page titles and headings bolder */
+h1,
+h2,
+h3,
+.post-title,
+.page-heading,
+.post-list-heading,
+.post-link-big,
+.site-title {
+    font-weight: 700;
 }
 
 /* Full-width edge-to-edge Hero Image */
