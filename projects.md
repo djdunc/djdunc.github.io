@@ -6,7 +6,11 @@ permalink: /projects/
 ---
 
 <header class="post-header">
-    <h1 class="post-title">Things made</h1>
+  {%- if page.title -%}
+  <p><i><b>{{ page.title }}</b> - things made, a collection of projects from the workshop</i></p>
+  {%- endif -%}
+
+
 </header>
 
 <div class="project-grid">

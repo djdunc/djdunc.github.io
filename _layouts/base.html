@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="page-content" aria-label="Content" style="padding-top: 0;">
+    {% if page.hero_image %}
+    <div class="hero-image-container">
+      <img class="hero-image-full" src="{{ page.hero_image | relative_url }}"
+        alt="Hero image for {{ page.title | escape }}">
+      {% if page.hero_caption %}
+      <div class="hero-image-caption">{{ page.hero_caption | escape }}</div>
+      {% endif %}
+    </div>
+    {% endif %}
+    <div class="wrapper" {% if page.hero_image %}style="padding-top: 32px;" {% endif %}>
+      {{ content }}
+    </div>
+  </main>
 
-    {%- include footer.html -%}
+  {%- include footer.html -%}
 
-  </body>
+</body>
 
 </html>

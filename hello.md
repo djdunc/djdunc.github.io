@@ -2,15 +2,9 @@
 layout: page
 title: Hello
 permalink: /hello/
+hero_image: /assets/img/chamonix2019.webp
+hero_caption: Chamonix 2019
 ---
-
- <figure>
-  <img src="/assets/img/chamonix2019.webp" alt="Chamonix 2019"/>
-  <figcaption>Chamonix 2019</figcaption>
- </figure>
-
-<hr>
-
 
 <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
