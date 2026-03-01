@@ -249,6 +249,22 @@ h3.blog-list-title {
     }
 }
 
+/* Darken the site header slightly from the main background */
+.site-header {
+    background-color: #f0efe9;
+    /* Very subtle step down from the default #e4e3dd light-mode background */
+    position: relative;
+    z-index: 100;
+    /* Ensure mobile hamburger dropdown menu covers full-width hero images */
+}
+
+@media (prefers-color-scheme: dark) {
+    .site-header {
+        background-color: #1a1a1a;
+        /* Very subtle step up from the default #181818 dark-mode background */
+    }
+}
+
 /* Full-width edge-to-edge Hero Image */
 .hero-image-container {
     width: 100vw;
