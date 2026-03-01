@@ -258,13 +258,6 @@ h3.blog-list-title {
     /* Ensure mobile hamburger dropdown menu covers full-width hero images */
 }
 
-@media (prefers-color-scheme: dark) {
-    .site-header {
-        background-color: #1a1a1a;
-        /* Very subtle step up from the default #181818 dark-mode background */
-    }
-}
-
 /* Full-width edge-to-edge Hero Image */
 .hero-image-container {
     width: 100vw;
