@@ -1,3 +1,13 @@
+# This MUST be at the very top of the file
+unless String.method_defined?(:untaint)
+  puts "--- Applying Ruby 4.0 Compatibility Shim ---"
+  class String
+    def untaint; self; end
+    def taint; self; end
+    def tainted?; false; end
+  end
+end
+
 source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -47,3 +57,7 @@ gem "logger", "~> 1.7"
 
 gem "bigdecimal", "~> 4.0"
 gem "drb", "~> 2.2"
+
+gem "rexml", "~> 3.2"
+puts "--- GEMFILE EVALUATED ---"
+puts "--- method defined? #{String.method_defined?(:untaint)}"
