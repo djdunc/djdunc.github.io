@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automating Birdboxes + Arup Foresight"
-date:   2026-03-13 08:00:00 +0100
+date:   2026-03-15 08:00:00 +0100
 excerpt_separator: <!--more-->
 
 # tags: try to choose one or two from these
