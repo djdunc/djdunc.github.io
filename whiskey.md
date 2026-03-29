@@ -9,6 +9,7 @@ permalink: /whiskey/
 always open to suggestions...
 
 - [ISLE OF RAASAY DUN CANA](https://www.amathusdrinks.com/isle-of-raasay-dun-cana-sherry-quarter-cask-release) (2025 DW from Distillery)
+- [LAGAVULIN 16 YEAR OLD](https://www.amathusdrinks.com/b2c/lagavulin-16yr) (2026 IM)
 - [PORT CHARLOTTE ISLAY BARLEY](https://www.amathusdrinks.com/b2c/port-charlotte-islay-barley) (2023 DW)
 - [TALISKER PORT RUIGHE](https://www.amathusdrinks.com/b2c/talisker-port-ruighe) (2022 IM)
 - [THE HAKUSHU](https://www.amathusdrinks.com/b2c/suntory-hakushu-distiller-s-reserve) (2024 Pete)
@@ -24,6 +25,7 @@ always open to suggestions...
 - [ARDBEG WEE BEASTIE 5YR](https://www.amathusdrinks.com/b2c/ardbeg-wee-beastie-5yr) (2023 DW)
 - [Bushmills 12yr](https://shop.bushmills.com/products/12-year-old-distillery-reserve) (2025 LM)
 - [ISLE OF RAASAY](https://www.amathusdrinks.com/b2c/isle-of-raasay-single-malt) (2024 IM)
+- [The Heart Cut #16 Fielden](https://www.amathusdrinks.com/heart-cut-fielden-rye-whisky-16) - (2026 DW)
 - [GLENMORANGIE 12YR THE LASANTA](https://www.amathusdrinks.com/b2c/glenmorangie-12yr-the-lasanta) (2025 DW)
 - [Jura 10 year](https://www.amathusdrinks.com/jura-10yr) (2025 Neil)
 - [KILCHOMAN MACHIR BAY](https://www.amathusdrinks.com/b2c/kilchoman-machir-bay) (2022 DW)
@@ -36,7 +38,6 @@ _Notes: more or less ordered in preference - but finding that gets harder and ha
 Ones to try next:
 - HIGHLAND PARK 12 YEAR OLD
 - ARDNAMURCHAN AD SINGLE MALT HIGHLAND WHISKY
-- LAGAVULIN 16 YEAR OLD
 - LEDAIG TRIPLE WOOD
 - TORABHAIG
 - ARDNAHOE - https://ardnahoedistillery.com/pages/online-shop - new indie

@@ -1,7 +1,7 @@
 # This MUST be at the very top of the file
-unless String.method_defined?(:untaint)
+unless ::Object.method_defined?(:untaint)
   puts "--- Applying Ruby 4.0 Compatibility Shim ---"
-  class String
+  class ::Object
     def untaint; self; end
     def taint; self; end
     def tainted?; false; end
