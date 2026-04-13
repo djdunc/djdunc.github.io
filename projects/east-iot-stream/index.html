@@ -43,7 +43,7 @@
 
         // Define MQTT broker host and port
         var brokerHost = 'mqtt.cetools.org';
-        var brokerPort = 8081; // Assuming this is the WebSocket secure port
+        var brokerPort = 8080; // Assuming this is the WebSocket secure port
     
         // Define MQTT client options
         var clientId = 'web-client-iot-io';
@@ -56,7 +56,7 @@
         };
     
         // Create an MQTT client instance
-        var client = new Paho.MQTT.Client('wss://' + brokerHost + ':' + brokerPort + '/mqtt', clientId);
+        var client = new Paho.MQTT.Client('ws://' + brokerHost + ':' + brokerPort + '/mqtt', clientId);
     
         // MQTT client event handlers
         client.onConnected = function (reconnect, uri) {
