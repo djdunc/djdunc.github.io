@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>London to Istanbul Cycle Journey</title>
+
+  <!-- Runtime Error Catcher for debugging -->
+  <script>
+    window.onerror = function (message, source, lineno, colno, error) {
+      const errorDiv = document.createElement('div');
+      errorDiv.style.position = 'fixed';
+      errorDiv.style.top = '0';
+      errorDiv.style.left = '0';
+      errorDiv.style.width = '100%';
+      errorDiv.style.backgroundColor = '#f8d7da';
+      errorDiv.style.color = '#721c24';
+      errorDiv.style.padding = '15px';
+      errorDiv.style.zIndex = '999999';
+      errorDiv.style.borderBottom = '3px solid #f5c6cb';
+      errorDiv.style.fontFamily = 'monospace';
+      errorDiv.style.whiteSpace = 'pre-wrap';
+      errorDiv.innerText = 'JS Error: ' + message + '\nAt: ' + source + ':' + lineno + ':' + colno;
+      document.body.appendChild(errorDiv);
+      return false;
+    };
+    window.addEventListener('unhandledrejection', function (event) {
+      const errorDiv = document.createElement('div');
+      errorDiv.style.position = 'fixed';
+      errorDiv.style.top = '0';
+      errorDiv.style.left = '0';
+      errorDiv.style.width = '100%';
+      errorDiv.style.backgroundColor = '#f8d7da';
+      errorDiv.style.color = '#721c24';
+      errorDiv.style.padding = '15px';
+      errorDiv.style.zIndex = '999999';
+      errorDiv.style.borderBottom = '3px solid #f5c6cb';
+      errorDiv.style.fontFamily = 'monospace';
+      errorDiv.style.whiteSpace = 'pre-wrap';
+      errorDiv.innerText = 'Unhandled Rejection: ' + event.reason;
+      document.body.appendChild(errorDiv);
+    });
+  </script>
+
+  <!-- Google Fonts: Outfit for headers, Inter for copy -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Leaflet CSS for maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- FontAwesome for premium UI icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <!-- Floating Sidebar Toggle Button -->
+    <button id="toggle-sidebar" class="icon-button" aria-label="Toggle Sidebar">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <!-- Sidebar Panel -->
+    <aside class="sidebar glass-panel">
+      <div class="sidebar-header">
+        <div class="logo">
+          <i class="fa-solid fa-person-biking logo-icon"></i>
+          <span></span>
+        </div>
+      </div>
+
+      <!-- Statistics Panel -->
+      <section class="stats-container">
+        <h3>Journey Summary</h3>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Total Distance</span>
+            <span class="stat-value" id="stat-distance">3,245 <small>km</small></span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Duration</span>
+            <span class="stat-value" id="stat-duration">44 <small>Days</small></span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Elevation Gain</span>
+            <span class="stat-value" id="stat-elevation">24,500 <small>m</small></span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Countries</span>
+            <span class="stat-value" id="stat-countries">10</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Active Day Detail panel -->
+      <section class="day-detail-panel glass-panel hidden" id="day-detail">
+        <div class="day-detail-header">
+          <h4 id="detail-day-title">Day 1</h4>
+          <button id="close-detail" class="icon-button"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="day-detail-body">
+          <p class="detail-route" id="detail-route-names">Leaving London</p>
+          <div class="detail-metrics">
+            <div>
+              <i class="fa-solid fa-route"></i>
+              <span id="detail-distance">95 km</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-mountain"></i>
+              <span id="detail-elevation">820 m</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-calendar-day"></i>
+              <span id="detail-date">24 Apr 2026</span>
+            </div>
+          </div>
+          <p class="detail-description" id="detail-desc">Starting the epic ride from London to Istanbul.</p>
+          <div class="elevation-chart-container">
+            <svg id="detail-elevation-chart" viewBox="0 0 300 80" preserveAspectRatio="none"></svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Weekly Calendar View -->
+      <section class="timeline-container">
+        <div class="timeline-header-row">
+          <h3>Timeline Calendar</h3>
+        </div>
+        <div class="calendar-container">
+          <div class="calendar-weekdays">
+            <div>M</div>
+            <div>T</div>
+            <div>W</div>
+            <div>T</div>
+            <div>F</div>
+            <div>S</div>
+            <div>S</div>
+          </div>
+          <div class="calendar-grid" id="calendar-grid">
+            <!-- Dynamic calendar cells will be injected here -->
+          </div>
+        </div>
+      </section>
+
+    </aside>
+
+    <!-- Main Map Container Area -->
+    <main class="map-area">
+      <!-- Top header floating statistics -->
+      <header class="floating-header glass-panel">
+        <div class="header-text">
+          <h1>London to Istanbul</h1>
+          <p>Rohan's Journey • 24th April – 6th June 2026</p>
+        </div>
+        <div class="header-badges">
+          <div class="header-badge">
+            <i class="fa-solid fa-location-dot start-pin"></i>
+            <span>London, UK</span>
+          </div>
+          <div class="header-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+          <div class="header-badge">
+            <i class="fa-solid fa-flag-checkered end-pin"></i>
+            <span>Istanbul, TR</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Leaflet Map Container -->
+      <div id="map"></div>
+
+      <!-- Floating Map Style Selector -->
+      <div class="map-style-selector glass-panel" id="map-style-selector">
+        <button class="style-btn active" data-style="dark" title="Dark Map">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="style-btn" data-style="light" title="Light Map">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <button class="style-btn" data-style="satellite" title="Satellite Map">
+          <i class="fa-solid fa-earth-americas"></i>
+        </button>
+        <button class="style-btn" data-style="terrain" title="Terrain Map">
+          <i class="fa-solid fa-mountain-sun"></i>
+        </button>
+      </div>
+
+      <!-- Full Journey Elevation Profile Sparkline -->
+      <div class="full-elevation-panel glass-panel" id="full-elevation-panel">
+        <div class="full-elevation-header">
+          <span class="full-elevation-title"><i class="fa-solid fa-mountain"></i> Full Journey Elevation Profile</span>
+          <span class="full-elevation-stats" id="full-elevation-stats">Total Ascent: -- m</span>
+        </div>
+        <div class="full-elevation-chart-container">
+          <svg id="full-elevation-chart" viewBox="0 0 1000 80" preserveAspectRatio="none"></svg>
+        </div>
+      </div>
+    </main>
+
+    <!-- File Loading Progress overlay -->
+    <div class="loading-overlay hidden" id="loading-overlay">
+      <div class="loader-content glass-panel">
+        <i class="fa-solid fa-spinner fa-spin loader-icon"></i>
+        <h3>Parsing GPX Files...</h3>
+        <p id="loading-text">Reading file 1 of 44...</p>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="loading-progress" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

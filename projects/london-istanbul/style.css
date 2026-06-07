@@ -1,0 +1,850 @@
+/* --- Design System & Variables --- */
+:root {
+  --font-title: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Colors */
+  --bg-app: #0c0e12;
+  --bg-panel: rgba(20, 24, 33, 0.7);
+  --bg-panel-solid: #141821;
+  --bg-card: rgba(30, 36, 48, 0.5);
+  --bg-card-hover: rgba(40, 48, 64, 0.7);
+  --bg-card-active: rgba(252, 82, 0, 0.15);
+  
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-hover: rgba(255, 255, 255, 0.15);
+  
+  --text-primary: #f1f3f9;
+  --text-secondary: #a0aec0;
+  --text-muted: #64748b;
+  
+  /* Accent Colors */
+  --color-strava: #fc5200;
+  --color-strava-hover: #ff6e24;
+  --color-accent: #10b981; /* Emerald green */
+  --color-accent-dim: rgba(16, 185, 129, 0.2);
+  
+  /* Shadow & Blur */
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --blur-panel: blur(16px);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  
+  /* Layout sizes */
+  --sidebar-width: 380px;
+}
+
+/* --- Base & Reset --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-title);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* --- App Layout --- */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/* --- Glassmorphic Panels --- */
+.glass-panel {
+  background-color: var(--bg-panel);
+  backdrop-filter: var(--blur-panel);
+  -webkit-backdrop-filter: var(--blur-panel);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-lg);
+  border-radius: 16px;
+  transition: border-color var(--transition-normal), background-color var(--transition-normal);
+}
+
+.glass-panel:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  width: var(--sidebar-width);
+  height: calc(100vh - 24px);
+  margin: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform var(--transition-normal);
+}
+
+.sidebar.collapsed {
+  transform: translateX(calc(-100% - 24px));
+}
+
+/* Floating Sidebar Toggle Button (independent of translate / clipping) */
+#toggle-sidebar {
+  position: absolute;
+  left: calc(12px + var(--sidebar-width) - 56px);
+  top: 28px;
+  z-index: 1100;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: left var(--transition-normal), background-color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+#toggle-sidebar:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--border-color-hover);
+}
+
+.sidebar.collapsed ~ #toggle-sidebar {
+  left: 12px;
+  background-color: var(--bg-panel-solid);
+  border: 1px solid var(--border-color-hover);
+  box-shadow: var(--shadow-lg);
+}
+
+.sidebar-header {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.logo-icon {
+  color: var(--color-strava);
+  font-size: 24px;
+}
+
+/* --- General Components --- */
+.icon-button {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.icon-button:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: var(--border-color-hover);
+  transform: scale(1.05);
+}
+
+.text-button {
+  background: transparent;
+  border: none;
+  color: var(--color-strava);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.text-button:hover {
+  color: var(--color-strava-hover);
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.badge-default {
+  background-color: rgba(252, 82, 0, 0.15);
+  color: var(--color-strava);
+  border: 1px solid rgba(252, 82, 0, 0.3);
+}
+
+.badge-imported {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: var(--color-accent);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* --- Journey Stats Section --- */
+.stats-container {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stats-container h3 {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.stat-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.stat-value small {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* --- Timeline Stages List --- */
+.timeline-container {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 10px 0;
+  min-height: 0; /* Important for flex child scrolling */
+}
+
+.timeline-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 12px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.timeline-container h3 {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* --- Timeline Calendar View --- */
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* Custom Scrollbar for Calendar */
+.calendar-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.calendar-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.calendar-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.calendar-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.calendar-day-cell {
+  aspect-ratio: 1 / 1;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+  padding: 4px;
+  min-height: 42px;
+}
+
+.calendar-day-cell:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--border-color-hover);
+  transform: translateY(-1px);
+}
+
+.calendar-day-cell.active-cell {
+  /* Active stage cell */
+}
+
+.calendar-day-cell.filler-cell {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: default;
+  pointer-events: none;
+}
+
+.calendar-day-cell.active {
+  background-color: var(--bg-card-active);
+  border-color: var(--color-strava);
+}
+
+.calendar-day-cell.active .cell-day-num {
+  color: var(--color-strava);
+  font-weight: 700;
+}
+
+.cell-day-num {
+  font-family: var(--font-title);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cell-date {
+  font-size: 8px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.calendar-day-cell:hover .cell-date, .calendar-day-cell.active .cell-date {
+  color: var(--text-secondary);
+}
+
+/* --- Day Detail Panel Overlay --- */
+.day-detail-panel {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 1010;
+  padding: 16px;
+  background-color: var(--bg-panel-solid);
+  border: 1px solid var(--border-color-hover);
+  animation: slideUp var(--transition-normal);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.day-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.day-detail-header h4 {
+  font-size: 18px;
+  color: var(--color-strava);
+}
+
+.detail-route {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.detail-metrics {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.detail-metrics div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.detail-metrics i {
+  color: var(--color-strava);
+}
+
+.detail-description {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.elevation-chart-container {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+#detail-elevation-chart {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.elevation-path {
+  fill: rgba(252, 82, 0, 0.15);
+  stroke: var(--color-strava);
+  stroke-width: 1.5;
+}
+
+/* --- Floating Map Style Selector --- */
+.map-style-selector {
+  position: absolute;
+  top: 96px;
+  right: 12px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 6px;
+  background-color: var(--bg-panel);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  backdrop-filter: var(--blur-panel);
+  -webkit-backdrop-filter: var(--blur-panel);
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-normal);
+}
+
+.style-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all var(--transition-fast);
+}
+
+.style-btn:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  transform: scale(1.05);
+}
+
+.style-btn.active {
+  background-color: var(--color-strava);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(252, 82, 0, 0.4);
+}
+
+/* Adjust map style selector layout when sidebar is collapsed */
+.sidebar.collapsed ~ .map-area .map-style-selector {
+  /* Keeps selector in place relative to viewport */
+}
+
+/* --- Main Map Area --- */
+.map-area {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-app);
+}
+
+/* Overriding Leaflet Styles to fit dark premium theme */
+.leaflet-container {
+  font-family: var(--font-body) !important;
+}
+
+.leaflet-bar {
+  border: 1px solid var(--border-color) !important;
+  box-shadow: var(--shadow-sm) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.leaflet-bar a {
+  background-color: var(--bg-panel-solid) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  transition: background-color var(--transition-fast) !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: var(--bg-card-hover) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--bg-panel-solid) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 12px !important;
+  box-shadow: var(--shadow-lg) !important;
+  backdrop-filter: var(--blur-panel);
+}
+
+.leaflet-popup-tip {
+  background: var(--bg-panel-solid) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+/* Custom Marker Styling */
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-panel-solid);
+  border: 2px solid var(--color-strava);
+  color: var(--color-strava);
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+  font-weight: bold;
+  font-size: 10px;
+  transition: all var(--transition-fast);
+}
+
+.custom-marker:hover, .custom-marker.active {
+  transform: scale(1.2);
+  background-color: var(--color-strava);
+  color: var(--text-primary);
+  z-index: 1000 !important;
+}
+
+.custom-marker.start-marker {
+  border-color: #10b981;
+  color: #10b981;
+}
+
+.custom-marker.start-marker:hover, .custom-marker.start-marker.active {
+  background-color: #10b981;
+  color: #10b981;
+}
+
+.custom-marker.end-marker {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+.custom-marker.end-marker:hover, .custom-marker.end-marker.active {
+  background-color: #dc2626;
+  color: #dc2626;
+}
+
+/* Cyclist Icon Overlay Marker */
+.cyclist-marker {
+  background-color: var(--color-strava);
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--color-strava);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* --- Floating Header Stats Panel --- */
+.floating-header {
+  position: absolute;
+  top: 12px;
+  left: calc(var(--sidebar-width) + 24px);
+  right: 12px;
+  z-index: 1000;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: auto;
+  transition: left var(--transition-normal);
+}
+
+.sidebar.collapsed ~ .map-area .floating-header {
+  left: 12px;
+}
+
+.header-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.header-text p {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.header-badges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-badge {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.header-arrow {
+  color: var(--text-muted);
+}
+
+.start-pin {
+  color: #10b981;
+}
+
+.end-pin {
+  color: #dc2626;
+}
+
+
+
+/* --- Loader Spinner Overlay --- */
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(12, 14, 18, 0.85);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+}
+
+.loader-content {
+  width: 350px;
+  padding: 30px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.loader-icon {
+  font-size: 40px;
+  color: var(--color-strava);
+}
+
+.loader-content h3 {
+  font-size: 18px;
+}
+
+.loader-content p {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.progress-bar-bg {
+  width: 100%;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: var(--color-strava);
+  border-radius: 4px;
+  transition: width 0.1s linear;
+}
+
+/* --- Responsive & Mobile Adaptations --- */
+@media (max-width: 992px) {
+  :root {
+    --sidebar-width: 320px;
+  }
+  .floating-header h1 {
+    font-size: 16px;
+  }
+  .header-badges {
+    display: none;
+  }
+}
+
+/* --- Full Journey Elevation Profile Panel --- */
+.full-elevation-panel {
+  position: absolute;
+  bottom: 12px;
+  left: calc(var(--sidebar-width) + 24px);
+  right: 20%;
+  z-index: 1000;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: left var(--transition-normal);
+}
+
+.sidebar.collapsed ~ .map-area .full-elevation-panel {
+  left: 12px;
+}
+
+.full-elevation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-title);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.full-elevation-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.full-elevation-title i {
+  color: var(--color-strava);
+}
+
+.full-elevation-stats {
+  color: var(--text-muted);
+}
+
+.full-elevation-chart-container {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+#full-elevation-chart {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    width: 300px;
+    height: calc(100vh - 24px);
+    margin: 12px;
+    z-index: 1050;
+  }
+  
+  .floating-header {
+    position: absolute;
+    left: 60px !important; /* Spacing for collapsed toggle button */
+    right: 12px !important;
+    top: 12px;
+    width: auto;
+    margin: 0;
+    z-index: 1000;
+  }
+  
+  .map-area {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .full-elevation-panel {
+    left: 12px !important;
+    right: 12px !important;
+    bottom: 12px;
+  }
+  
+  .day-detail-panel {
+    position: fixed;
+    bottom: 140px !important; /* Shifts detail panel upward to prevent overlap */
+    left: 12px;
+    right: 12px;
+    z-index: 2000;
+  }
+}
