@@ -15,7 +15,7 @@ category: blog
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/pseudonomad/55319375421/in/datetaken/" title="Grantley Hall"><img src="https://live.staticflickr.com/65535/55319375421_4bdcb3245a_c.jpg" width="100%" alt="Grantley Hall"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-Back up north this week but this time to visit Grantley Hall for a wedding. A pretty amazing day with lovely people, food and dancing. To get a sense of the the place take a look at the [Channel 5 behind the scenes program](https://www.channel5.com/show/yorkshire-s-poshest-hotel-grantley-hall). Enjoyed being greeted by Isaac ringing his celebration bell!
+Back up north this week but this time to visit Grantley Hall for a wedding. A pretty amazing day with lovely people, food and dancing. To get a sense of the place take a look at the [Channel 5 behind the scenes program](https://www.channel5.com/show/yorkshire-s-poshest-hotel-grantley-hall). Enjoyed being greeted by Isaac ringing his celebration bell!
 
 <!--more-->
 
