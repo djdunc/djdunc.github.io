@@ -19,9 +19,9 @@ Some fun creating an interactive, web dashboard that maps and visualizes [Rohan'
 
 <!--more-->
 
-5 hours later (I had budgeted one!) I had managed to download GPS traces, fill in some missing gaps with estimated routes (via Strava) and plotted onto a map. Pretty happy with how this shows the scale of the journey and some of the overall stats.
+5 hours later (I had budgeted 1!) I had managed to download GPS traces, fill in some missing gaps with estimated routes (via Strava) and plotted onto a map. Pretty happy with how this shows the scale of the journey and some of the overall stats.
 
-The repo with how this was made is on [GitHub](https://github.com/djdunc/london-istanbul).
+The repo with how this was made is on [GitHub](https://github.com/djdunc/london-istanbul). A [live demo is on this site](https://www.iot.io/projects/london-istanbul/)
 
 Spent some time returning to Manifold project - lights now installed in lab to make it easier to focus on programming the animations.
 
