@@ -12,6 +12,7 @@ always open to suggestions...
 - [LAGAVULIN 16 YEAR OLD](https://www.amathusdrinks.com/b2c/lagavulin-16yr) (2026 IM)
 - [PORT CHARLOTTE ISLAY BARLEY](https://www.amathusdrinks.com/b2c/port-charlotte-islay-barley) (2023 DW)
 - [TALISKER PORT RUIGHE](https://www.amathusdrinks.com/b2c/talisker-port-ruighe) (2022 IM)
+- [LEDAIG TRIPLE WOOD](https://www.amathusdrinks.com/ledaig-triple-wood) (IM 2026)
 - [THE HAKUSHU](https://www.amathusdrinks.com/b2c/suntory-hakushu-distiller-s-reserve) (2024 Pete)
 - [ISLE OF RAASAY LASSIE](https://raasaydistillery.com/product/raasay-lassie-release-2025/) (2025 DW)
 - [GLENGLASSAUGH PEATED PORT WOOD FINISH](https://www.amathusdrinks.com/b2c/glenglassaugh-peated-port-wood-finish) (2023 DW)
@@ -38,7 +39,6 @@ _Notes: more or less ordered in preference - but finding that gets harder and ha
 Ones to try next:
 - HIGHLAND PARK 12 YEAR OLD
 - ARDNAMURCHAN AD SINGLE MALT HIGHLAND WHISKY
-- LEDAIG TRIPLE WOOD
 - TORABHAIG
 - ARDNAHOE - https://ardnahoedistillery.com/pages/online-shop - new indie
 
