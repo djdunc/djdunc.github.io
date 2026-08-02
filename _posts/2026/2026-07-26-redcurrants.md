@@ -44,6 +44,6 @@ I do like this particular brazing joint where you can see the little rods we ins
 
 Looking at [links.duncanwilson.com](https://links.duncanwilson.com/), these parts of the internet crossed my path this week:
 
-- [great write up from Jay Waldon on his stayer experience]()
+- [great write up from Jay Waldon on his stayer experience](https://jaywaldon.substack.com/p/stayer-101-frame-building-course)
 - [love the walkman site the WM-2 was my first (and favourite)](https://walkman.land/sony/wm-2)
 - [this gov nature security report is scary](https://www.gov.uk/government/publications/nature-security-assessment-on-global-biodiversity-loss-ecosystem-collapse-and-national-security)
