@@ -1,0 +1,328 @@
+<div class="archive-search-wrapper">
+  <div class="search-input-box">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"></circle>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
+    <input
+      type="search"
+      id="archive-search-input"
+      placeholder="Search {{ site.posts.size }} posts by keyword, title, or tag... (Press / to focus)"
+      aria-label="Search posts"
+      autocomplete="off"
+      spellcheck="false"
+    />
+    <button type="button" id="archive-search-clear" class="search-clear-btn" aria-label="Clear search" title="Clear search">&times;</button>
+  </div>
+  <div id="search-status-bar" class="search-status-bar" aria-live="polite"></div>
+</div>
+
+<div id="search-results-container" style="display: none;">
+  <ul id="search-results-list" class="search-results-list"></ul>
+</div>
+
+<script>
+(function() {
+  const searchInput = document.getElementById('archive-search-input');
+  const searchClear = document.getElementById('archive-search-clear');
+  const statusBar = document.getElementById('search-status-bar');
+  const resultsContainer = document.getElementById('search-results-container');
+  const resultsList = document.getElementById('search-results-list');
+  const chronologicalArchive = document.getElementById('archive-chronological');
+
+  if (!searchInput) return;
+
+  let searchData = null;
+  let isLoading = false;
+  let loadPromise = null;
+
+  function loadSearchIndex() {
+    if (searchData) return Promise.resolve(searchData);
+    if (loadPromise) return loadPromise;
+
+    isLoading = true;
+    loadPromise = fetch('{{ "/search.json" | relative_url }}')
+      .then(response => {
+        if (!response.ok) throw new Error('Network response was not ok');
+        return response.json();
+      })
+      .then(data => {
+        searchData = data;
+        isLoading = false;
+        return data;
+      })
+      .catch(err => {
+        console.error('Failed to load search index:', err);
+        isLoading = false;
+        loadPromise = null;
+        statusBar.textContent = 'Could not load search index. Please try again.';
+      });
+
+    return loadPromise;
+  }
+
+  // Preload index in idle time
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(() => loadSearchIndex());
+  } else {
+    setTimeout(loadSearchIndex, 800);
+  }
+
+  searchInput.addEventListener('focus', () => loadSearchIndex());
+  searchInput.addEventListener('mouseenter', () => loadSearchIndex());
+
+  // Shortcut '/' to focus search
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== searchInput && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+      e.preventDefault();
+      searchInput.focus();
+    } else if (e.key === 'Escape' && (document.activeElement === searchInput || searchInput.value)) {
+      clearSearch();
+      searchInput.blur();
+    }
+  });
+
+  searchClear.addEventListener('click', () => {
+    clearSearch();
+    searchInput.focus();
+  });
+
+  function clearSearch() {
+    searchInput.value = '';
+    searchClear.style.display = 'none';
+    statusBar.textContent = '';
+    resultsList.innerHTML = '';
+    resultsContainer.style.display = 'none';
+    if (chronologicalArchive) {
+      chronologicalArchive.style.display = '';
+    }
+  }
+
+  function escapeHTML(str) {
+    if (!str) return '';
+    return str.replace(/[&<>'"]/g, tag => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      "'": '&#39;',
+      '"': '&quot;'
+    }[tag] || tag));
+  }
+
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function extractSnippet(content, terms, maxLen = 220) {
+    if (!content) return '';
+    const lowerContent = content.toLowerCase();
+    let firstIdx = -1;
+
+    for (const term of terms) {
+      const idx = lowerContent.indexOf(term);
+      if (idx !== -1 && (firstIdx === -1 || idx < firstIdx)) {
+        firstIdx = idx;
+      }
+    }
+
+    let start = 0;
+    let end = content.length;
+    let prefix = '';
+    let suffix = '';
+
+    if (firstIdx !== -1) {
+      start = Math.max(0, firstIdx - 50);
+      end = Math.min(content.length, firstIdx + maxLen - 50);
+
+      // Word boundary adjustment
+      if (start > 0) {
+        const nextSpace = content.indexOf(' ', start);
+        if (nextSpace !== -1 && nextSpace < firstIdx) {
+          start = nextSpace + 1;
+        }
+        prefix = '... ';
+      }
+      if (end < content.length) {
+        const prevSpace = content.lastIndexOf(' ', end);
+        if (prevSpace !== -1 && prevSpace > firstIdx) {
+          end = prevSpace;
+        }
+        suffix = ' ...';
+      }
+    } else {
+      end = Math.min(content.length, maxLen);
+      if (end < content.length) suffix = ' ...';
+    }
+
+    let snippet = escapeHTML(content.substring(start, end));
+
+    // Highlight terms
+    if (terms.length > 0) {
+      const regex = new RegExp('(' + terms.map(escapeRegExp).join('|') + ')', 'gi');
+      snippet = snippet.replace(regex, '<mark class="search-highlight">$1</mark>');
+    }
+
+    return prefix + snippet + suffix;
+  }
+
+  function highlightText(text, terms) {
+    const escaped = escapeHTML(text);
+    if (!terms || terms.length === 0) return escaped;
+    const regex = new RegExp('(' + terms.map(escapeRegExp).join('|') + ')', 'gi');
+    return escaped.replace(regex, '<mark class="search-highlight">$1</mark>');
+  }
+
+  let debounceTimer = null;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(performSearch, 150);
+  });
+
+  async function performSearch() {
+    const rawQuery = searchInput.value;
+    const query = rawQuery.trim().toLowerCase();
+
+    if (!query) {
+      clearSearch();
+      return;
+    }
+
+    searchClear.style.display = 'block';
+    statusBar.textContent = 'Searching...';
+
+    const data = await loadSearchIndex();
+    if (!data) return;
+
+    if (searchInput.value.trim().toLowerCase() !== query) return;
+
+    const terms = query.split(/\s+/).filter(Boolean);
+    if (terms.length === 0) {
+      clearSearch();
+      return;
+    }
+
+    const results = [];
+
+    for (let i = 0; i < data.length; i++) {
+      const post = data[i];
+      const titleLower = (post.title || '').toLowerCase();
+      const contentLower = (post.content || '').toLowerCase();
+      const tags = (post.tags || []).map(t => (t || '').toLowerCase());
+      const tagsJoined = tags.join(' ');
+
+      let score = 0;
+      let allMatch = true;
+
+      for (const term of terms) {
+        let termMatched = false;
+
+        // Title match
+        if (titleLower.includes(term)) {
+          score += 35;
+          if (titleLower === term || titleLower.startsWith(term + ' ') || titleLower.endsWith(' ' + term) || titleLower.includes(' ' + term + ' ')) {
+            score += 25; // Exact word bonus
+          }
+          termMatched = true;
+        }
+
+        // Tags match
+        if (tagsJoined.includes(term)) {
+          score += 25;
+          termMatched = true;
+        }
+
+        // Content match
+        const contentIdx = contentLower.indexOf(term);
+        if (contentIdx !== -1) {
+          score += 6;
+          termMatched = true;
+          // Count occurrences up to 5
+          let count = 1;
+          let nextIdx = contentLower.indexOf(term, contentIdx + term.length);
+          while (nextIdx !== -1 && count < 5) {
+            score += 2;
+            count++;
+            nextIdx = contentLower.indexOf(term, nextIdx + term.length);
+          }
+        }
+
+        if (!termMatched) {
+          allMatch = false;
+        }
+      }
+
+      if (allMatch) {
+        score += 50; // Bonus for matching every query word
+      }
+
+      if (allMatch || (terms.length > 1 && score >= 30)) {
+        results.push({ post, score });
+      }
+    }
+
+    // Sort by score desc, then date desc
+    results.sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return new Date(b.post.date) - new Date(a.post.date);
+    });
+
+    renderResults(results, terms, rawQuery);
+  }
+
+  function renderResults(results, terms, rawQuery) {
+    if (chronologicalArchive) {
+      chronologicalArchive.style.display = 'none';
+    }
+    resultsContainer.style.display = 'block';
+
+    if (results.length === 0) {
+      statusBar.textContent = `No posts found matching "${rawQuery}"`;
+      resultsList.innerHTML = `
+        <li class="search-result-item" style="border-bottom: none; padding-top: 16px;">
+          <p style="color: #666; font-style: italic;">No posts matched all of your search terms. Try checking your spelling, using fewer keywords, or browsing by <a href="{{ '/tag/' | relative_url }}">tags</a>.</p>
+        </li>
+      `;
+      return;
+    }
+
+    statusBar.textContent = `Found ${results.length} post${results.length === 1 ? '' : 's'} matching "${rawQuery}"`;
+
+    let html = '';
+    const displayList = results.slice(0, 60);
+
+    for (const item of displayList) {
+      const p = item.post;
+      const highlightedTitle = highlightText(p.title, terms);
+      const snippet = extractSnippet(p.content, terms);
+
+      let tagsHtml = '';
+      if (p.tags && p.tags.length > 0) {
+        tagsHtml = p.tags.map(t => `<span class="blog-tag">${escapeHTML(t)}</span>`).join(' ');
+      }
+
+      html += `
+        <li class="search-result-item">
+          <h3 class="search-result-title">
+            <a href="${p.url}">${highlightedTitle}</a>
+          </h3>
+          <div class="search-result-meta">
+            <span class="search-result-date">${escapeHTML(p.date)}</span>
+            ${tagsHtml ? `<div class="blog-list-tags" style="display: inline-flex; gap: 4px;">${tagsHtml}</div>` : ''}
+          </div>
+          <div class="search-result-snippet">${snippet}</div>
+        </li>
+      `;
+    }
+
+    if (results.length > 60) {
+      html += `
+        <li class="search-result-item" style="text-align: center; color: #888; font-size: 0.9rem;">
+          Showing top 60 results out of ${results.length}. Refine your query for more specific matches.
+        </li>
+      `;
+    }
+
+    resultsList.innerHTML = html;
+  }
+})();
+</script>

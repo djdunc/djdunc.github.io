@@ -5,7 +5,7 @@ title: Blog
 
 <div class="home">
   {%- if page.title -%}
-  <p><i><b>{{ page.title }}</b> - weekly updates on things seen or heard</i></p>
+  <p><i><b>{{ page.title }}</b> - {{ site.posts.size }} weekly updates on things seen or heard</i></p>
   {%- endif -%}
 
   {% if site.paginate %}
